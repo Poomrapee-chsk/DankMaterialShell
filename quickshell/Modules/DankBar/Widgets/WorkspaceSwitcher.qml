@@ -1067,10 +1067,8 @@ Item {
                         return Array.from(Hyprland.toplevels?.values || []).some(tl => tl.workspace?.id === modelData?.id);
                     if (root.isMango)
                         return modelData.clients > 0;
-                    if (CompositorService.isNiri) {
-                        const workspace = NiriService.allWorkspaces.find(ws => ws.idx + 1 === modelData && ws.output === root.effectiveScreenName);
-                        return workspace ? (NiriService.windows?.some(win => win.workspace_id === workspace.id) ?? false) : false;
-                    }
+                    if (CompositorService.isNiri)
+                        return NiriService.windows?.some(win => win.workspace_id === modelData?.id) ?? false;
                     return false;
                 }
                 property bool isPlaceholder: {
