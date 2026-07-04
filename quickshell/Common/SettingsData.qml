@@ -462,6 +462,7 @@ Singleton {
     property bool clockCompactMode: false
     property int focusedWindowSize: 1
     property bool focusedWindowCompactMode: false
+    property bool focusedWindowShowIcon: false
     property bool runningAppsCompactMode: true
     property int barMaxVisibleApps: 0
     property int barMaxVisibleRunningApps: 0
@@ -1751,7 +1752,8 @@ Singleton {
             if (obj?.lockScreenActiveMonitor !== undefined) {
                 var oldVal = obj.lockScreenActiveMonitor;
                 if (oldVal && oldVal !== "all") {
-                    if (!obj.screenPreferences) obj.screenPreferences = {};
+                    if (!obj.screenPreferences)
+                        obj.screenPreferences = {};
                     if (obj.screenPreferences.lockScreen === undefined) {
                         obj.screenPreferences.lockScreen = [oldVal];
                     }

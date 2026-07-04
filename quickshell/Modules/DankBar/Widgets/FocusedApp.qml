@@ -15,6 +15,7 @@ BasePill {
 
     property var widgetData: null
     property bool compactMode: widgetData?.focusedWindowCompactMode !== undefined ? widgetData.focusedWindowCompactMode : SettingsData.focusedWindowCompactMode
+    property bool showIcon: widgetData?.focusedWindowShowIcon !== undefined ? widgetData.focusedWindowShowIcon : SettingsData.focusedWindowShowIcon
     readonly property int maxWidth: {
         const size = widgetData?.focusedWindowSize !== undefined ? widgetData.focusedWindowSize : SettingsData.focusedWindowSize;
         switch (size) {
@@ -238,6 +239,37 @@ BasePill {
                 anchors.centerIn: parent
                 spacing: Theme.spacingS
                 visible: !root.isVerticalOrientation
+
+                IconImage {
+                    id: horizontalAppIcon
+                    Layout.preferredWidth: Theme.barIconSize(root.barThickness, undefined, root.barConfig?.maximizeWidgetIcons, root.barConfig?.iconScale)
+                    Layout.preferredHeight: Layout.preferredWidth
+                    visible: root.showIcon && activeWindow && status === Image.Ready
+                    source: {
+                        if (!activeWindow || !activeWindow.appId)
+                            return "";
+                        return Paths.getAppIcon(activeWindow.appId, activeDesktopEntry);
+                    }
+                    smooth: true
+                    mipmap: true
+                    asynchronous: true
+                    layer.enabled: activeWindow && (activeWindow.appId === "org.quickshell" || activeWindow.appId === "com.danklinux.dms")
+                    layer.smooth: true
+                    layer.mipmap: true
+                    layer.effect: MultiEffect {
+                        saturation: 0
+                        colorization: 1
+                        colorizationColor: Theme.primary
+                    }
+                }
+
+                DankIcon {
+                    Layout.preferredWidth: Theme.barIconSize(root.barThickness, undefined, root.barConfig?.maximizeWidgetIcons, root.barConfig?.iconScale)
+                    size: Layout.preferredWidth
+                    name: "sports_esports"
+                    color: Theme.widgetTextColor
+                    visible: root.showIcon && activeWindow && activeWindow.appId && horizontalAppIcon.status !== Image.Ready && Paths.isSteamApp(activeWindow.appId)
+                }
 
                 StyledText {
                     id: appText
