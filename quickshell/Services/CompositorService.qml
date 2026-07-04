@@ -485,6 +485,8 @@ Singleton {
     function filterCurrentWorkspace(toplevels, screen) {
         if (useNiriSorting)
             return NiriService.filterCurrentWorkspace(toplevels, screen);
+        if (useMangoSorting)
+            return MangoService.filterCurrentWorkspace(toplevels, screen);
         if (isHyprland)
             return filterHyprlandCurrentWorkspaceSafe(toplevels, screen);
         return toplevels;
@@ -506,6 +508,8 @@ Singleton {
             }
             return NiriService.filterCurrentDisplay(toplevels, screenName);
         }
+        if (useMangoSorting)
+            return MangoService.filterCurrentDisplay(toplevels, screenName);
         if (isHyprland)
             return filterHyprlandCurrentDisplaySafe(toplevels, screenName);
         return toplevels;

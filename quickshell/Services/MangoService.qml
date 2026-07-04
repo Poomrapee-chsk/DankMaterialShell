@@ -370,6 +370,9 @@ Singleton {
         const screenName = _screenName(screenOrName);
         if (!screenName)
             return toplevels;
+        // Overview reports active_tags=[0], which would match no client tags.
+        if (isOutputInOverview(screenName))
+            return toplevels;
         const active = _activeTagSet(screenName);
         if (active.size === 0)
             return toplevels;
