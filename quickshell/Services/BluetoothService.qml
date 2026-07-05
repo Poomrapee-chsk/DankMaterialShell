@@ -245,6 +245,14 @@ Singleton {
         return `bluez_card.${device.address.replace(/:/g, "_")}`;
     }
 
+    function deviceForNodeName(nodeName) {
+        const match = (nodeName || "").match(/^bluez_(?:output|input|card)\.([0-9A-Fa-f_]+)/);
+        if (!match)
+            return null;
+        const address = match[1].replace(/_/g, ":").toUpperCase();
+        return Bluetooth.devices?.values?.find(d => (d.address || "").toUpperCase() === address) ?? null;
+    }
+
     function getDevicePath(device) {
         if (!device || !device.address) {
             return "";

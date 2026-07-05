@@ -210,6 +210,10 @@ Singleton {
         updated[nodeName] = trimmedAlias;
         deviceAliases = updated;
 
+        const btDevice = BluetoothService.deviceForNodeName(nodeName);
+        if (btDevice)
+            btDevice.name = trimmedAlias;
+
         writeWireplumberConfig();
         deviceAliasChanged(nodeName, trimmedAlias);
         return true;
@@ -225,6 +229,11 @@ Singleton {
         const updated = Object.assign({}, deviceAliases);
         delete updated[nodeName];
         deviceAliases = updated;
+
+        // Empty BlueZ alias write resets to the device's real name.
+        const btDevice = BluetoothService.deviceForNodeName(nodeName);
+        if (btDevice)
+            btDevice.name = "";
 
         writeWireplumberConfig();
         deviceAliasChanged(nodeName, "");
