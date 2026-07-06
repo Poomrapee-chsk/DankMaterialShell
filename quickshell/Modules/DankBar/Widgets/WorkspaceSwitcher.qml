@@ -107,6 +107,13 @@ Item {
         }
     }
 
+    Connections {
+        target: CompositorService
+        function onCompositorChanged() {
+            root._placeholderPool = [];
+        }
+    }
+
     property var currentWorkspace: {
         if (useExtWorkspace)
             return getExtWorkspaceActiveWorkspace();
@@ -426,41 +433,48 @@ Item {
         return Object.values(byApp);
     }
 
-    function padWorkspaces(list) {
-        const padded = list.slice();
-        let placeholder;
-        if (useExtWorkspace) {
-            placeholder = {
+    function _makePlaceholder() {
+        if (useExtWorkspace)
+            return {
                 "id": "",
                 "name": "",
                 "active": false,
                 "_placeholder": true
             };
-        } else if (CompositorService.isNiri) {
-            placeholder = {
+        if (CompositorService.isNiri)
+            return {
                 "id": -1,
                 "idx": -1,
                 "name": ""
             };
-        } else if (CompositorService.isHyprland) {
-            placeholder = {
+        if (CompositorService.isHyprland)
+            return {
                 "id": -1,
                 "name": ""
             };
-        } else if (root.isMango) {
-            placeholder = {
+        if (root.isMango)
+            return {
                 "tag": -1
             };
-        } else if (CompositorService.isSway || CompositorService.isScroll || CompositorService.isMiracle) {
-            placeholder = {
+        if (CompositorService.isSway || CompositorService.isScroll || CompositorService.isMiracle)
+            return {
                 "num": -1,
                 "_placeholder": true
             };
-        } else {
-            placeholder = -1;
-        }
+        return -1;
+    }
+
+    // Stable placeholder instances so ScriptModel (identity-diffed) reuses padding delegates instead of recreating them on workspace churn
+    property var _placeholderPool: []
+
+    function padWorkspaces(list) {
+        const padded = list.slice();
+        let slot = 0;
         while (padded.length < 3) {
-            padded.push(placeholder);
+            if (root._placeholderPool.length <= slot)
+                root._placeholderPool.push(root._makePlaceholder());
+            padded.push(root._placeholderPool[slot]);
+            slot++;
         }
         return padded;
     }
