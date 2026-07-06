@@ -941,12 +941,16 @@ Item {
             section: topBarContent.getWidgetSection(parent)
             parentScreen: barWindow.screen
             onClicked: {
-                if (powerMenuModalLoader) {
-                    powerMenuModalLoader.active = true;
-                    if (powerMenuModalLoader.item) {
-                        powerMenuModalLoader.item.openCentered();
-                    }
+                if (!powerMenuModalLoader)
+                    return;
+                powerMenuModalLoader.active = true;
+                if (!powerMenuModalLoader.item)
+                    return;
+                if (powerMenuModalLoader.item.shouldBeVisible) {
+                    powerMenuModalLoader.item.close();
+                    return;
                 }
+                powerMenuModalLoader.item.openCentered();
             }
         }
     }
