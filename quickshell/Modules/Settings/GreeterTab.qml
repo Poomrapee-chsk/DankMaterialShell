@@ -19,7 +19,7 @@ Item {
 
     function greeterFingerprintDescription() {
         if (SettingsData.greeterPamExternallyManaged)
-            return "greetd PAM is externally managed";
+            return I18n.tr("Managed by the primary PAM source.", "factor managed by PAM source status");
         if (SettingsData.greeterFingerprintSource === "pam")
             return I18n.tr("PAM already provides fingerprint auth. Enable this to show it at login.", "greeter fingerprint login setting");
 
@@ -39,7 +39,7 @@ Item {
 
     function greeterU2fDescription() {
         if (SettingsData.greeterPamExternallyManaged)
-            return "greetd PAM is externally managed";
+            return I18n.tr("Managed by the primary PAM source.", "factor managed by PAM source status");
         if (SettingsData.greeterU2fSource === "pam")
             return I18n.tr("PAM already provides security-key auth. Enable this to show it at login.", "greeter security key login setting");
 
@@ -485,8 +485,8 @@ Item {
                 SettingsToggleRow {
                     settingKey: "greeterPamExternallyManaged"
                     tags: ["greeter", "pam", "managed", "external", "greetd", "auth"]
-                    text: "greetd PAM is externally managed"
-                    description: "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it"
+                    text: I18n.tr("Use system PAM authentication", "system PAM policy toggle")
+                    description: I18n.tr("DMS removes its managed block from /etc/pam.d/greetd and stops writing to it", "greeter system PAM toggle description")
                     checked: SettingsData.greeterPamExternallyManaged
                     onToggled: checked => SettingsData.set("greeterPamExternallyManaged", checked)
                 }

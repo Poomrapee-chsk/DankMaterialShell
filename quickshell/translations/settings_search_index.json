@@ -4635,21 +4635,47 @@
     ]
   },
   {
-    "section": "lockPamPath",
-    "label": "Authentication Source",
+    "section": "lockAuthSource",
+    "label": "Authentication",
     "tabIndex": 11,
     "category": "Lock Screen",
     "keywords": [
+      "authenticate",
       "authentication",
       "lock",
+      "lockscreen",
       "login",
       "pam",
       "password",
       "screen",
       "security",
       "service",
-      "source"
-    ]
+      "source",
+      "uses"
+    ],
+    "icon": "key",
+    "description": "Which PAM service the lock screen uses to authenticate"
+  },
+  {
+    "section": "lockPamPath",
+    "label": "Authentication Source",
+    "tabIndex": 11,
+    "category": "Lock Screen",
+    "keywords": [
+      "authenticate",
+      "authentication",
+      "lock",
+      "lockscreen",
+      "login",
+      "pam",
+      "password",
+      "screen",
+      "security",
+      "service",
+      "source",
+      "uses"
+    ],
+    "description": "Which PAM service the lock screen uses to authenticate"
   },
   {
     "section": "lockScreenVideoCycling",
@@ -4803,25 +4829,6 @@
     ],
     "icon": "palette",
     "description": "Font used for the clock and date on the lock screen"
-  },
-  {
-    "section": "lockAuthSource",
-    "label": "Lock Screen Authentication",
-    "tabIndex": 11,
-    "category": "Lock Screen",
-    "keywords": [
-      "authentication",
-      "lock",
-      "lockscreen",
-      "login",
-      "pam",
-      "password",
-      "screen",
-      "security",
-      "service",
-      "source"
-    ],
-    "icon": "key"
   },
   {
     "section": "lockDisplay",
@@ -5043,25 +5050,18 @@
     "tabIndex": 11,
     "category": "Lock Screen",
     "keywords": [
-      "alternative",
-      "button",
       "factor",
-      "fingerprint",
-      "follows",
       "key",
       "lock",
       "login",
       "mode",
-      "passkey",
       "password",
       "screen",
       "second",
       "security",
       "u2f",
-      "uses",
       "yubikey"
-    ],
-    "description": "Alternative uses the passkey button. Second factor follows password or fingerprint."
+    ]
   },
   {
     "section": "lockScreenShowMediaPlayer",
@@ -8102,15 +8102,15 @@
   },
   {
     "section": "greeterPamExternallyManaged",
-    "label": "greetd PAM is externally managed",
+    "label": "Use system PAM authentication",
     "tabIndex": 31,
     "category": "Greeter",
     "keywords": [
       "auth",
+      "authentication",
       "block",
       "display manager",
       "external",
-      "externally",
       "greetd",
       "greeter",
       "login",
@@ -8118,6 +8118,7 @@
       "pam",
       "removes",
       "stops",
+      "system",
       "writing"
     ],
     "description": "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it"

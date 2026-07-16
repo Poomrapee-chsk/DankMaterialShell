@@ -31,7 +31,7 @@ func TestLockScreenAuthenticationCardOwnsFactorControls(t *testing.T) {
 	}
 
 	content := string(data)
-	authCard := strings.Index(content, `title: I18n.tr("Lock Screen Authentication")`)
+	authCard := strings.Index(content, `title: I18n.tr("Authentication")`)
 	behaviorCard := strings.Index(content, `title: I18n.tr("Lock Screen behaviour")`)
 	fingerprintToggle := strings.Index(content, `settingKey: "enableFprint"`)
 	u2fToggle := strings.Index(content, `settingKey: "enableU2f"`)

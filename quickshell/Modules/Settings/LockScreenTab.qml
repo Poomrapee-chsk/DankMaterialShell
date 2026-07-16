@@ -192,12 +192,12 @@ Item {
             } catch (e) {}
 
             if (!data) {
-                root.authValidateMessage = "Validation failed — is DMS in PATH?";
+                root.authValidateMessage = I18n.tr("Config validation failed");
                 return;
             }
             if (!data.valid) {
                 const errs = Array.isArray(data.errors) ? data.errors : [];
-                root.authValidateMessage = ["Not applied.", ...errs].join("\n");
+                root.authValidateMessage = [I18n.tr("Config validation failed"), ...errs].join("\n");
                 return;
             }
 
@@ -207,7 +207,7 @@ Item {
             const warns = Array.isArray(data.warnings) ? data.warnings : [];
             root.authValidateOk = true;
             root.authValidateWarn = warns.length > 0;
-            root.authValidateMessage = warns.length > 0 ? ["Applied with warnings.", ...warns].join("\n") : "Applied.";
+            root.authValidateMessage = [I18n.tr("Authentication changes applied."), ...warns].join("\n");
         }
     }
 
@@ -232,12 +232,12 @@ Item {
             } catch (e) {}
 
             if (!data) {
-                root.u2fValidateMessage = "Validation failed — is DMS in PATH?";
+                root.u2fValidateMessage = I18n.tr("Config validation failed");
                 return;
             }
             if (!data.valid) {
                 const errs = Array.isArray(data.errors) ? data.errors : [];
-                root.u2fValidateMessage = ["Not applied.", ...errs].join("\n");
+                root.u2fValidateMessage = [I18n.tr("Config validation failed"), ...errs].join("\n");
                 return;
             }
 
@@ -245,7 +245,7 @@ Item {
             const warns = Array.isArray(data.warnings) ? data.warnings : [];
             root.u2fValidateOk = true;
             root.u2fValidateWarn = warns.length > 0;
-            root.u2fValidateMessage = warns.length > 0 ? ["Applied with warnings.", ...warns].join("\n") : "Applied.";
+            root.u2fValidateMessage = [I18n.tr("Authentication changes applied."), ...warns].join("\n");
             root.refreshAuthDetection();
         }
     }
@@ -396,11 +396,11 @@ Item {
             SettingsCard {
                 width: parent.width
                 iconName: "key"
-                title: I18n.tr("Lock Screen Authentication")
+                title: I18n.tr("Authentication")
                 settingKey: "lockAuthSource"
 
                 StyledText {
-                    text: I18n.tr("Changes apply automatically")
+                    text: I18n.tr("Authentication changes apply automatically.")
                     font.pixelSize: Theme.fontSizeSmall
                     color: Theme.surfaceVariantText
                     width: parent.width
@@ -410,8 +410,8 @@ Item {
                 SettingsDropdownRow {
                     settingKey: "lockPamPath"
                     tags: ["lock", "screen", "pam", "authentication", "source", "service"]
-                    text: "Authentication Source"
-                    description: SettingsData.lockPamPath !== "" ? SettingsData.lockPamPath : "Which PAM service the lock screen uses to authenticate"
+                    text: I18n.tr("Authentication Source", "lock screen PAM source setting")
+                    description: SettingsData.lockPamPath !== "" ? SettingsData.lockPamPath : I18n.tr("Which PAM service the lock screen uses to authenticate", "lock screen PAM source setting")
                     options: root.authOptions
                     currentValue: root.authCurrentValue
                     onValueChanged: value => {
@@ -472,21 +472,11 @@ Item {
                     }
                 }
 
-                StyledText {
-                    visible: !SettingsData.lockPamExternallyManaged && (root.primaryPamHasFprint || root.primaryPamHasU2f)
-                    text: I18n.tr("Selected PAM source already manages the detected factors.")
-                    font.pixelSize: Theme.fontSizeSmall
-                    color: Theme.warning
-                    width: parent.width
-                    wrapMode: Text.Wrap
-                    topPadding: Theme.spacingS
-                }
-
                 SettingsToggleRow {
                     settingKey: "lockPamExternallyManaged"
                     tags: ["lock", "screen", "pam", "managed", "external", "authentication", "policy"]
-                    text: I18n.tr("Use system PAM authentication")
-                    description: SettingsData.lockPamExternallyManaged ? I18n.tr("System PAM sets the authentication policy.") : I18n.tr("DMS manages the factors below.")
+                    text: I18n.tr("Use system PAM authentication", "system PAM policy toggle")
+                    description: I18n.tr("System PAM sets the authentication policy.", "system PAM policy toggle")
                     checked: SettingsData.lockPamExternallyManaged
                     onToggled: checked => SettingsData.set("lockPamExternallyManaged", checked)
                 }
@@ -495,7 +485,7 @@ Item {
                     settingKey: "enableFprint"
                     tags: ["lock", "screen", "fingerprint", "authentication", "biometric", "fprint"]
                     text: I18n.tr("Enable fingerprint authentication")
-                    description: root.lockFprintControlledByPrimary ? I18n.tr("Managed by the primary PAM source.") : root.lockFingerprintDescription()
+                    description: root.lockFprintControlledByPrimary ? I18n.tr("Managed by the primary PAM source.", "factor managed by PAM source status") : root.lockFingerprintDescription()
                     descriptionColor: root.lockFprintControlledByPrimary || SettingsData.lockFingerprintReason === "ready" ? Theme.surfaceVariantText : Theme.warning
                     checked: SettingsData.enableFprint || root.primaryPamHasFprint
                     enabled: root.lockFprintToggleAvailable && !root.lockFprintControlledByPrimary
@@ -506,7 +496,7 @@ Item {
                     settingKey: "enableU2f"
                     tags: ["lock", "screen", "u2f", "yubikey", "security", "key", "fido", "authentication", "hardware"]
                     text: I18n.tr("Enable security key authentication", "Enable FIDO2/U2F hardware security key for lock screen")
-                    description: root.lockU2fControlledByPrimary ? I18n.tr("Managed by the primary PAM source.") : root.lockU2fDescription()
+                    description: root.lockU2fControlledByPrimary ? I18n.tr("Managed by the primary PAM source.", "factor managed by PAM source status") : root.lockU2fDescription()
                     descriptionColor: root.lockU2fControlledByPrimary || SettingsData.lockU2fReason === "ready" ? Theme.surfaceVariantText : Theme.warning
                     checked: SettingsData.enableU2f || root.primaryPamHasU2f
                     enabled: root.lockU2fToggleAvailable && !root.lockU2fControlledByPrimary
@@ -517,7 +507,7 @@ Item {
                     settingKey: "u2fMode"
                     tags: ["lock", "screen", "u2f", "yubikey", "security", "key", "mode", "factor", "second"]
                     text: I18n.tr("Security key mode", "lock screen U2F security key mode setting")
-                    description: I18n.tr("Alternative uses the passkey button. Second factor follows password or fingerprint.", "lock screen U2F security key mode setting")
+                    description: I18n.tr("'Alternative' lets the key unlock on its own. 'Second factor' requires password or fingerprint first, then the key.", "lock screen U2F security key mode setting")
                     visible: SettingsData.enableU2f && !root.lockU2fControlledByPrimary
                     options: [I18n.tr("Alternative (OR)", "U2F mode option: key works as standalone unlock method"), I18n.tr("Second Factor (AND)", "U2F mode option: key required after password or fingerprint")]
                     currentValue: SettingsData.u2fMode === "and" ? I18n.tr("Second Factor (AND)", "U2F mode option: key required after password or fingerprint") : I18n.tr("Alternative (OR)", "U2F mode option: key works as standalone unlock method")
@@ -532,8 +522,8 @@ Item {
                 SettingsDropdownRow {
                     settingKey: "lockU2fPamPath"
                     tags: ["lock", "screen", "pam", "u2f", "security", "key", "source", "service"]
-                    text: I18n.tr("Security Key PAM Source")
-                    description: SettingsData.lockU2fPamPath !== "" ? SettingsData.lockU2fPamPath : I18n.tr("Auto uses an installed or bundled key-only service.")
+                    text: I18n.tr("Security Key PAM Source", "lock screen dedicated U2F PAM source setting")
+                    description: SettingsData.lockU2fPamPath !== "" ? SettingsData.lockU2fPamPath : I18n.tr("Auto uses an installed or bundled key-only service.", "lock screen dedicated U2F PAM source setting")
                     visible: !root.lockU2fControlledByPrimary
                     options: [root.authAutoLabel, root.authCustomLabel]
                     currentValue: root.u2fAuthCurrentValue
