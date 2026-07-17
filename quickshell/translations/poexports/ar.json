@@ -6,7 +6,7 @@
     "%1 Animation Speed": "سرعة الحركة لـ %1"
   },
   "%1 Layout Overrides": {
-    "%1 Layout Overrides": ""
+    "%1 Layout Overrides": "%1 تجاوزات التخطيط"
   },
   "%1 Sessions": {
     "%1 Sessions": "%1 جلسة"
@@ -501,7 +501,7 @@
     "Afternoon": "بعد الظهر"
   },
   "Alerts": {
-    "Alerts": ""
+    "Alerts": "تنبيهات"
   },
   "All": {
     "All": "الكل"
@@ -783,10 +783,16 @@
     "Authentication Required": "المصادقة مطلوبة"
   },
   "Authentication Source": {
-    "Authentication Source": ""
+    "Authentication Source": "مصدر التحقق من الهوية"
+  },
+  "Authentication changes applied": {
+    "Authentication changes applied": ""
   },
   "Authentication changes applied.": {
     "Authentication changes applied.": "تم تطبيق تغييرات المصادقة."
+  },
+  "Authentication changes apply automatically": {
+    "Authentication changes apply automatically": ""
   },
   "Authentication changes apply automatically.": {
     "Authentication changes apply automatically.": "يتم تطبيق تغييرات المصادقة تلقائياً."
@@ -840,7 +846,7 @@
     "Auto Power Saver": "موفر الطاقة التلقائي"
   },
   "Auto matches bar spacing; Off leaves gaps to your %1 config": {
-    "Auto matches bar spacing; Off leaves gaps to your %1 config": ""
+    "Auto matches bar spacing; Off leaves gaps to your %1 config": "تطابق تلقائي لتباعد الأشرطة؛ إيقاف يترك فجوات حسب إعداد %1 الخاص بك"
   },
   "Auto mode is on. Manual profile selection is disabled.": {
     "Auto mode is on. Manual profile selection is disabled.": "الوضع التلقائي مفعل. تم تعطيل اختيار الملف الشخصي اليدوي."
@@ -849,7 +855,7 @@
     "Auto saved": "تم الحفظ تلقائيًا"
   },
   "Auto uses an installed or bundled key-only service.": {
-    "Auto uses an installed or bundled key-only service.": ""
+    "Auto uses an installed or bundled key-only service.": "يستخدم مفتاح فقط مثبتة أو مرفقة تلقائياً."
   },
   "Auto-Clear After": {
     "Auto-Clear After": "المسح التلقائي بعد"
@@ -1092,7 +1098,7 @@
     "Bind lock screen to dbus signals from loginctl. Disable if using an external lock screen": "ربط شاشة القفل بإشارات dbus القادمة من loginctl. أوقف تشغيله إذا كنت تستخدم شاشة قفل خارجية."
   },
   "Bind the %1 IPC action in your compositor config.": {
-    "Bind the %1 IPC action in your compositor config.": ""
+    "Bind the %1 IPC action in your compositor config.": "قم بربط إجراء IPC %1 في إعدادات مدير النوافذ الخاص بك."
   },
   "Binds include added": {
     "Binds include added": "تتضمن الروابط المضافة"
@@ -1692,7 +1698,7 @@
     "Configuration will be preserved when this display reconnects": "سيتم حفظ التكوين عند إعادة اتصال هذه الشاشة"
   },
   "Configurations": {
-    "Configurations": ""
+    "Configurations": "الإعدادات"
   },
   "Configure": {
     "Configure": "ضبط"
@@ -1834,6 +1840,9 @@
   },
   "Controls the outline of popouts, modals, and other shell surfaces": {
     "Controls the outline of popouts, modals, and other shell surfaces": "يتحكم في مخطط النوافذ المنبثقة، والنوافذ الحوارية، وأسطح الصدفة الأخرى"
+  },
+  "Convenience options for the login screen": {
+    "Convenience options for the login screen": ""
   },
   "Convenience options for the login screen. Sync to apply.": {
     "Convenience options for the login screen. Sync to apply.": "خيارات مريحة لشاشة تسجيل الدخول. قم بالمزامنة للتطبيق."
@@ -2111,8 +2120,11 @@
   "DMS out of date": {
     "DMS out of date": "نسخة DMS غير محدثة"
   },
+  "DMS removes its managed block from /etc/pam.d/greetd and stops write services": {
+    "DMS removes its managed block from /etc/pam.d/greetd and stops write services": ""
+  },
   "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": {
-    "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": ""
+    "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": "تقوم DMS بإزالة الكتلة المُدارة الخاصة بها من الملف /etc/pam.d/greetd وتتوقف عن الكتابة فيها."
   },
   "DMS server is outdated (API v%1, expected v%2)": {
     "DMS server is outdated (API v%1, expected v%2)": "خادم DMS قديم (إصدار API %1، المتوقع %2)"
@@ -2714,6 +2726,9 @@
   "Enable fingerprint authentication": {
     "Enable fingerprint authentication": "تفعيل تسجيل الدخول ببصمة الإصبع"
   },
+  "Enable fingerprint or security key for DMS Greeter": {
+    "Enable fingerprint or security key for DMS Greeter": ""
+  },
   "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.": {
     "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.": "مكّن بصمة الإصبع أو مفتاح الأمان لبرنامج الترحيب DMS. يتم تطبيق تغييرات المصادقة تلقائياً."
   },
@@ -2844,7 +2859,7 @@
     "Exact": "مطابق تماماً"
   },
   "Excluded Players": {
-    "Excluded Players": ""
+    "Excluded Players": "المشغلات المستبعدة"
   },
   "Exclusive Zone Offset": {
     "Exclusive Zone Offset": "إزاحة النطاق الحصري"
@@ -2913,7 +2928,7 @@
     "Failed to add printer to class": "فشل إضافة الطابعة إلى الفئة"
   },
   "Failed to apply %1 colors": {
-    "Failed to apply %1 colors": ""
+    "Failed to apply %1 colors": "تعذر تطبيق %1 من الألوان"
   },
   "Failed to apply charge limit to system": {
     "Failed to apply charge limit to system": "فشل تطبيق حد الشحن على النظام"
@@ -3015,7 +3030,7 @@
     "Failed to move to trash": "فشل في النقل إلى المهملات"
   },
   "Failed to parse %1": {
-    "Failed to parse %1": ""
+    "Failed to parse %1": "فشل في تحليل %1"
   },
   "Failed to pause printer": {
     "Failed to pause printer": "تعذر إيقاف الطابعة مؤقتًا"
@@ -3189,7 +3204,7 @@
     "File manager used to open the trash. Pick \"custom\" to enter your own command.": "مدير الملفات المستخدم لفتح المهملات. اختر \"مخصص\" لإدخال أمرك الخاص."
   },
   "File received from %1": {
-    "File received from %1": ""
+    "File received from %1": "تم استلام الملف من %1"
   },
   "File search requires dsearch\nInstall from github.com/AvengeMedia/danksearch": {
     "File search requires dsearch\nInstall from github.com/AvengeMedia/danksearch": "يتطلب البحث عن الملفات dsearch\nقم بالتثبيت من github.com/AvengeMedia/danksearch"
@@ -3223,6 +3238,9 @@
   },
   "Fine-tune the space reserved for the bar from the screen edge": {
     "Fine-tune the space reserved for the bar from the screen edge": "ضبط المساحة المحجوزة للشريط من حافة الشاشة بدقة"
+  },
+  "Fingerprint availability could not be confirmed": {
+    "Fingerprint availability could not be confirmed": ""
   },
   "Fingerprint availability could not be confirmed.": {
     "Fingerprint availability could not be confirmed.": "تعذر التأكد من توفر البصمة."
@@ -3437,6 +3455,9 @@
   "Format Legend": {
     "Format Legend": "دليل التنسيق"
   },
+  "Format the date on the login screen": {
+    "Format the date on the login screen": ""
+  },
   "Forward 10s": {
     "Forward 10s": "تقديم 10 ثوانٍ"
   },
@@ -3537,7 +3558,7 @@
     "Gaps": "الفجوات"
   },
   "General": {
-    "General": ""
+    "General": "عام"
   },
   "Generate Override": {
     "Generate Override": "إنشاء تجاوز"
@@ -4100,6 +4121,9 @@
   "Install theme '%1' from the DMS registry?": {
     "Install theme '%1' from the DMS registry?": "هل تريد تثبيت السمة '%1' من سجل DMS؟"
   },
+  "Installation and PAM setup are documented in the ": {
+    "Installation and PAM setup are documented in the ": ""
+  },
   "Installation and PAM setup: see the ": {
     "Installation and PAM setup: see the ": "التثبيت وإعداد PAM: انظر إلى "
   },
@@ -4460,6 +4484,9 @@
   "Low Priority": {
     "Low Priority": "أولوية منخفضة"
   },
+  "Lower display refresh rate on battery": {
+    "Lower display refresh rate on battery": ""
+  },
   "MAC": {
     "MAC": "MAC"
   },
@@ -4490,8 +4517,11 @@
   "Managed by Frame in Connected Mode": {
     "Managed by Frame in Connected Mode": "مدار بواسطة الإطار في الوضع المتصل"
   },
+  "Managed by the primary PAM source": {
+    "Managed by the primary PAM source": ""
+  },
   "Managed by the primary PAM source.": {
-    "Managed by the primary PAM source.": ""
+    "Managed by the primary PAM source.": "تتم إدارتها بواسطة مصدر PAM الأساسي."
   },
   "Management": {
     "Management": "الإدارة"
@@ -5132,6 +5162,9 @@
   "No files found": {
     "No files found": "لا توجد ملفات"
   },
+  "No fingerprint reader detected": {
+    "No fingerprint reader detected": ""
+  },
   "No fingerprint reader detected.": {
     "No fingerprint reader detected.": "لم يتم اكتشاف قارئ بصمات."
   },
@@ -5317,6 +5350,12 @@
   },
   "Not available": {
     "Not available": "غير متاح"
+  },
+  "Not available - install fprintd and pam_fprintd": {
+    "Not available - install fprintd and pam_fprintd": ""
+  },
+  "Not available - install or configure pam_u2f": {
+    "Not available - install or configure pam_u2f": ""
   },
   "Not available — install fprintd and pam_fprintd, or configure greetd PAM.": {
     "Not available — install fprintd and pam_fprintd, or configure greetd PAM.": "غير متاح — قم بتثبيت fprintd و pam_fprintd، أو قم بتكوين greetd PAM."
@@ -5570,6 +5609,9 @@
   "Outline": {
     "Outline": "مخطط تفصيلي"
   },
+  "Outline around shell surfaces": {
+    "Outline around shell surfaces": ""
+  },
   "Output": {
     "Output": "الإخراج"
   },
@@ -5673,7 +5715,7 @@
     "Pairing failed": "فشل الاقتران"
   },
   "Pairing request from %1": {
-    "Pairing request from %1": ""
+    "Pairing request from %1": "طلب اقتران من %1"
   },
   "Pairing request sent": {
     "Pairing request sent": "تم إرسال طلب الاقتران"
@@ -5796,7 +5838,7 @@
     "Ping": "اختبار الاتصال (Ping)"
   },
   "Ping sent to %1": {
-    "Ping sent to %1": ""
+    "Ping sent to %1": "تم إرسال إشارة إلى %1"
   },
   "Pinned": {
     "Pinned": "مثبت"
@@ -5925,7 +5967,7 @@
     "Popup behavior, position": "سلوك وموضع النافذة المنبثقة"
   },
   "Popups": {
-    "Popups": ""
+    "Popups": "نوافذ منبثقة"
   },
   "Port": {
     "Port": "المنفذ"
@@ -6135,7 +6177,7 @@
     "Profile when on Battery": "الملف الشخصي عند استخدام البطارية"
   },
   "Protection": {
-    "Protection": ""
+    "Protection": "حماية"
   },
   "Protocol": {
     "Protocol": "البروتوكول"
@@ -6380,6 +6422,9 @@
   "Requires a newer version of Quickshell": {
     "Requires a newer version of Quickshell": "يتطلب إصداراً أحدث من Quickshell"
   },
+  "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).": {
+    "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).": ""
+  },
   "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.": {
     "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.": "يتطلب greetd و dms-greeter ووجود مستخدمك في مجموعة greeter (بالإضافة إلى fprintd/pam_fprintd لبصمات الأصابع، و pam_u2f لمفاتيح الأمان). يتم تطبيق تغييرات المصادقة تلقائياً وقد تفتح نافذة طرفية لـ sudo."
   },
@@ -6477,7 +6522,7 @@
     "Ring": "رنين"
   },
   "Ringing %1...": {
-    "Ringing %1...": ""
+    "Ringing %1...": "يتم الاتصال بـ %1..."
   },
   "Ripple Effects": {
     "Ripple Effects": "تأثيرات التموج"
@@ -6492,13 +6537,13 @@
     "Rule": "قاعدة"
   },
   "Rule %1": {
-    "Rule %1": ""
+    "Rule %1": "القاعدة %1"
   },
   "Rule Name": {
     "Rule Name": "اسم القاعدة"
   },
   "Rules": {
-    "Rules": ""
+    "Rules": "القواعد"
   },
   "Rules (%1)": {
     "Rules (%1)": "القواعد (%1)"
@@ -6726,10 +6771,13 @@
     "Security & privacy": "الأمان والخصوصية"
   },
   "Security Key PAM Source": {
-    "Security Key PAM Source": ""
+    "Security Key PAM Source": "مصدر مفتاح الأمان لـ PAM"
   },
   "Security key mode": {
     "Security key mode": "وضع مفتاح الأمان"
+  },
+  "Security-key availability could not be confirmed": {
+    "Security-key availability could not be confirmed": ""
   },
   "Security-key availability could not be confirmed.": {
     "Security-key availability could not be confirmed.": "تعذر التأكد من توفر مفتاح الأمان."
@@ -6852,7 +6900,7 @@
     "Send SMS": "إرسال رسالة قصيرة"
   },
   "Sending %1...": {
-    "Sending %1...": ""
+    "Sending %1...": "جاري الإرسال %1..."
   },
   "Separate": {
     "Separate": "منفصل"
@@ -7214,6 +7262,9 @@
   "Show during Niri overview": {
     "Show during Niri overview": "إظهار أثناء نظرة عامة على Niri"
   },
+  "Show foreground surfaces on notification cards": {
+    "Show foreground surfaces on notification cards": ""
+  },
   "Show foreground surfaces on panels for stronger contrast": {
     "Show foreground surfaces on panels for stronger contrast": "إظهار الأسطح الأمامية على اللوحات لتباين أقوى"
   },
@@ -7481,6 +7532,9 @@
   "Surface Border Opacity": {
     "Surface Border Opacity": "شفافية حدود السطح"
   },
+  "Surface Border Outline": {
+    "Surface Border Outline": ""
+  },
   "Surface Container": {
     "Surface Container": "حاوية السطح"
   },
@@ -7526,6 +7580,9 @@
   "Switch between display configurations": {
     "Switch between display configurations": "التبديل بين تكوينات العرض"
   },
+  "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.": {
+    "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.": ""
+  },
   "Switch to power profile": {
     "Switch to power profile": "التبديل إلى ملف تعريف الطاقة"
   },
@@ -7546,6 +7603,9 @@
   },
   "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.": {
     "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.": "تطبق المزامنة السمة والإعدادات الخاصة بك على شاشة تسجيل الدخول. يجب على المستخدمين الآخرين تشغيل dms greeter sync --profile بدلاً من المزامنة الكاملة. يتم تطبيق تغييرات المصادقة تلقائياً."
+  },
+  "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.": {
+    "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.": ""
   },
   "Sync completed successfully.": {
     "Sync completed successfully.": "تمت المزامنة بنجاح."
@@ -7656,10 +7716,10 @@
     "Terminal fallback failed. Install one of the supported terminal emulators or run 'dms greeter sync' manually.": "فشل الاحتياط للطرفية. قم بتثبيت أحد محاكيات الطرفية المدعومة أو قم بتشغيل 'dms greeter sync' يدوياً."
   },
   "Terminal fallback opened. Complete authentication there; it will close automatically when done.": {
-    "Terminal fallback opened. Complete authentication there; it will close automatically when done.": ""
+    "Terminal fallback opened. Complete authentication there; it will close automatically when done.": "تم فتح الاحطياط للطرفية. أكمل المصادقة هناك؛ سيتم إغلاقه تلقائيًا عند الانتهاء."
   },
   "Terminal opened. Complete authentication there; it will close automatically when done.": {
-    "Terminal opened. Complete authentication there; it will close automatically when done.": ""
+    "Terminal opened. Complete authentication there; it will close automatically when done.": "تَمَّ فَتْحُ الطَّرَفِيَّةِ. أَكْمِلِ الْمُصَادَقَةَ هُنَاكَ؛ سَتُغْلَقُ تِلْقَائِيًّا عِنْدَ الِانْتِهَاءِ."
   },
   "Terminals - Always use Dark Theme": {
     "Terminals - Always use Dark Theme": "الطرفيات - استخدام المظهر الداكن دائمًا"
@@ -7755,7 +7815,7 @@
     "This device": "هذا الجهاز"
   },
   "This install is still using hyprland.conf. Run dms setup to migrate before changing these settings.": {
-    "This install is still using hyprland.conf. Run dms setup to migrate before changing these settings.": ""
+    "This install is still using hyprland.conf. Run dms setup to migrate before changing these settings.": "لا يزال هذا التثبيت يستخدم hyprland.conf. قم بتشغيل dms setup للترحيل قبل تغيير هذه الإعدادات."
   },
   "This may take a few seconds": {
     "This may take a few seconds": "قد يستغرق هذا بضع ثوانٍ"
@@ -7833,7 +7893,7 @@
     "Timeout Progress Bar": "شريط تقدم المهلة"
   },
   "Timeouts": {
-    "Timeouts": ""
+    "Timeouts": "فترات التوقف"
   },
   "Tint Saturation": {
     "Tint Saturation": "تشبع التلوين"
@@ -8216,6 +8276,9 @@
   "Use a custom image for the lock screen, or leave empty to use your desktop wallpaper.": {
     "Use a custom image for the lock screen, or leave empty to use your desktop wallpaper.": "استخدم صورة مخصصة لشاشة القفل، أو اتركها فارغة لاستخدام خلفية سطح المكتب الخاصة بك."
   },
+  "Use a custom image for the login screen, or leave empty to use desktop wallpaper": {
+    "Use a custom image for the login screen, or leave empty to use desktop wallpaper": ""
+  },
   "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.": {
     "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.": "استخدم صورة مخصصة لشاشة تسجيل الدخول، أو اتركها فارغة لاستخدام خلفية سطح المكتب."
   },
@@ -8224,6 +8287,9 @@
   },
   "Use a fixed shadow direction for this bar": {
     "Use a fixed shadow direction for this bar": "استخدم اتجاه ظل ثابت لهذا الشريط"
+  },
+  "Use a security key for lock screen authentication": {
+    "Use a security key for lock screen authentication": ""
   },
   "Use a security key for lock screen authentication.": {
     "Use a security key for lock screen authentication.": "استخدم مفتاح أمان للمصادقة على شاشة القفل."
@@ -8255,6 +8321,9 @@
   "Use different workspace colors on displays that are not focused": {
     "Use different workspace colors on displays that are not focused": "استخدام ألوان مختلفة للسطح المكتب على الشاشات التي لا يركز عليها"
   },
+  "Use fingerprint authentication for the lock screen": {
+    "Use fingerprint authentication for the lock screen": ""
+  },
   "Use fingerprint authentication for the lock screen.": {
     "Use fingerprint authentication for the lock screen.": "استخدم مصادقة بصمة الإصبع لشاشة القفل."
   },
@@ -8277,7 +8346,7 @@
     "Use sound theme from system settings": "استخدام سمة الصوت من إعدادات النظام"
   },
   "Use system PAM authentication": {
-    "Use system PAM authentication": ""
+    "Use system PAM authentication": "استخدم مصادقة PAM الخاصة بالنظام"
   },
   "Use the extended surface for launcher content": {
     "Use the extended surface for launcher content": "استخدم السطح الممتد لمحتوى المشغل"
@@ -8532,7 +8601,7 @@
     "When locked": "عند القفل"
   },
   "Which PAM service the lock screen uses to authenticate": {
-    "Which PAM service the lock screen uses to authenticate": ""
+    "Which PAM service the lock screen uses to authenticate": "أي خدمة PAM يستخدمها قفل الشاشة للمصادقة"
   },
   "White": {
     "White": "أبيض"
@@ -8778,7 +8847,7 @@
     "discuss": "نقاش"
   },
   "display rotation option": {
-    "Normal": ""
+    "Normal": "عادي"
   },
   "dms is a highly customizable, modern desktop shell with a <a href=\"https://m3.material.io/\" style=\"text-decoration:none; color:%1;\">material 3 inspired</a> design.<br /><br/>It is built with <a href=\"https://quickshell.org\" style=\"text-decoration:none; color:%1;\">Quickshell</a>, a QT6 framework for building desktop shells, and <a href=\"https://go.dev\" style=\"text-decoration:none; color:%1;\">Go</a>, a statically typed, compiled programming language.": {
     "dms is a highly customizable, modern desktop shell with a <a href=\"https://m3.material.io/\" style=\"text-decoration:none; color:%1;\">material 3 inspired</a> design.<br /><br/>It is built with <a href=\"https://quickshell.org\" style=\"text-decoration:none; color:%1;\">Quickshell</a>, a QT6 framework for building desktop shells, and <a href=\"https://go.dev\" style=\"text-decoration:none; color:%1;\">Go</a>, a statically typed, compiled programming language.": "dms هو غلاف سطح مكتب حديث قابل للتخصيص بدرجة عالية مع تصميم <a href=\"https://m3.material.io/\" style=\"text-decoration:none; color:%1;\">مستوحى من Material 3</a>.<br /><br/>تم بناؤه باستخدام <a href=\"https://quickshell.org\" style=\"text-decoration:none; color:%1;\">Quickshell</a>، وهو إطار عمل QT6 لبناء أغلفة سطح المكتب، ولغة <a href=\"https://go.dev\" style=\"text-decoration:none; color:%1;\">Go</a>، وهي لغة برمجة مجمعة ومكتوبة بشكل ثابت."
@@ -8841,7 +8910,7 @@
     "mangowc GitHub": "مستودع mangowc على GitHub"
   },
   "matugen not available or disabled - cannot apply %1 colors": {
-    "matugen not available or disabled - cannot apply %1 colors": ""
+    "matugen not available or disabled - cannot apply %1 colors": "matugen غير متاح أو معطل - لا يمكن تطبيق ألوان %1"
   },
   "matugen not found - install matugen package for dynamic theming": {
     "matugen not found - install matugen package for dynamic theming": "لم يتم العثور على matugen - قم بتثبيت حزمة matugen للسمات الديناميكية"
@@ -8856,7 +8925,7 @@
     "nav": "تنقل"
   },
   "network security type": {
-    "Open": ""
+    "Open": "فتح"
   },
   "niri GitHub": {
     "niri GitHub": "مستودع niri على GitHub"
@@ -8907,7 +8976,7 @@
     "power-profiles-daemon not available": "power-profiles-daemon غير متاح"
   },
   "primary network connection label": {
-    "Primary": ""
+    "Primary": "أساسي"
   },
   "procs": {
     "procs": "عمليات"

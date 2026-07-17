@@ -380,7 +380,7 @@
   {
     "term": "0 = square corners",
     "context": "0 = square corners",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1838",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1850",
     "comment": "",
     "tags": [
       "settings"
@@ -389,7 +389,7 @@
   {
     "term": "1 day",
     "context": "1 day",
-    "reference": "Modules/Settings/NotificationsTab.qml:879, Modules/Settings/NotificationsTab.qml:892, Modules/Settings/NotificationsTab.qml:897, Modules/Settings/ClipboardTab.qml:103",
+    "reference": "Modules/Settings/NotificationsTab.qml:888, Modules/Settings/NotificationsTab.qml:901, Modules/Settings/NotificationsTab.qml:906, Modules/Settings/ClipboardTab.qml:103",
     "comment": "notification history retention option",
     "tags": [
       "settings"
@@ -454,7 +454,7 @@
   {
     "term": "1 second",
     "context": "1 second",
-    "reference": "Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:512, Modules/Settings/NotificationsTab.qml:37, Modules/Notifications/Center/NotificationSettings.qml:43",
+    "reference": "Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:522, Modules/Settings/NotificationsTab.qml:37, Modules/Notifications/Center/NotificationSettings.qml:43",
     "comment": "",
     "tags": [
       "settings",
@@ -492,7 +492,7 @@
   {
     "term": "10 seconds",
     "context": "10 seconds",
-    "reference": "Modules/Settings/WallpaperTab.qml:982, Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:512, Modules/Settings/NotificationsTab.qml:53, Modules/Notifications/Center/NotificationSettings.qml:59",
+    "reference": "Modules/Settings/WallpaperTab.qml:982, Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:522, Modules/Settings/NotificationsTab.qml:53, Modules/Notifications/Center/NotificationSettings.qml:59",
     "comment": "wallpaper interval",
     "tags": [
       "settings",
@@ -520,7 +520,7 @@
   {
     "term": "14 days",
     "context": "14 days",
-    "reference": "Modules/Settings/NotificationsTab.qml:885, Modules/Settings/NotificationsTab.qml:892, Modules/Settings/NotificationsTab.qml:903, Modules/Settings/ClipboardTab.qml:115",
+    "reference": "Modules/Settings/NotificationsTab.qml:894, Modules/Settings/NotificationsTab.qml:901, Modules/Settings/NotificationsTab.qml:912, Modules/Settings/ClipboardTab.qml:115",
     "comment": "notification history retention option",
     "tags": [
       "settings"
@@ -566,7 +566,7 @@
   {
     "term": "180°",
     "context": "180°",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2646, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2667",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2686, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2707",
     "comment": "",
     "tags": [
       "settings"
@@ -594,7 +594,7 @@
   {
     "term": "2 seconds",
     "context": "2 seconds",
-    "reference": "Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:512",
+    "reference": "Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:522",
     "comment": "",
     "tags": [
       "settings"
@@ -639,7 +639,7 @@
   {
     "term": "250 ms",
     "context": "250 ms",
-    "reference": "Modules/Settings/PowerSleepTab.qml:512",
+    "reference": "Modules/Settings/PowerSleepTab.qml:522",
     "comment": "",
     "tags": [
       "settings"
@@ -648,7 +648,7 @@
   {
     "term": "270°",
     "context": "270°",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2648, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2669",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2688, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2709",
     "comment": "",
     "tags": [
       "settings"
@@ -657,7 +657,7 @@
   {
     "term": "3 days",
     "context": "3 days",
-    "reference": "Modules/Settings/NotificationsTab.qml:881, Modules/Settings/NotificationsTab.qml:892, Modules/Settings/NotificationsTab.qml:899, Modules/Settings/ClipboardTab.qml:107",
+    "reference": "Modules/Settings/NotificationsTab.qml:890, Modules/Settings/NotificationsTab.qml:901, Modules/Settings/NotificationsTab.qml:908, Modules/Settings/ClipboardTab.qml:107",
     "comment": "notification history retention option",
     "tags": [
       "settings"
@@ -685,7 +685,7 @@
   {
     "term": "3 seconds",
     "context": "3 seconds",
-    "reference": "Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:512, Modules/Settings/NotificationsTab.qml:41, Modules/Notifications/Center/NotificationSettings.qml:47",
+    "reference": "Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:522, Modules/Settings/NotificationsTab.qml:41, Modules/Notifications/Center/NotificationSettings.qml:47",
     "comment": "",
     "tags": [
       "settings",
@@ -695,7 +695,7 @@
   {
     "term": "30 days",
     "context": "30 days",
-    "reference": "Modules/Settings/NotificationsTab.qml:887, Modules/Settings/NotificationsTab.qml:892, Modules/Settings/NotificationsTab.qml:905, Modules/Settings/ClipboardTab.qml:119, Modules/Notifications/Center/HistoryNotificationList.qml:112",
+    "reference": "Modules/Settings/NotificationsTab.qml:896, Modules/Settings/NotificationsTab.qml:901, Modules/Settings/NotificationsTab.qml:914, Modules/Settings/ClipboardTab.qml:119, Modules/Notifications/Center/HistoryNotificationList.qml:112",
     "comment": "notification history filter | notification history retention option",
     "tags": [
       "settings",
@@ -815,7 +815,7 @@
   {
     "term": "5 seconds",
     "context": "5 seconds",
-    "reference": "Modules/Settings/WallpaperTab.qml:982, Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:114, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:140, Modules/Settings/PowerSleepTab.qml:512, Modules/Settings/NotificationsTab.qml:45, Modules/Settings/NotificationsTab.qml:160, Modules/Notifications/Center/NotificationSettings.qml:51, Modules/Notifications/Center/NotificationSettings.qml:90",
+    "reference": "Modules/Settings/WallpaperTab.qml:982, Modules/Settings/PowerSleepTab.qml:103, Modules/Settings/PowerSleepTab.qml:114, Modules/Settings/PowerSleepTab.qml:129, Modules/Settings/PowerSleepTab.qml:140, Modules/Settings/PowerSleepTab.qml:522, Modules/Settings/NotificationsTab.qml:45, Modules/Settings/NotificationsTab.qml:160, Modules/Notifications/Center/NotificationSettings.qml:51, Modules/Notifications/Center/NotificationSettings.qml:90",
     "comment": "wallpaper interval",
     "tags": [
       "settings",
@@ -834,7 +834,7 @@
   {
     "term": "500 ms",
     "context": "500 ms",
-    "reference": "Modules/Settings/PowerSleepTab.qml:512, Modules/Settings/PowerSleepTab.qml:522",
+    "reference": "Modules/Settings/PowerSleepTab.qml:522, Modules/Settings/PowerSleepTab.qml:532",
     "comment": "",
     "tags": [
       "settings"
@@ -861,7 +861,7 @@
   {
     "term": "7 days",
     "context": "7 days",
-    "reference": "Modules/Settings/NotificationsTab.qml:883, Modules/Settings/NotificationsTab.qml:892, Modules/Settings/NotificationsTab.qml:901, Modules/Settings/ClipboardTab.qml:111, Modules/Notifications/Center/HistoryNotificationList.qml:107",
+    "reference": "Modules/Settings/NotificationsTab.qml:892, Modules/Settings/NotificationsTab.qml:901, Modules/Settings/NotificationsTab.qml:910, Modules/Settings/ClipboardTab.qml:111, Modules/Notifications/Center/HistoryNotificationList.qml:107",
     "comment": "notification history filter | notification history retention option",
     "tags": [
       "settings",
@@ -871,7 +871,7 @@
   {
     "term": "750 ms",
     "context": "750 ms",
-    "reference": "Modules/Settings/PowerSleepTab.qml:512",
+    "reference": "Modules/Settings/PowerSleepTab.qml:522",
     "comment": "",
     "tags": [
       "settings"
@@ -909,7 +909,7 @@
   {
     "term": "90°",
     "context": "90°",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2644, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2665",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2684, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2705",
     "comment": "",
     "tags": [
       "settings"
@@ -990,7 +990,7 @@
   {
     "term": "AUR helpers are interactive — see the terminal window for prompts. This popout will return to idle when the upgrade exits.",
     "context": "AUR helpers are interactive — see the terminal window for prompts. This popout will return to idle when the upgrade exits.",
-    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:501",
+    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:617",
     "comment": "",
     "tags": [
       "shell"
@@ -1080,7 +1080,7 @@
   {
     "term": "Action",
     "context": "Action",
-    "reference": "Widgets/KeybindItem.qml:966, Widgets/KeybindItem.qml:1168, Modules/Settings/NotificationsTab.qml:629",
+    "reference": "Widgets/KeybindItem.qml:966, Widgets/KeybindItem.qml:1168, Modules/Settings/NotificationsTab.qml:638",
     "comment": "",
     "tags": [
       "settings",
@@ -1492,7 +1492,7 @@
   {
     "term": "Administrator access is required. Use the Sync button in Settings → Greeter to apply.",
     "context": "Administrator access is required. Use the Sync button in Settings → Greeter to apply.",
-    "reference": "Common/settings/Processes.qml:366",
+    "reference": "Common/settings/Processes.qml:370",
     "comment": "",
     "tags": [
       "shell"
@@ -1810,7 +1810,7 @@
   {
     "term": "Animation Speed",
     "context": "Animation Speed",
-    "reference": "Modules/Settings/TypographyMotionTab.qml:480, Modules/Settings/NotificationsTab.qml:359",
+    "reference": "Modules/Settings/TypographyMotionTab.qml:480, Modules/Settings/NotificationsTab.qml:368",
     "comment": "",
     "tags": [
       "settings"
@@ -1855,7 +1855,7 @@
   {
     "term": "App Customizations",
     "context": "App Customizations",
-    "reference": "Modules/Settings/LauncherTab.qml:1311",
+    "reference": "Modules/Settings/LauncherTab.qml:1336",
     "comment": "",
     "tags": [
       "settings"
@@ -1918,7 +1918,7 @@
   {
     "term": "App Names",
     "context": "App Names",
-    "reference": "Modules/Settings/LockScreenTab.qml:334, Modules/Settings/NotificationsTab.qml:85, Modules/Settings/NotificationsTab.qml:772",
+    "reference": "Modules/Settings/LockScreenTab.qml:334, Modules/Settings/NotificationsTab.qml:85, Modules/Settings/NotificationsTab.qml:781",
     "comment": "lock screen notification mode option | notification rule match field option",
     "tags": [
       "settings"
@@ -1972,7 +1972,7 @@
   {
     "term": "Applications",
     "context": "Applications",
-    "reference": "Modals/DankLauncherV2/Controller.qml:199, Modals/Settings/SettingsSidebar.qml:277, Modules/Settings/ThemeColorsTab.qml:2134, Modules/Dock/DockLauncherButton.qml:25",
+    "reference": "Modals/DankLauncherV2/Controller.qml:199, Modals/Settings/SettingsSidebar.qml:277, Modules/Settings/ThemeColorsTab.qml:2120, Modules/Dock/DockLauncherButton.qml:25",
     "comment": "",
     "tags": [
       "settings",
@@ -2009,7 +2009,7 @@
   {
     "term": "Apply GTK Colors",
     "context": "Apply GTK Colors",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2898",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2884",
     "comment": "",
     "tags": [
       "settings"
@@ -2018,7 +2018,7 @@
   {
     "term": "Apply Qt Colors",
     "context": "Apply Qt Colors",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2932",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2918",
     "comment": "",
     "tags": [
       "settings"
@@ -2063,7 +2063,7 @@
   {
     "term": "Applying authentication changes...",
     "context": "Applying authentication changes...",
-    "reference": "Common/settings/Processes.qml:630",
+    "reference": "Common/settings/Processes.qml:634",
     "comment": "",
     "tags": [
       "shell"
@@ -2072,7 +2072,7 @@
   {
     "term": "Applying auto-login on startup...",
     "context": "Applying auto-login on startup...",
-    "reference": "Common/settings/Processes.qml:574",
+    "reference": "Common/settings/Processes.qml:578",
     "comment": "",
     "tags": [
       "shell"
@@ -2117,7 +2117,7 @@
   {
     "term": "Apps are ordered by usage frequency, then last used, then alphabetically.",
     "context": "Apps are ordered by usage frequency, then last used, then alphabetically.",
-    "reference": "Modules/Settings/LauncherTab.qml:1457",
+    "reference": "Modules/Settings/LauncherTab.qml:1482",
     "comment": "",
     "tags": [
       "settings"
@@ -2126,7 +2126,7 @@
   {
     "term": "Apps with custom display name, icon, or launch options. Right-click an app and select 'Edit App' to customize.",
     "context": "Apps with custom display name, icon, or launch options. Right-click an app and select 'Edit App' to customize.",
-    "reference": "Modules/Settings/LauncherTab.qml:1334",
+    "reference": "Modules/Settings/LauncherTab.qml:1359",
     "comment": "",
     "tags": [
       "settings"
@@ -2135,7 +2135,7 @@
   {
     "term": "Apps with notification popups muted. Unmute or delete to remove.",
     "context": "Apps with notification popups muted. Unmute or delete to remove.",
-    "reference": "Modules/Settings/NotificationsTab.qml:684",
+    "reference": "Modules/Settings/NotificationsTab.qml:693",
     "comment": "",
     "tags": [
       "settings"
@@ -2390,9 +2390,9 @@
     ]
   },
   {
-    "term": "Authentication changes applied.",
-    "context": "Authentication changes applied.",
-    "reference": "Common/settings/Processes.qml:603, Modules/Settings/LockScreenTab.qml:210, Modules/Settings/LockScreenTab.qml:248",
+    "term": "Authentication changes applied",
+    "context": "Authentication changes applied",
+    "reference": "Common/settings/Processes.qml:607, Modules/Settings/LockScreenTab.qml:210, Modules/Settings/LockScreenTab.qml:248",
     "comment": "",
     "tags": [
       "settings",
@@ -2400,8 +2400,8 @@
     ]
   },
   {
-    "term": "Authentication changes apply automatically.",
-    "context": "Authentication changes apply automatically.",
+    "term": "Authentication changes apply automatically",
+    "context": "Authentication changes apply automatically",
     "reference": "Modules/Settings/GreeterTab.qml:28, Modules/Settings/GreeterTab.qml:48, Modules/Settings/LockScreenTab.qml:403",
     "comment": "greeter auth setting description",
     "tags": [
@@ -2411,7 +2411,7 @@
   {
     "term": "Authentication changes need sudo. Opening terminal so you can use password or fingerprint.",
     "context": "Authentication changes need sudo. Opening terminal so you can use password or fingerprint.",
-    "reference": "Common/settings/Processes.qml:316",
+    "reference": "Common/settings/Processes.qml:320",
     "comment": "",
     "tags": [
       "shell"
@@ -2493,7 +2493,7 @@
   {
     "term": "Auto (Bar-aware)",
     "context": "Auto (Bar-aware)",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2005, Modules/Settings/ThemeColorsTab.qml:2009, Modules/Settings/ThemeColorsTab.qml:2022, Modules/Settings/DankBarTab.qml:1682, Modules/Settings/DankBarTab.qml:1686, Modules/Settings/DankBarTab.qml:1694",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2017, Modules/Settings/ThemeColorsTab.qml:2021, Modules/Settings/ThemeColorsTab.qml:2034, Modules/Settings/DankBarTab.qml:1682, Modules/Settings/DankBarTab.qml:1686, Modules/Settings/DankBarTab.qml:1694",
     "comment": "bar shadow direction source option | shadow direction option",
     "tags": [
       "settings"
@@ -2601,7 +2601,7 @@
   {
     "term": "Auto-Hide Timeout",
     "context": "Auto-Hide Timeout",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2338",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2324",
     "comment": "",
     "tags": [
       "settings"
@@ -2610,7 +2610,7 @@
   {
     "term": "Auto-close Niri overview when launching apps.",
     "context": "Auto-close Niri overview when launching apps.",
-    "reference": "Modules/Settings/LauncherTab.qml:759",
+    "reference": "Modules/Settings/LauncherTab.qml:784",
     "comment": "",
     "tags": [
       "settings"
@@ -2619,7 +2619,7 @@
   {
     "term": "Auto-delete notifications older than this",
     "context": "Auto-delete notifications older than this",
-    "reference": "Modules/Settings/NotificationsTab.qml:873",
+    "reference": "Modules/Settings/NotificationsTab.qml:882",
     "comment": "notification history setting",
     "tags": [
       "settings"
@@ -2655,7 +2655,7 @@
   {
     "term": "Auto-login change needs a sync",
     "context": "Auto-login change needs a sync",
-    "reference": "Common/settings/Processes.qml:366",
+    "reference": "Common/settings/Processes.qml:370",
     "comment": "",
     "tags": [
       "shell"
@@ -2664,7 +2664,7 @@
   {
     "term": "Auto-login disabled",
     "context": "Auto-login disabled",
-    "reference": "Common/settings/Processes.qml:377",
+    "reference": "Common/settings/Processes.qml:381",
     "comment": "",
     "tags": [
       "shell"
@@ -2673,7 +2673,7 @@
   {
     "term": "Auto-login enabled",
     "context": "Auto-login enabled",
-    "reference": "Common/settings/Processes.qml:375",
+    "reference": "Common/settings/Processes.qml:379",
     "comment": "",
     "tags": [
       "shell"
@@ -2728,7 +2728,7 @@
   {
     "term": "Autofill last remembered query when opened",
     "context": "Autofill last remembered query when opened",
-    "reference": "Modules/Settings/LauncherTab.qml:1165",
+    "reference": "Modules/Settings/LauncherTab.qml:1190",
     "comment": "",
     "tags": [
       "settings"
@@ -2818,7 +2818,7 @@
   {
     "term": "Automatically lock after",
     "context": "Automatically lock after",
-    "reference": "Modules/Settings/PowerSleepTab.qml:201",
+    "reference": "Modules/Settings/PowerSleepTab.qml:211",
     "comment": "",
     "tags": [
       "settings"
@@ -3026,7 +3026,7 @@
   {
     "term": "Background Blur",
     "context": "Background Blur",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1858, Modules/Settings/ThemeColorsTab.qml:1866",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1870, Modules/Settings/ThemeColorsTab.qml:1878",
     "comment": "",
     "tags": [
       "settings"
@@ -3062,7 +3062,7 @@
   {
     "term": "Background authentication sync failed. Trying terminal mode.",
     "context": "Background authentication sync failed. Trying terminal mode.",
-    "reference": "Common/settings/Processes.qml:614",
+    "reference": "Common/settings/Processes.qml:618",
     "comment": "",
     "tags": [
       "shell"
@@ -3089,7 +3089,7 @@
   {
     "term": "Balance power and performance",
     "context": "Balance power and performance",
-    "reference": "Common/Theme.qml:1655",
+    "reference": "Common/Theme.qml:1659",
     "comment": "power profile description",
     "tags": [
       "shell"
@@ -3098,7 +3098,7 @@
   {
     "term": "Balanced",
     "context": "Balanced",
-    "reference": "Common/Theme.qml:1642",
+    "reference": "Common/Theme.qml:1646",
     "comment": "power profile option",
     "tags": [
       "shell"
@@ -3152,7 +3152,7 @@
   {
     "term": "Bar Shadows",
     "context": "Bar Shadows",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2097",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2109",
     "comment": "",
     "tags": [
       "settings"
@@ -3188,7 +3188,7 @@
   {
     "term": "Base color for shadows (opacity is applied automatically)",
     "context": "Base color for shadows (opacity is applied automatically)",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1959",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1971",
     "comment": "",
     "tags": [
       "settings"
@@ -3197,7 +3197,7 @@
   {
     "term": "Base duration for animations (drag to use Custom)",
     "context": "Base duration for animations (drag to use Custom)",
-    "reference": "Modules/Settings/NotificationsTab.qml:402",
+    "reference": "Modules/Settings/NotificationsTab.qml:411",
     "comment": "",
     "tags": [
       "settings"
@@ -3335,7 +3335,7 @@
   {
     "term": "Bit Depth",
     "context": "Bit Depth",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2100",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2131",
     "comment": "",
     "tags": [
       "settings"
@@ -3463,7 +3463,7 @@
   {
     "term": "Blur the background behind bars, popouts, modals, and notifications. Requires compositor support. Adjust Opacity accordingly.",
     "context": "Blur the background behind bars, popouts, modals, and notifications. Requires compositor support. Adjust Opacity accordingly.",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1867",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1879",
     "comment": "",
     "tags": [
       "settings"
@@ -3589,7 +3589,7 @@
   {
     "term": "Border color around popouts, modals, and other shell surfaces",
     "context": "Border color around popouts, modals, and other shell surfaces",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1766",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1790",
     "comment": "",
     "tags": [
       "settings"
@@ -3616,7 +3616,7 @@
   {
     "term": "Bottom",
     "context": "Bottom",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2005, Modules/Settings/ThemeColorsTab.qml:2015, Modules/Settings/ThemeColorsTab.qml:2028, Modules/Settings/DockTab.qml:116, Modules/Settings/DankBarTab.qml:344, Modules/Settings/DankBarTab.qml:493, Modules/Settings/DankBarTab.qml:1716, Modules/Settings/DankBarTab.qml:1724, Modules/Settings/DankBarTab.qml:1738, Modules/Settings/FrameTab.qml:343",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2017, Modules/Settings/ThemeColorsTab.qml:2027, Modules/Settings/ThemeColorsTab.qml:2040, Modules/Settings/DockTab.qml:116, Modules/Settings/DankBarTab.qml:344, Modules/Settings/DankBarTab.qml:493, Modules/Settings/DankBarTab.qml:1716, Modules/Settings/DankBarTab.qml:1724, Modules/Settings/DankBarTab.qml:1738, Modules/Settings/FrameTab.qml:343",
     "comment": "screen edge position | shadow direction option",
     "tags": [
       "settings"
@@ -4199,7 +4199,7 @@
   {
     "term": "Checking for updates...",
     "context": "Checking for updates...",
-    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:352",
+    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:355",
     "comment": "",
     "tags": [
       "shell"
@@ -4555,7 +4555,7 @@
   {
     "term": "Click 'Setup' to create %1 and add include to your compositor config.",
     "context": "Click 'Setup' to create %1 and add include to your compositor config.",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2223, Modules/Settings/WindowRulesTab.qml:512, Modules/Settings/KeybindsTab.qml:402, Modules/Settings/CompositorLayoutTab.qml:213, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:65",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2209, Modules/Settings/WindowRulesTab.qml:512, Modules/Settings/KeybindsTab.qml:402, Modules/Settings/CompositorLayoutTab.qml:213, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:65",
     "comment": "",
     "tags": [
       "settings"
@@ -4755,7 +4755,7 @@
   {
     "term": "Close Overview on Launch",
     "context": "Close Overview on Launch",
-    "reference": "Modules/Settings/LauncherTab.qml:758",
+    "reference": "Modules/Settings/LauncherTab.qml:783",
     "comment": "",
     "tags": [
       "settings"
@@ -4810,7 +4810,7 @@
   {
     "term": "Color Management",
     "context": "Color Management",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2102",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2133",
     "comment": "",
     "tags": [
       "settings"
@@ -5083,7 +5083,7 @@
   {
     "term": "Config Format",
     "context": "Config Format",
-    "reference": "Modules/Settings/DisplayConfigTab.qml:508, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2064",
+    "reference": "Modules/Settings/DisplayConfigTab.qml:508, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2095",
     "comment": "",
     "tags": [
       "settings"
@@ -5101,7 +5101,7 @@
   {
     "term": "Config validation failed",
     "context": "Config validation failed",
-    "reference": "Modules/Settings/LockScreenTab.qml:195, Modules/Settings/LockScreenTab.qml:200, Modules/Settings/LockScreenTab.qml:235, Modules/Settings/LockScreenTab.qml:240, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2147, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2155",
+    "reference": "Modules/Settings/LockScreenTab.qml:195, Modules/Settings/LockScreenTab.qml:200, Modules/Settings/LockScreenTab.qml:235, Modules/Settings/LockScreenTab.qml:240, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2178, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2186",
     "comment": "",
     "tags": [
       "settings"
@@ -5466,7 +5466,7 @@
   {
     "term": "Control animation duration for notification popups and history",
     "context": "Control animation duration for notification popups and history",
-    "reference": "Modules/Settings/NotificationsTab.qml:367",
+    "reference": "Modules/Settings/NotificationsTab.qml:376",
     "comment": "",
     "tags": [
       "settings"
@@ -5484,7 +5484,7 @@
   {
     "term": "Control what notification information is shown on the lock screen",
     "context": "Control what notification information is shown on the lock screen",
-    "reference": "Modules/Settings/LockScreenTab.qml:333, Modules/Settings/NotificationsTab.qml:771",
+    "reference": "Modules/Settings/LockScreenTab.qml:333, Modules/Settings/NotificationsTab.qml:780",
     "comment": "lock screen notification privacy setting",
     "tags": [
       "settings"
@@ -5493,7 +5493,7 @@
   {
     "term": "Control which plugins appear in 'All' mode without requiring a trigger prefix. Drag to reorder.",
     "context": "Control which plugins appear in 'All' mode without requiring a trigger prefix. Drag to reorder.",
-    "reference": "Modules/Settings/LauncherTab.qml:948",
+    "reference": "Modules/Settings/LauncherTab.qml:973",
     "comment": "",
     "tags": [
       "settings"
@@ -5529,7 +5529,7 @@
   {
     "term": "Controls opacity of shell surfaces, popouts, and modals",
     "context": "Controls opacity of shell surfaces, popouts, and modals",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1751",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1741",
     "comment": "",
     "tags": [
       "settings"
@@ -5538,7 +5538,7 @@
   {
     "term": "Controls outlines around foreground cards, pills, and notification cards",
     "context": "Controls outlines around foreground cards, pills, and notification cards",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1824",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1766",
     "comment": "",
     "tags": [
       "settings"
@@ -5547,7 +5547,7 @@
   {
     "term": "Controls shadow cast direction for elevation layers",
     "context": "Controls shadow cast direction for elevation layers",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2004",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2016",
     "comment": "",
     "tags": [
       "settings"
@@ -5556,7 +5556,7 @@
   {
     "term": "Controls the base blur radius and offset of shadows",
     "context": "Controls the base blur radius and offset of shadows",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1930",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1942",
     "comment": "",
     "tags": [
       "settings"
@@ -5565,15 +5565,15 @@
   {
     "term": "Controls the outline of popouts, modals, and other shell surfaces",
     "context": "Controls the outline of popouts, modals, and other shell surfaces",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1810",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1835",
     "comment": "",
     "tags": [
       "settings"
     ]
   },
   {
-    "term": "Convenience options for the login screen. Sync to apply.",
-    "context": "Convenience options for the login screen. Sync to apply.",
+    "term": "Convenience options for the login screen",
+    "context": "Convenience options for the login screen",
     "reference": "Modules/Settings/GreeterTab.qml:608",
     "comment": "",
     "tags": [
@@ -5728,7 +5728,7 @@
   {
     "term": "Corner Radius",
     "context": "Corner Radius",
-    "reference": "Modals/WindowRuleModal.qml:1226, Modules/Settings/ThemeColorsTab.qml:1837",
+    "reference": "Modals/WindowRuleModal.qml:1226, Modules/Settings/ThemeColorsTab.qml:1849",
     "comment": "",
     "tags": [
       "settings",
@@ -5756,7 +5756,7 @@
   {
     "term": "Count Only",
     "context": "Count Only",
-    "reference": "Modules/Settings/LockScreenTab.qml:334, Modules/Settings/NotificationsTab.qml:772",
+    "reference": "Modules/Settings/LockScreenTab.qml:334, Modules/Settings/NotificationsTab.qml:781",
     "comment": "lock screen notification mode option",
     "tags": [
       "settings"
@@ -5838,7 +5838,7 @@
   {
     "term": "Create rules to mute, ignore, hide from history, or override notification priority. Default only overrides priority; notifications still show normally.",
     "context": "Create rules to mute, ignore, hide from history, or override notification priority. Default only overrides priority; notifications still show normally.",
-    "reference": "Modules/Settings/NotificationsTab.qml:481",
+    "reference": "Modules/Settings/NotificationsTab.qml:490",
     "comment": "",
     "tags": [
       "settings"
@@ -5901,7 +5901,7 @@
   {
     "term": "Critical Priority",
     "context": "Critical Priority",
-    "reference": "Modules/Settings/NotificationsTab.qml:154, Modules/Settings/NotificationsTab.qml:826, Modules/Settings/NotificationsTab.qml:932, Modules/Notifications/Center/NotificationSettings.qml:216, Modules/Notifications/Center/NotificationSettings.qml:436",
+    "reference": "Modules/Settings/NotificationsTab.qml:154, Modules/Settings/NotificationsTab.qml:835, Modules/Settings/NotificationsTab.qml:941, Modules/Notifications/Center/NotificationSettings.qml:216, Modules/Notifications/Center/NotificationSettings.qml:436",
     "comment": "notification rule urgency option",
     "tags": [
       "settings",
@@ -6082,7 +6082,7 @@
   {
     "term": "Cursor Size",
     "context": "Cursor Size",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2267",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2253",
     "comment": "",
     "tags": [
       "settings"
@@ -6091,7 +6091,7 @@
   {
     "term": "Cursor Theme",
     "context": "Cursor Theme",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2162, Modules/Settings/ThemeColorsTab.qml:2251",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2148, Modules/Settings/ThemeColorsTab.qml:2237",
     "comment": "",
     "tags": [
       "settings"
@@ -6118,7 +6118,7 @@
   {
     "term": "Custom",
     "context": "Custom",
-    "reference": "Widgets/KeybindItem.qml:1441, dms-plugins/DankDesktopWeather/DankDesktopWeatherSettings.qml:47, Modules/Settings/ThemeColorsTab.qml:62, Modules/Settings/ThemeColorsTab.qml:406, Modules/Settings/ThemeColorsTab.qml:406, Modules/Settings/ThemeColorsTab.qml:1767, Modules/Settings/ThemeColorsTab.qml:1773, Modules/Settings/ThemeColorsTab.qml:1784, Modules/Settings/ThemeColorsTab.qml:1796, Modules/Settings/ThemeColorsTab.qml:1960, Modules/Settings/ThemeColorsTab.qml:1966, Modules/Settings/ThemeColorsTab.qml:1977, Modules/Settings/ThemeColorsTab.qml:1988, Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/DockTab.qml:295, Modules/Settings/DockTab.qml:402, Modules/Settings/GreeterTab.qml:561, Modules/Settings/WallpaperTab.qml:356, Modules/Settings/LauncherTab.qml:318, Modules/Settings/LauncherTab.qml:427, Modules/Settings/TimeWeatherTab.qml:219, Modules/Settings/TimeWeatherTab.qml:306, Modules/Settings/DankBarTab.qml:1774, Modules/Settings/WorkspaceAppearanceCard.qml:52, Modules/Settings/WorkspaceAppearanceCard.qml:90, Modules/Settings/WorkspaceAppearanceCard.qml:122, Modules/Settings/WorkspaceAppearanceCard.qml:157, Modules/Settings/WorkspaceAppearanceCard.qml:183, Modules/Settings/FrameTab.qml:231, Modules/Settings/NotificationsTab.qml:380, Modules/Settings/CompositorLayoutTab.qml:283, Modules/Settings/CompositorLayoutTab.qml:412, Modules/Settings/CompositorLayoutTab.qml:563, Modules/Settings/SystemUpdaterTab.qml:33, Modules/Settings/Widgets/SettingsColorPicker.qml:52, Modules/Settings/Widgets/DeviceAliasRow.qml:92",
+    "reference": "Widgets/KeybindItem.qml:1441, dms-plugins/DankDesktopWeather/DankDesktopWeatherSettings.qml:47, Modules/Settings/ThemeColorsTab.qml:62, Modules/Settings/ThemeColorsTab.qml:406, Modules/Settings/ThemeColorsTab.qml:406, Modules/Settings/ThemeColorsTab.qml:1792, Modules/Settings/ThemeColorsTab.qml:1798, Modules/Settings/ThemeColorsTab.qml:1809, Modules/Settings/ThemeColorsTab.qml:1821, Modules/Settings/ThemeColorsTab.qml:1972, Modules/Settings/ThemeColorsTab.qml:1978, Modules/Settings/ThemeColorsTab.qml:1989, Modules/Settings/ThemeColorsTab.qml:2000, Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/DockTab.qml:295, Modules/Settings/DockTab.qml:402, Modules/Settings/GreeterTab.qml:561, Modules/Settings/WallpaperTab.qml:356, Modules/Settings/LauncherTab.qml:318, Modules/Settings/LauncherTab.qml:427, Modules/Settings/TimeWeatherTab.qml:219, Modules/Settings/TimeWeatherTab.qml:306, Modules/Settings/DankBarTab.qml:1774, Modules/Settings/WorkspaceAppearanceCard.qml:52, Modules/Settings/WorkspaceAppearanceCard.qml:90, Modules/Settings/WorkspaceAppearanceCard.qml:122, Modules/Settings/WorkspaceAppearanceCard.qml:157, Modules/Settings/WorkspaceAppearanceCard.qml:183, Modules/Settings/FrameTab.qml:231, Modules/Settings/NotificationsTab.qml:389, Modules/Settings/CompositorLayoutTab.qml:283, Modules/Settings/CompositorLayoutTab.qml:412, Modules/Settings/CompositorLayoutTab.qml:563, Modules/Settings/SystemUpdaterTab.qml:33, Modules/Settings/Widgets/SettingsColorPicker.qml:52, Modules/Settings/Widgets/DeviceAliasRow.qml:92",
     "comment": "shadow color option | surface border color | theme category option | widget background color option | workspace color option",
     "tags": [
       "plugin-dankdesktopweather",
@@ -6157,7 +6157,7 @@
   {
     "term": "Custom Hibernate Command",
     "context": "Custom Hibernate Command",
-    "reference": "Modules/Settings/PowerSleepTab.qml:560",
+    "reference": "Modules/Settings/PowerSleepTab.qml:570",
     "comment": "",
     "tags": [
       "settings"
@@ -6175,7 +6175,7 @@
   {
     "term": "Custom Lock Command",
     "context": "Custom Lock Command",
-    "reference": "Modules/Settings/PowerSleepTab.qml:545",
+    "reference": "Modules/Settings/PowerSleepTab.qml:555",
     "comment": "",
     "tags": [
       "settings"
@@ -6184,7 +6184,7 @@
   {
     "term": "Custom Logout Command",
     "context": "Custom Logout Command",
-    "reference": "Modules/Settings/PowerSleepTab.qml:550",
+    "reference": "Modules/Settings/PowerSleepTab.qml:560",
     "comment": "",
     "tags": [
       "settings"
@@ -6202,7 +6202,7 @@
   {
     "term": "Custom Power Actions",
     "context": "Custom Power Actions",
-    "reference": "Modules/Settings/PowerSleepTab.qml:537",
+    "reference": "Modules/Settings/PowerSleepTab.qml:547",
     "comment": "",
     "tags": [
       "settings"
@@ -6211,7 +6211,7 @@
   {
     "term": "Custom Power Off Command",
     "context": "Custom Power Off Command",
-    "reference": "Modules/Settings/PowerSleepTab.qml:570",
+    "reference": "Modules/Settings/PowerSleepTab.qml:580",
     "comment": "",
     "tags": [
       "settings"
@@ -6220,7 +6220,7 @@
   {
     "term": "Custom Reboot Command",
     "context": "Custom Reboot Command",
-    "reference": "Modules/Settings/PowerSleepTab.qml:565",
+    "reference": "Modules/Settings/PowerSleepTab.qml:575",
     "comment": "",
     "tags": [
       "settings"
@@ -6229,7 +6229,7 @@
   {
     "term": "Custom Shadow Color",
     "context": "Custom Shadow Color",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2048",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2060",
     "comment": "",
     "tags": [
       "settings"
@@ -6247,7 +6247,7 @@
   {
     "term": "Custom Suspend Command",
     "context": "Custom Suspend Command",
-    "reference": "Modules/Settings/PowerSleepTab.qml:555",
+    "reference": "Modules/Settings/PowerSleepTab.qml:565",
     "comment": "",
     "tags": [
       "settings"
@@ -6283,7 +6283,7 @@
   {
     "term": "Custom power profile",
     "context": "Custom power profile",
-    "reference": "Common/Theme.qml:1659",
+    "reference": "Common/Theme.qml:1663",
     "comment": "power profile description",
     "tags": [
       "shell"
@@ -6337,7 +6337,7 @@
   {
     "term": "Customize which actions appear in the power menu",
     "context": "Customize which actions appear in the power menu",
-    "reference": "Modules/Settings/PowerSleepTab.qml:382",
+    "reference": "Modules/Settings/PowerSleepTab.qml:392",
     "comment": "",
     "tags": [
       "settings"
@@ -6416,8 +6416,8 @@
     ]
   },
   {
-    "term": "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it",
-    "context": "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it",
+    "term": "DMS removes its managed block from /etc/pam.d/greetd and stops write services",
+    "context": "DMS removes its managed block from /etc/pam.d/greetd and stops write services",
     "reference": "Modules/Settings/GreeterTab.qml:489",
     "comment": "greeter system PAM toggle description",
     "tags": [
@@ -6562,7 +6562,7 @@
   {
     "term": "DankShell & System Icons (requires restart)",
     "context": "DankShell & System Icons (requires restart)",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2396, Modules/Settings/ThemeColorsTab.qml:2414, Modules/Settings/ThemeColorsTab.qml:2432",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2382, Modules/Settings/ThemeColorsTab.qml:2400, Modules/Settings/ThemeColorsTab.qml:2418",
     "comment": "",
     "tags": [
       "settings"
@@ -6581,7 +6581,7 @@
   {
     "term": "Dark Mode Icon Theme",
     "context": "Dark Mode Icon Theme",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2413",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2399",
     "comment": "",
     "tags": [
       "settings"
@@ -6590,7 +6590,7 @@
   {
     "term": "Dark mode base",
     "context": "Dark mode base",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2674",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2660",
     "comment": "",
     "tags": [
       "settings"
@@ -6599,7 +6599,7 @@
   {
     "term": "Dark mode harmony",
     "context": "Dark mode harmony",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2708",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2694",
     "comment": "",
     "tags": [
       "settings"
@@ -6608,7 +6608,7 @@
   {
     "term": "Darken Modal Background",
     "context": "Darken Modal Background",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2115, Modules/Settings/ThemeColorsTab.qml:2123",
+    "reference": "Modules/Settings/LauncherTab.qml:759, Modules/Settings/LauncherTab.qml:766",
     "comment": "",
     "tags": [
       "settings"
@@ -6717,7 +6717,7 @@
   {
     "term": "Default (Black)",
     "context": "Default (Black)",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1960, Modules/Settings/ThemeColorsTab.qml:1962, Modules/Settings/ThemeColorsTab.qml:1979, Modules/Settings/DankBarTab.qml:1774",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1972, Modules/Settings/ThemeColorsTab.qml:1974, Modules/Settings/ThemeColorsTab.qml:1991, Modules/Settings/DankBarTab.qml:1774",
     "comment": "shadow color option",
     "tags": [
       "settings"
@@ -6771,7 +6771,7 @@
   {
     "term": "Default Opens",
     "context": "Default Opens",
-    "reference": "Modules/Settings/LauncherTab.qml:92, Modules/Settings/LauncherTab.qml:777",
+    "reference": "Modules/Settings/LauncherTab.qml:92, Modules/Settings/LauncherTab.qml:802",
     "comment": "",
     "tags": [
       "settings"
@@ -6807,7 +6807,7 @@
   {
     "term": "Default selected action",
     "context": "Default selected action",
-    "reference": "Modules/Settings/PowerSleepTab.qml:402",
+    "reference": "Modules/Settings/PowerSleepTab.qml:412",
     "comment": "",
     "tags": [
       "settings"
@@ -7237,7 +7237,7 @@
   {
     "term": "Disabled",
     "context": "Disabled",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1496, Modules/Settings/AutoStartTab.qml:721, Modules/Settings/LockScreenTab.qml:334, Modules/Settings/DankBarTab.qml:413, Modules/Settings/NotificationsTab.qml:772, Modules/Settings/NetworkWifiTab.qml:179, Modules/Settings/DisplayConfig/OutputCard.qml:128, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2078, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2084, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2086, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2098, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2112, Modules/ControlCenter/Components/DragDropGrid.qml:509",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1496, Modules/Settings/AutoStartTab.qml:721, Modules/Settings/LockScreenTab.qml:334, Modules/Settings/DankBarTab.qml:413, Modules/Settings/NotificationsTab.qml:781, Modules/Settings/NetworkWifiTab.qml:179, Modules/Settings/DisplayConfig/OutputCard.qml:128, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2109, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2115, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2117, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2129, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2143, Modules/ControlCenter/Components/DragDropGrid.qml:509",
     "comment": "bluetooth status | lock screen notification mode option",
     "tags": [
       "settings",
@@ -7247,7 +7247,7 @@
   {
     "term": "Disabled by Frame Mode",
     "context": "Disabled by Frame Mode",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2116",
+    "reference": "Modules/Settings/LauncherTab.qml:760",
     "comment": "",
     "tags": [
       "settings"
@@ -7265,7 +7265,7 @@
   {
     "term": "Disabling auto-login on startup...",
     "context": "Disabling auto-login on startup...",
-    "reference": "Common/settings/Processes.qml:574",
+    "reference": "Common/settings/Processes.qml:578",
     "comment": "",
     "tags": [
       "shell"
@@ -7551,7 +7551,7 @@
   {
     "term": "Display power menu actions in a grid instead of a list",
     "context": "Display power menu actions in a grid instead of a list",
-    "reference": "Modules/Settings/PowerSleepTab.qml:393",
+    "reference": "Modules/Settings/PowerSleepTab.qml:403",
     "comment": "",
     "tags": [
       "settings"
@@ -7560,7 +7560,7 @@
   {
     "term": "Display setup failed",
     "context": "Display setup failed",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:1507",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:1538",
     "comment": "",
     "tags": [
       "settings"
@@ -7624,7 +7624,7 @@
   {
     "term": "Do Not Disturb",
     "context": "Do Not Disturb",
-    "reference": "Modules/Settings/WidgetsTabSection.qml:2368, Modules/Settings/WidgetsTabSection.qml:2514, Modules/Settings/NotificationsTab.qml:429, Modules/ControlCenter/Models/WidgetModel.qml:145, Modules/ControlCenter/Widgets/DndPill.qml:10, Modules/Notifications/Center/NotificationHeader.qml:90, Modules/Notifications/Center/NotificationSettings.qml:152, Modules/Notifications/Center/DndDurationMenu.qml:140",
+    "reference": "Modules/Settings/WidgetsTabSection.qml:2368, Modules/Settings/WidgetsTabSection.qml:2514, Modules/Settings/NotificationsTab.qml:438, Modules/ControlCenter/Models/WidgetModel.qml:145, Modules/ControlCenter/Widgets/DndPill.qml:10, Modules/Notifications/Center/NotificationHeader.qml:90, Modules/Notifications/Center/NotificationSettings.qml:152, Modules/Notifications/Center/DndDurationMenu.qml:140",
     "comment": "",
     "tags": [
       "settings",
@@ -7853,7 +7853,7 @@
   {
     "term": "Duration",
     "context": "Duration",
-    "reference": "Modules/Settings/NotificationsTab.qml:401",
+    "reference": "Modules/Settings/NotificationsTab.qml:410",
     "comment": "",
     "tags": [
       "settings"
@@ -7934,7 +7934,7 @@
   {
     "term": "Dynamic colors parse error: %1",
     "context": "Dynamic colors parse error: %1",
-    "reference": "Common/Theme.qml:2240",
+    "reference": "Common/Theme.qml:2244",
     "comment": "",
     "tags": [
       "shell"
@@ -8134,7 +8134,7 @@
   {
     "term": "Enable Do Not Disturb",
     "context": "Enable Do Not Disturb",
-    "reference": "Modules/Settings/NotificationsTab.qml:435",
+    "reference": "Modules/Settings/NotificationsTab.qml:444",
     "comment": "",
     "tags": [
       "settings"
@@ -8152,7 +8152,7 @@
   {
     "term": "Enable History",
     "context": "Enable History",
-    "reference": "Modules/Settings/NotificationsTab.qml:849",
+    "reference": "Modules/Settings/NotificationsTab.qml:858",
     "comment": "notification history toggle label",
     "tags": [
       "settings"
@@ -8161,7 +8161,7 @@
   {
     "term": "Enable Overview Overlay",
     "context": "Enable Overview Overlay",
-    "reference": "Modules/Settings/LauncherTab.qml:767",
+    "reference": "Modules/Settings/LauncherTab.qml:792",
     "comment": "",
     "tags": [
       "settings"
@@ -8249,8 +8249,8 @@
     ]
   },
   {
-    "term": "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.",
-    "context": "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.",
+    "term": "Enable fingerprint or security key for DMS Greeter",
+    "context": "Enable fingerprint or security key for DMS Greeter",
     "reference": "Modules/Settings/GreeterTab.qml:477",
     "comment": "",
     "tags": [
@@ -8287,7 +8287,7 @@
   {
     "term": "Enabled",
     "context": "Enabled",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1496, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2078, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2086, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2112, Modules/ControlCenter/Components/DragDropGrid.qml:510",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1496, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2109, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2117, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2143, Modules/ControlCenter/Components/DragDropGrid.qml:510",
     "comment": "bluetooth status",
     "tags": [
       "settings",
@@ -8723,7 +8723,7 @@
   {
     "term": "Extend battery life",
     "context": "Extend battery life",
-    "reference": "Common/Theme.qml:1653",
+    "reference": "Common/Theme.qml:1657",
     "comment": "power profile description",
     "tags": [
       "shell"
@@ -8849,7 +8849,7 @@
   {
     "term": "Failed to apply %1 colors",
     "context": "Failed to apply %1 colors",
-    "reference": "Common/Theme.qml:1972, Common/Theme.qml:1993",
+    "reference": "Common/Theme.qml:1976, Common/Theme.qml:1997",
     "comment": "",
     "tags": [
       "shell"
@@ -8867,7 +8867,7 @@
   {
     "term": "Failed to apply profile",
     "context": "Failed to apply profile",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:541",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:560",
     "comment": "",
     "tags": [
       "settings"
@@ -8984,7 +8984,7 @@
   {
     "term": "Failed to disable night mode",
     "context": "Failed to disable night mode",
-    "reference": "Services/DisplayService.qml:496",
+    "reference": "Services/DisplayService.qml:1058",
     "comment": "",
     "tags": [
       "shell"
@@ -9038,7 +9038,7 @@
   {
     "term": "Failed to enable IP location",
     "context": "Failed to enable IP location",
-    "reference": "Services/DisplayService.qml:636",
+    "reference": "Services/DisplayService.qml:1198",
     "comment": "",
     "tags": [
       "shell"
@@ -9065,7 +9065,7 @@
   {
     "term": "Failed to enable night mode",
     "context": "Failed to enable night mode",
-    "reference": "Services/DisplayService.qml:468",
+    "reference": "Services/DisplayService.qml:1030",
     "comment": "",
     "tags": [
       "shell"
@@ -9155,7 +9155,7 @@
   {
     "term": "Failed to parse %1",
     "context": "Failed to parse %1",
-    "reference": "Common/SessionData.qml:294, Common/SessionData.qml:374, Common/SettingsData.qml:1796, Common/SettingsData.qml:1894, Common/SettingsData.qml:3656",
+    "reference": "Common/SessionData.qml:294, Common/SessionData.qml:374, Common/SettingsData.qml:1802, Common/SettingsData.qml:1900, Common/SettingsData.qml:3683",
     "comment": "",
     "tags": [
       "shell"
@@ -9191,7 +9191,7 @@
   {
     "term": "Failed to read theme file: %1",
     "context": "Failed to read theme file: %1",
-    "reference": "Common/Theme.qml:2195",
+    "reference": "Common/Theme.qml:2199",
     "comment": "",
     "tags": [
       "shell"
@@ -9335,7 +9335,7 @@
   {
     "term": "Failed to save profile",
     "context": "Failed to save profile",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:623",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:644",
     "comment": "",
     "tags": [
       "settings"
@@ -9380,7 +9380,7 @@
   {
     "term": "Failed to set brightness",
     "context": "Failed to set brightness",
-    "reference": "Services/DisplayService.qml:325",
+    "reference": "Services/DisplayService.qml:887",
     "comment": "",
     "tags": [
       "shell"
@@ -9389,7 +9389,7 @@
   {
     "term": "Failed to set night mode location",
     "context": "Failed to set night mode location",
-    "reference": "Services/DisplayService.qml:656",
+    "reference": "Services/DisplayService.qml:1218",
     "comment": "",
     "tags": [
       "shell"
@@ -9398,7 +9398,7 @@
   {
     "term": "Failed to set night mode schedule",
     "context": "Failed to set night mode schedule",
-    "reference": "Services/DisplayService.qml:598",
+    "reference": "Services/DisplayService.qml:1160",
     "comment": "",
     "tags": [
       "shell"
@@ -9407,7 +9407,7 @@
   {
     "term": "Failed to set night mode temperature",
     "context": "Failed to set night mode temperature",
-    "reference": "Services/DisplayService.qml:537, Services/DisplayService.qml:588, Services/DisplayService.qml:626",
+    "reference": "Services/DisplayService.qml:1099, Services/DisplayService.qml:1150, Services/DisplayService.qml:1188",
     "comment": "",
     "tags": [
       "shell"
@@ -9542,7 +9542,7 @@
   {
     "term": "Failed to write outputs config.",
     "context": "Failed to write outputs config.",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:1507",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:1538",
     "comment": "",
     "tags": [
       "settings"
@@ -9551,7 +9551,7 @@
   {
     "term": "Failed to write temp file for validation",
     "context": "Failed to write temp file for validation",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2146",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2177",
     "comment": "",
     "tags": [
       "settings"
@@ -9560,7 +9560,7 @@
   {
     "term": "Failed: %1",
     "context": "Failed: %1",
-    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:347",
+    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:350",
     "comment": "",
     "tags": [
       "shell"
@@ -9615,7 +9615,7 @@
   {
     "term": "Field",
     "context": "Field",
-    "reference": "Modules/Settings/NotificationsTab.qml:588",
+    "reference": "Modules/Settings/NotificationsTab.qml:597",
     "comment": "",
     "tags": [
       "settings"
@@ -9706,7 +9706,7 @@
   {
     "term": "Files",
     "context": "Files",
-    "reference": "Modals/DankLauncherV2/Controller.qml:227, Modals/DankLauncherV2/Controller.qml:1167, Modals/DankLauncherV2/Controller.qml:1188, Modals/DankLauncherV2/SpotlightLauncherContent.qml:468, Modals/DankLauncherV2/LauncherContent.qml:344, Modals/DankLauncherV2/LauncherContent.qml:628, Modules/Settings/LauncherTab.qml:915",
+    "reference": "Modals/DankLauncherV2/Controller.qml:227, Modals/DankLauncherV2/Controller.qml:1167, Modals/DankLauncherV2/Controller.qml:1188, Modals/DankLauncherV2/SpotlightLauncherContent.qml:468, Modals/DankLauncherV2/LauncherContent.qml:344, Modals/DankLauncherV2/LauncherContent.qml:628, Modules/Settings/LauncherTab.qml:940",
     "comment": "",
     "tags": [
       "settings",
@@ -9786,8 +9786,8 @@
     ]
   },
   {
-    "term": "Fingerprint availability could not be confirmed.",
-    "context": "Fingerprint availability could not be confirmed.",
+    "term": "Fingerprint availability could not be confirmed",
+    "context": "Fingerprint availability could not be confirmed",
     "reference": "Modules/Settings/GreeterTab.qml:36, Modules/Settings/LockScreenTab.qml:107",
     "comment": "fingerprint setting status",
     "tags": [
@@ -9851,7 +9851,7 @@
   {
     "term": "First Time Setup",
     "context": "First Time Setup",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2208, Modules/Settings/WindowRulesTab.qml:503, Modules/Settings/KeybindsTab.qml:385, Modules/Settings/CompositorLayoutTab.qml:198, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:50",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2194, Modules/Settings/WindowRulesTab.qml:503, Modules/Settings/KeybindsTab.qml:385, Modules/Settings/CompositorLayoutTab.qml:198, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:50",
     "comment": "",
     "tags": [
       "settings"
@@ -9887,7 +9887,7 @@
   {
     "term": "Flipped",
     "context": "Flipped",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2650, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2671",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2690, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2711",
     "comment": "",
     "tags": [
       "settings"
@@ -9896,7 +9896,7 @@
   {
     "term": "Flipped 180°",
     "context": "Flipped 180°",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2654, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2675",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2694, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2715",
     "comment": "",
     "tags": [
       "settings"
@@ -9905,7 +9905,7 @@
   {
     "term": "Flipped 270°",
     "context": "Flipped 270°",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2656, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2677",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2696, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2717",
     "comment": "",
     "tags": [
       "settings"
@@ -9914,7 +9914,7 @@
   {
     "term": "Flipped 90°",
     "context": "Flipped 90°",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2652, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2673",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2692, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2713",
     "comment": "",
     "tags": [
       "settings"
@@ -10025,7 +10025,7 @@
   {
     "term": "Focus at Startup",
     "context": "Focus at Startup",
-    "reference": "Modules/Settings/DisplayConfig/NiriOutputSettings.qml:77, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2088",
+    "reference": "Modules/Settings/DisplayConfig/NiriOutputSettings.qml:77, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2119",
     "comment": "",
     "tags": [
       "settings"
@@ -10071,7 +10071,7 @@
   {
     "term": "Focused Monitor Only",
     "context": "Focused Monitor Only",
-    "reference": "Modules/Settings/DisplayWidgetsTab.qml:421, Modules/Settings/NotificationsTab.qml:341",
+    "reference": "Modules/Settings/DisplayWidgetsTab.qml:421, Modules/Settings/NotificationsTab.qml:350",
     "comment": "",
     "tags": [
       "settings"
@@ -10107,7 +10107,7 @@
   {
     "term": "Folders",
     "context": "Folders",
-    "reference": "Modals/DankLauncherV2/Controller.qml:1178, Modals/DankLauncherV2/Controller.qml:1188, Modals/DankLauncherV2/LauncherContent.qml:633, Modules/Settings/LauncherTab.qml:926",
+    "reference": "Modals/DankLauncherV2/Controller.qml:1178, Modals/DankLauncherV2/Controller.qml:1188, Modals/DankLauncherV2/LauncherContent.qml:633, Modules/Settings/LauncherTab.qml:951",
     "comment": "",
     "tags": [
       "settings",
@@ -10117,7 +10117,7 @@
   {
     "term": "Follow DMS background color",
     "context": "Follow DMS background color",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2742",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2728",
     "comment": "",
     "tags": [
       "settings"
@@ -10270,7 +10270,7 @@
   {
     "term": "Force HDR",
     "context": "Force HDR",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2108",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2139",
     "comment": "",
     "tags": [
       "settings"
@@ -10306,7 +10306,7 @@
   {
     "term": "Force Wide Color",
     "context": "Force Wide Color",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2110",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2141",
     "comment": "",
     "tags": [
       "settings"
@@ -10315,7 +10315,7 @@
   {
     "term": "Force terminal applications to always use dark color schemes",
     "context": "Force terminal applications to always use dark color schemes",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2153",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2139",
     "comment": "",
     "tags": [
       "settings"
@@ -10360,7 +10360,7 @@
   {
     "term": "Foreground Layers",
     "context": "Foreground Layers",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1740",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1755, Modules/Settings/NotificationsTab.qml:305",
     "comment": "",
     "tags": [
       "settings"
@@ -10369,7 +10369,7 @@
   {
     "term": "Forever",
     "context": "Forever",
-    "reference": "Modules/Settings/NotificationsTab.qml:877, Modules/Settings/NotificationsTab.qml:892, Modules/Settings/NotificationsTab.qml:895",
+    "reference": "Modules/Settings/NotificationsTab.qml:886, Modules/Settings/NotificationsTab.qml:901, Modules/Settings/NotificationsTab.qml:904",
     "comment": "notification history retention option",
     "tags": [
       "settings"
@@ -10425,6 +10425,15 @@
     "term": "Format Legend",
     "context": "Format Legend",
     "reference": "Modules/Settings/TimeWeatherTab.qml:362",
+    "comment": "",
+    "tags": [
+      "settings"
+    ]
+  },
+  {
+    "term": "Format the date on the login screen",
+    "context": "Format the date on the login screen",
+    "reference": "Modules/Settings/GreeterTab.qml:556",
     "comment": "",
     "tags": [
       "settings"
@@ -10523,7 +10532,7 @@
   {
     "term": "Full",
     "context": "Full",
-    "reference": "Modules/Settings/LauncherTab.qml:93, Modules/Settings/LauncherTab.qml:778",
+    "reference": "Modules/Settings/LauncherTab.qml:93, Modules/Settings/LauncherTab.qml:803",
     "comment": "",
     "tags": [
       "settings"
@@ -10541,7 +10550,7 @@
   {
     "term": "Full Content",
     "context": "Full Content",
-    "reference": "Modules/Settings/LockScreenTab.qml:334, Modules/Settings/NotificationsTab.qml:772",
+    "reference": "Modules/Settings/LockScreenTab.qml:334, Modules/Settings/NotificationsTab.qml:781",
     "comment": "lock screen notification mode option",
     "tags": [
       "settings"
@@ -10668,7 +10677,7 @@
   {
     "term": "GTK colors applied successfully",
     "context": "GTK colors applied successfully",
-    "reference": "Common/Theme.qml:1968",
+    "reference": "Common/Theme.qml:1972",
     "comment": "",
     "tags": [
       "shell"
@@ -10749,7 +10758,7 @@
   {
     "term": "Generate baseline GTK3/4 or QT5/QT6 (requires qt6ct-kde) configurations to follow DMS colors. Only needed once.<br /><br />It is recommended to configure <a href=\"https://github.com/AvengeMedia/DankMaterialShell/blob/master/README.md#Theming\" style=\"text-decoration:none; color:%1;\">adw-gtk3</a> prior to applying GTK themes.",
     "context": "Generate baseline GTK3/4 or QT5/QT6 (requires qt6ct-kde) configurations to follow DMS colors. Only needed once.<br /><br />It is recommended to configure <a href=\"https://github.com/AvengeMedia/DankMaterialShell/blob/master/README.md#Theming\" style=\"text-decoration:none; color:%1;\">adw-gtk3</a> prior to applying GTK themes.",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2950",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2936",
     "comment": "",
     "tags": [
       "settings"
@@ -10957,15 +10966,6 @@
     "term": "Greeter group:",
     "context": "Greeter group:",
     "reference": "Modules/Settings/UsersTab.qml:122",
-    "comment": "",
-    "tags": [
-      "settings"
-    ]
-  },
-  {
-    "term": "Greeter only — format for the date on the login screen",
-    "context": "Greeter only — format for the date on the login screen",
-    "reference": "Modules/Settings/GreeterTab.qml:556",
     "comment": "",
     "tags": [
       "settings"
@@ -11255,7 +11255,7 @@
   {
     "term": "Hibernate",
     "context": "Hibernate",
-    "reference": "Modals/PowerMenuModal.qml:223, Modules/Lock/LockPowerMenu.qml:130, Modules/Settings/PowerSleepTab.qml:344, Modules/Settings/PowerSleepTab.qml:403",
+    "reference": "Modals/PowerMenuModal.qml:223, Modules/Lock/LockPowerMenu.qml:130, Modules/Settings/PowerSleepTab.qml:354, Modules/Settings/PowerSleepTab.qml:413",
     "comment": "",
     "tags": [
       "settings",
@@ -11292,7 +11292,7 @@
   {
     "term": "Hidden Apps",
     "context": "Hidden Apps",
-    "reference": "Modules/Settings/LauncherTab.qml:1193",
+    "reference": "Modules/Settings/LauncherTab.qml:1218",
     "comment": "",
     "tags": [
       "settings"
@@ -11301,7 +11301,7 @@
   {
     "term": "Hidden apps won't appear in the launcher. Right-click an app and select 'Hide App' to hide it.",
     "context": "Hidden apps won't appear in the launcher. Right-click an app and select 'Hide App' to hide it.",
-    "reference": "Modules/Settings/LauncherTab.qml:1223",
+    "reference": "Modules/Settings/LauncherTab.qml:1248",
     "comment": "",
     "tags": [
       "settings"
@@ -11364,7 +11364,7 @@
   {
     "term": "Hide When Typing",
     "context": "Hide When Typing",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2292",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2278",
     "comment": "",
     "tags": [
       "settings"
@@ -11382,7 +11382,7 @@
   {
     "term": "Hide cursor after inactivity (0 = disabled)",
     "context": "Hide cursor after inactivity (0 = disabled)",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2339",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2325",
     "comment": "",
     "tags": [
       "settings"
@@ -11391,7 +11391,7 @@
   {
     "term": "Hide cursor when pressing keyboard keys",
     "context": "Hide cursor when pressing keyboard keys",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2293",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2279",
     "comment": "",
     "tags": [
       "settings"
@@ -11400,7 +11400,7 @@
   {
     "term": "Hide cursor when using touch input",
     "context": "Hide cursor when using touch input",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2322",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2308",
     "comment": "",
     "tags": [
       "settings"
@@ -11436,7 +11436,7 @@
   {
     "term": "Hide notification content until expanded; popups show collapsed by default",
     "context": "Hide notification content until expanded; popups show collapsed by default",
-    "reference": "Modules/Settings/NotificationsTab.qml:333",
+    "reference": "Modules/Settings/NotificationsTab.qml:342",
     "comment": "",
     "tags": [
       "settings"
@@ -11445,7 +11445,7 @@
   {
     "term": "Hide on Touch",
     "context": "Hide on Touch",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2321",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2307",
     "comment": "",
     "tags": [
       "settings"
@@ -11526,7 +11526,7 @@
   {
     "term": "History Retention",
     "context": "History Retention",
-    "reference": "Modules/Settings/NotificationsTab.qml:872",
+    "reference": "Modules/Settings/NotificationsTab.qml:881",
     "comment": "notification history retention settings label",
     "tags": [
       "settings"
@@ -11535,7 +11535,7 @@
   {
     "term": "History Settings",
     "context": "History Settings",
-    "reference": "Modules/Settings/NotificationsTab.qml:843, Modules/Settings/ClipboardTab.qml:304, Modules/Notifications/Center/NotificationSettings.qml:344",
+    "reference": "Modules/Settings/NotificationsTab.qml:852, Modules/Settings/ClipboardTab.qml:304, Modules/Notifications/Center/NotificationSettings.qml:344",
     "comment": "",
     "tags": [
       "settings",
@@ -11554,7 +11554,7 @@
   {
     "term": "Hold Duration",
     "context": "Hold Duration",
-    "reference": "Modules/Settings/PowerSleepTab.qml:515",
+    "reference": "Modules/Settings/PowerSleepTab.qml:525",
     "comment": "",
     "tags": [
       "settings"
@@ -11572,7 +11572,7 @@
   {
     "term": "Hold to Confirm Power Actions",
     "context": "Hold to Confirm Power Actions",
-    "reference": "Modules/Settings/PowerSleepTab.qml:502",
+    "reference": "Modules/Settings/PowerSleepTab.qml:512",
     "comment": "",
     "tags": [
       "settings"
@@ -11635,7 +11635,7 @@
   {
     "term": "Hot Corners",
     "context": "Hot Corners",
-    "reference": "Modules/Settings/DisplayConfig/NiriOutputSettings.qml:85, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2090",
+    "reference": "Modules/Settings/DisplayConfig/NiriOutputSettings.qml:85, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2121",
     "comment": "",
     "tags": [
       "settings"
@@ -11763,7 +11763,7 @@
   {
     "term": "Hyprland conf mode",
     "context": "Hyprland conf mode",
-    "reference": "Services/KeybindsService.qml:550, Modules/Settings/ThemeColorsTab.qml:146, Modules/Settings/ThemeColorsTab.qml:2206, Modules/Settings/WindowRulesTab.qml:346, Modules/Settings/WindowRulesTab.qml:503, Modules/Settings/KeybindsTab.qml:383, Modules/Settings/CompositorLayoutTab.qml:97, Modules/Settings/CompositorLayoutTab.qml:196, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:48, Modules/Settings/DisplayConfig/DisplayConfigState.qml:1521",
+    "reference": "Services/KeybindsService.qml:550, Modules/Settings/ThemeColorsTab.qml:146, Modules/Settings/ThemeColorsTab.qml:2192, Modules/Settings/WindowRulesTab.qml:346, Modules/Settings/WindowRulesTab.qml:503, Modules/Settings/KeybindsTab.qml:383, Modules/Settings/CompositorLayoutTab.qml:97, Modules/Settings/CompositorLayoutTab.qml:196, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:48, Modules/Settings/DisplayConfig/DisplayConfigState.qml:1552",
     "comment": "",
     "tags": [
       "settings",
@@ -11773,7 +11773,7 @@
   {
     "term": "Hyprland conf mode is read-only in Settings",
     "context": "Hyprland conf mode is read-only in Settings",
-    "reference": "Modules/Settings/KeybindsTab.qml:299, Modules/Settings/DisplayConfig/DisplayConfigState.qml:526",
+    "reference": "Modules/Settings/KeybindsTab.qml:299, Modules/Settings/DisplayConfig/DisplayConfigState.qml:545",
     "comment": "",
     "tags": [
       "settings"
@@ -11873,7 +11873,7 @@
   {
     "term": "Icon Theme",
     "context": "Icon Theme",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2377, Modules/Settings/ThemeColorsTab.qml:2395",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2363, Modules/Settings/ThemeColorsTab.qml:2381",
     "comment": "",
     "tags": [
       "settings"
@@ -11882,7 +11882,7 @@
   {
     "term": "Icon theme changed outside DMS; switched to System Default",
     "context": "Icon theme changed outside DMS; switched to System Default",
-    "reference": "Common/SettingsData.qml:1533",
+    "reference": "Common/SettingsData.qml:1539",
     "comment": "shown when an external tool overrides the icon theme DMS applied",
     "tags": [
       "shell"
@@ -11891,7 +11891,7 @@
   {
     "term": "Identical alerts show as one popup instead of stacking",
     "context": "Identical alerts show as one popup instead of stacking",
-    "reference": "Modules/Settings/NotificationsTab.qml:315",
+    "reference": "Modules/Settings/NotificationsTab.qml:324",
     "comment": "",
     "tags": [
       "settings"
@@ -11900,7 +11900,7 @@
   {
     "term": "Identical alerts stack as separate notification cards",
     "context": "Identical alerts stack as separate notification cards",
-    "reference": "Modules/Settings/NotificationsTab.qml:315",
+    "reference": "Modules/Settings/NotificationsTab.qml:324",
     "comment": "",
     "tags": [
       "settings"
@@ -11990,7 +11990,7 @@
   {
     "term": "Ignore this package",
     "context": "Ignore this package",
-    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:471",
+    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:477",
     "comment": "",
     "tags": [
       "shell"
@@ -11999,10 +11999,11 @@
   {
     "term": "Ignored (%1)",
     "context": "Ignored (%1)",
-    "reference": "Modules/Settings/SystemUpdaterTab.qml:262",
+    "reference": "Modules/Settings/SystemUpdaterTab.qml:262, Modules/DankBar/Popouts/SystemUpdatePopout.qml:519",
     "comment": "",
     "tags": [
-      "settings"
+      "settings",
+      "shell"
     ]
   },
   {
@@ -12100,7 +12101,7 @@
   {
     "term": "Include Files in All Tab",
     "context": "Include Files in All Tab",
-    "reference": "Modules/Settings/LauncherTab.qml:1173",
+    "reference": "Modules/Settings/LauncherTab.qml:1198",
     "comment": "",
     "tags": [
       "settings"
@@ -12118,7 +12119,7 @@
   {
     "term": "Include Folders in All Tab",
     "context": "Include Folders in All Tab",
-    "reference": "Modules/Settings/LauncherTab.qml:1182",
+    "reference": "Modules/Settings/LauncherTab.qml:1207",
     "comment": "",
     "tags": [
       "settings"
@@ -12136,7 +12137,7 @@
   {
     "term": "Include desktop actions (shortcuts) in search results.",
     "context": "Include desktop actions (shortcuts) in search results.",
-    "reference": "Modules/Settings/LauncherTab.qml:1147",
+    "reference": "Modules/Settings/LauncherTab.qml:1172",
     "comment": "",
     "tags": [
       "settings"
@@ -12434,8 +12435,8 @@
     ]
   },
   {
-    "term": "Installation and PAM setup: see the ",
-    "context": "Installation and PAM setup: see the ",
+    "term": "Installation and PAM setup are documented in the ",
+    "context": "Installation and PAM setup are documented in the ",
     "reference": "Modules/Settings/GreeterTab.qml:661",
     "comment": "",
     "tags": [
@@ -12545,7 +12546,7 @@
   {
     "term": "Invalid JSON format: %1",
     "context": "Invalid JSON format: %1",
-    "reference": "Common/Theme.qml:2181",
+    "reference": "Common/Theme.qml:2185",
     "comment": "",
     "tags": [
       "shell"
@@ -12554,7 +12555,7 @@
   {
     "term": "Invalid configuration",
     "context": "Invalid configuration",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2154",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2185",
     "comment": "",
     "tags": [
       "settings"
@@ -12599,7 +12600,7 @@
   {
     "term": "Invert touchpad scroll direction",
     "context": "Invert touchpad scroll direction",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2282",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2268",
     "comment": "",
     "tags": [
       "settings"
@@ -12898,7 +12899,7 @@
   {
     "term": "Last launched %1",
     "context": "Last launched %1",
-    "reference": "Modules/Settings/LauncherTab.qml:1550",
+    "reference": "Modules/Settings/LauncherTab.qml:1575",
     "comment": "",
     "tags": [
       "settings"
@@ -12907,7 +12908,7 @@
   {
     "term": "Last launched %1 day ago",
     "context": "Last launched %1 day ago",
-    "reference": "Modules/Settings/LauncherTab.qml:1549",
+    "reference": "Modules/Settings/LauncherTab.qml:1574",
     "comment": "",
     "tags": [
       "settings"
@@ -12916,7 +12917,7 @@
   {
     "term": "Last launched %1 days ago",
     "context": "Last launched %1 days ago",
-    "reference": "Modules/Settings/LauncherTab.qml:1549",
+    "reference": "Modules/Settings/LauncherTab.qml:1574",
     "comment": "",
     "tags": [
       "settings"
@@ -12925,7 +12926,7 @@
   {
     "term": "Last launched %1 hour ago",
     "context": "Last launched %1 hour ago",
-    "reference": "Modules/Settings/LauncherTab.qml:1547",
+    "reference": "Modules/Settings/LauncherTab.qml:1572",
     "comment": "",
     "tags": [
       "settings"
@@ -12934,7 +12935,7 @@
   {
     "term": "Last launched %1 hours ago",
     "context": "Last launched %1 hours ago",
-    "reference": "Modules/Settings/LauncherTab.qml:1547",
+    "reference": "Modules/Settings/LauncherTab.qml:1572",
     "comment": "",
     "tags": [
       "settings"
@@ -12943,7 +12944,7 @@
   {
     "term": "Last launched %1 minute ago",
     "context": "Last launched %1 minute ago",
-    "reference": "Modules/Settings/LauncherTab.qml:1545",
+    "reference": "Modules/Settings/LauncherTab.qml:1570",
     "comment": "",
     "tags": [
       "settings"
@@ -12952,7 +12953,7 @@
   {
     "term": "Last launched %1 minutes ago",
     "context": "Last launched %1 minutes ago",
-    "reference": "Modules/Settings/LauncherTab.qml:1545",
+    "reference": "Modules/Settings/LauncherTab.qml:1570",
     "comment": "",
     "tags": [
       "settings"
@@ -12961,7 +12962,7 @@
   {
     "term": "Last launched just now",
     "context": "Last launched just now",
-    "reference": "Modules/Settings/LauncherTab.qml:1543",
+    "reference": "Modules/Settings/LauncherTab.qml:1568",
     "comment": "",
     "tags": [
       "settings"
@@ -13042,7 +13043,7 @@
   {
     "term": "Layer Outline Opacity",
     "context": "Layer Outline Opacity",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1823",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1765",
     "comment": "",
     "tags": [
       "settings"
@@ -13051,7 +13052,7 @@
   {
     "term": "Layout",
     "context": "Layout",
-    "reference": "Modules/Settings/LockScreenTab.qml:269, Modules/Settings/WidgetsTab.qml:55, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2092, Modules/Settings/DesktopWidgetSettings/SystemMonitorSettings.qml:350, Modules/DankBar/Popouts/DWLLayoutPopout.qml:169",
+    "reference": "Modules/Settings/LockScreenTab.qml:269, Modules/Settings/WidgetsTab.qml:55, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2123, Modules/Settings/DesktopWidgetSettings/SystemMonitorSettings.qml:350, Modules/DankBar/Popouts/DWLLayoutPopout.qml:169",
     "comment": "",
     "tags": [
       "settings",
@@ -13107,7 +13108,7 @@
   {
     "term": "Light Direction",
     "context": "Light Direction",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2003",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2015",
     "comment": "",
     "tags": [
       "settings"
@@ -13125,7 +13126,7 @@
   {
     "term": "Light Mode Icon Theme",
     "context": "Light Mode Icon Theme",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2431",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2417",
     "comment": "",
     "tags": [
       "settings"
@@ -13161,7 +13162,7 @@
   {
     "term": "Light mode base",
     "context": "Light mode base",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2691",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2677",
     "comment": "",
     "tags": [
       "settings"
@@ -13170,7 +13171,7 @@
   {
     "term": "Light mode harmony",
     "context": "Light mode harmony",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2725",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2711",
     "comment": "",
     "tags": [
       "settings"
@@ -13343,7 +13344,7 @@
   {
     "term": "Lock",
     "context": "Lock",
-    "reference": "Modals/PowerMenuModal.qml:211, Modules/Settings/PowerSleepTab.qml:403",
+    "reference": "Modals/PowerMenuModal.qml:211, Modules/Settings/PowerSleepTab.qml:413",
     "comment": "",
     "tags": [
       "settings",
@@ -13353,7 +13354,7 @@
   {
     "term": "Lock Screen",
     "context": "Lock Screen",
-    "reference": "Modals/Greeter/GreeterWelcomePage.qml:156, Modals/Settings/SettingsSidebar.qml:377, Modules/Settings/NotificationsTab.qml:764",
+    "reference": "Modals/Greeter/GreeterWelcomePage.qml:156, Modals/Settings/SettingsSidebar.qml:377, Modules/Settings/NotificationsTab.qml:773",
     "comment": "greeter feature card title | lock screen notifications settings card",
     "tags": [
       "settings",
@@ -13417,7 +13418,7 @@
   {
     "term": "Log Out",
     "context": "Log Out",
-    "reference": "Modals/PowerMenuModal.qml:199, Modals/SwitchUserModal.qml:253, Modules/Lock/LockPowerMenu.qml:112, Modules/Settings/PowerSleepTab.qml:403, Modules/Settings/PowerSleepTab.qml:409",
+    "reference": "Modals/PowerMenuModal.qml:199, Modals/SwitchUserModal.qml:253, Modules/Lock/LockPowerMenu.qml:112, Modules/Settings/PowerSleepTab.qml:413, Modules/Settings/PowerSleepTab.qml:419",
     "comment": "",
     "tags": [
       "settings",
@@ -13445,7 +13446,7 @@
   {
     "term": "Long",
     "context": "Long",
-    "reference": "Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/NotificationsTab.qml:380",
+    "reference": "Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/NotificationsTab.qml:389",
     "comment": "",
     "tags": [
       "settings"
@@ -13517,11 +13518,20 @@
   {
     "term": "Low Priority",
     "context": "Low Priority",
-    "reference": "Modules/Settings/NotificationsTab.qml:146, Modules/Settings/NotificationsTab.qml:794, Modules/Settings/NotificationsTab.qml:914, Modules/Notifications/Center/NotificationSettings.qml:184, Modules/Notifications/Center/NotificationSettings.qml:368",
+    "reference": "Modules/Settings/NotificationsTab.qml:146, Modules/Settings/NotificationsTab.qml:803, Modules/Settings/NotificationsTab.qml:923, Modules/Notifications/Center/NotificationSettings.qml:184, Modules/Notifications/Center/NotificationSettings.qml:368",
     "comment": "notification rule urgency option",
     "tags": [
       "settings",
       "shell"
+    ]
+  },
+  {
+    "term": "Lower display refresh rate on battery",
+    "context": "Lower display refresh rate on battery",
+    "reference": "Modules/Settings/PowerSleepTab.qml:193",
+    "comment": "setting title under power & sleep tab",
+    "tags": [
+      "settings"
     ]
   },
   {
@@ -13609,15 +13619,15 @@
   {
     "term": "Managed by Frame in Connected Mode",
     "context": "Managed by Frame in Connected Mode",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1851, Modules/Settings/DockTab.qml:646, Modules/Settings/DankBarTab.qml:1605",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1863, Modules/Settings/DockTab.qml:646, Modules/Settings/DankBarTab.qml:1605",
     "comment": "",
     "tags": [
       "settings"
     ]
   },
   {
-    "term": "Managed by the primary PAM source.",
-    "context": "Managed by the primary PAM source.",
+    "term": "Managed by the primary PAM source",
+    "context": "Managed by the primary PAM source",
     "reference": "Modules/Settings/GreeterTab.qml:22, Modules/Settings/GreeterTab.qml:42, Modules/Settings/LockScreenTab.qml:487, Modules/Settings/LockScreenTab.qml:498",
     "comment": "factor managed by PAM source status",
     "tags": [
@@ -13861,7 +13871,7 @@
   {
     "term": "Material inspired shadows and elevation on modals, popouts, and dialogs",
     "context": "Material inspired shadows and elevation on modals, popouts, and dialogs",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1920",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1932",
     "comment": "",
     "tags": [
       "settings"
@@ -13915,7 +13925,7 @@
   {
     "term": "Matugen Templates",
     "context": "Matugen Templates",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2449",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2435",
     "comment": "",
     "tags": [
       "settings"
@@ -14071,7 +14081,7 @@
   {
     "term": "Maximum History",
     "context": "Maximum History",
-    "reference": "Modules/Settings/NotificationsTab.qml:858, Modules/Settings/ClipboardTab.qml:313",
+    "reference": "Modules/Settings/NotificationsTab.qml:867, Modules/Settings/ClipboardTab.qml:313",
     "comment": "",
     "tags": [
       "settings"
@@ -14116,7 +14126,7 @@
   {
     "term": "Maximum number of notifications to keep",
     "context": "Maximum number of notifications to keep",
-    "reference": "Modules/Settings/NotificationsTab.qml:859",
+    "reference": "Modules/Settings/NotificationsTab.qml:868",
     "comment": "notification history limit",
     "tags": [
       "settings"
@@ -14226,7 +14236,7 @@
   {
     "term": "Medium",
     "context": "Medium",
-    "reference": "Modules/Settings/TypographyMotionTab.qml:254, Modules/Settings/TypographyMotionTab.qml:266, Modules/Settings/TypographyMotionTab.qml:294, Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/WidgetsTabSection.qml:1999, Modules/Settings/WidgetsTabSection.qml:3553, Modules/Settings/NotificationsTab.qml:380",
+    "reference": "Modules/Settings/TypographyMotionTab.qml:254, Modules/Settings/TypographyMotionTab.qml:266, Modules/Settings/TypographyMotionTab.qml:294, Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/WidgetsTabSection.qml:1999, Modules/Settings/WidgetsTabSection.qml:3553, Modules/Settings/NotificationsTab.qml:389",
     "comment": "font weight",
     "tags": [
       "settings"
@@ -14272,7 +14282,7 @@
   {
     "term": "Merge indexed file results into the All tab (requires dsearch).",
     "context": "Merge indexed file results into the All tab (requires dsearch).",
-    "reference": "Modules/Settings/LauncherTab.qml:1174",
+    "reference": "Modules/Settings/LauncherTab.qml:1199",
     "comment": "",
     "tags": [
       "settings"
@@ -14281,7 +14291,7 @@
   {
     "term": "Merge indexed folder results into the All tab (requires dsearch).",
     "context": "Merge indexed folder results into the All tab (requires dsearch).",
-    "reference": "Modules/Settings/LauncherTab.qml:1183",
+    "reference": "Modules/Settings/LauncherTab.qml:1208",
     "comment": "",
     "tags": [
       "settings"
@@ -14418,7 +14428,7 @@
   {
     "term": "Modal Background",
     "context": "Modal Background",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2108",
+    "reference": "Modules/Settings/LauncherTab.qml:752",
     "comment": "",
     "tags": [
       "settings"
@@ -14427,7 +14437,7 @@
   {
     "term": "Modal Shadows",
     "context": "Modal Shadows",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2075",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2087",
     "comment": "",
     "tags": [
       "settings"
@@ -14445,7 +14455,7 @@
   {
     "term": "Mode",
     "context": "Mode",
-    "reference": "Modules/Settings/WallpaperTab.qml:926, Modules/Settings/DankBarTab.qml:1330, Modules/Settings/FrameTab.qml:50, Modules/Settings/NetworkWifiTab.qml:763, Modules/Settings/NetworkWifiTab.qml:1124, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2072",
+    "reference": "Modules/Settings/WallpaperTab.qml:926, Modules/Settings/DankBarTab.qml:1330, Modules/Settings/FrameTab.qml:50, Modules/Settings/NetworkWifiTab.qml:763, Modules/Settings/NetworkWifiTab.qml:1124, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2103",
     "comment": "",
     "tags": [
       "settings"
@@ -14454,7 +14464,7 @@
   {
     "term": "Model",
     "context": "Model",
-    "reference": "Modules/Settings/DisplayWidgetsTab.qml:225, Modules/Settings/PrinterTab.qml:1172, Modules/Settings/DisplayConfigTab.qml:517, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2063",
+    "reference": "Modules/Settings/DisplayWidgetsTab.qml:225, Modules/Settings/PrinterTab.qml:1172, Modules/Settings/DisplayConfigTab.qml:517, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2094",
     "comment": "",
     "tags": [
       "settings"
@@ -14463,7 +14473,7 @@
   {
     "term": "Modified",
     "context": "Modified",
-    "reference": "Modals/DankLauncherV2/LauncherContent.qml:701, Modals/DankLauncherV2/LauncherContent.qml:708, Modals/DankLauncherV2/LauncherContent.qml:714, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2090, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2092",
+    "reference": "Modals/DankLauncherV2/LauncherContent.qml:701, Modals/DankLauncherV2/LauncherContent.qml:708, Modals/DankLauncherV2/LauncherContent.qml:714, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2121, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2123",
     "comment": "",
     "tags": [
       "settings",
@@ -14601,7 +14611,7 @@
   {
     "term": "Mouse pointer appearance",
     "context": "Mouse pointer appearance",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2252",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2238",
     "comment": "",
     "tags": [
       "settings"
@@ -14610,7 +14620,7 @@
   {
     "term": "Mouse pointer size in pixels",
     "context": "Mouse pointer size in pixels",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2268",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2254",
     "comment": "",
     "tags": [
       "settings"
@@ -14736,7 +14746,7 @@
   {
     "term": "Muted Apps",
     "context": "Muted Apps",
-    "reference": "Modules/Settings/NotificationsTab.qml:675",
+    "reference": "Modules/Settings/NotificationsTab.qml:684",
     "comment": "",
     "tags": [
       "settings"
@@ -14772,7 +14782,7 @@
   {
     "term": "Name",
     "context": "Name",
-    "reference": "Modals/DankLauncherV2/AppEditView.qml:142, Modals/DankLauncherV2/LauncherContent.qml:699, Modals/DankLauncherV2/LauncherContent.qml:708, Modals/DankLauncherV2/LauncherContent.qml:713, Modules/ProcessList/ProcessesView.qml:249, Modules/Settings/PluginBrowser.qml:56, Modules/Settings/DisplayWidgetsTab.qml:225, Modules/Settings/AutoStartTab.qml:540, Modules/Settings/DesktopWidgetInstanceCard.qml:203, Modules/Settings/PrinterTab.qml:767, Modules/Settings/DisplayConfigTab.qml:517, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2063, Modules/Settings/Widgets/SystemMonitorVariantCard.qml:144",
+    "reference": "Modals/DankLauncherV2/AppEditView.qml:142, Modals/DankLauncherV2/LauncherContent.qml:699, Modals/DankLauncherV2/LauncherContent.qml:708, Modals/DankLauncherV2/LauncherContent.qml:713, Modules/ProcessList/ProcessesView.qml:249, Modules/Settings/PluginBrowser.qml:56, Modules/Settings/DisplayWidgetsTab.qml:225, Modules/Settings/AutoStartTab.qml:540, Modules/Settings/DesktopWidgetInstanceCard.qml:203, Modules/Settings/PrinterTab.qml:767, Modules/Settings/DisplayConfigTab.qml:517, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2094, Modules/Settings/Widgets/SystemMonitorVariantCard.qml:144",
     "comment": "plugin browser sort option",
     "tags": [
       "settings",
@@ -14809,7 +14819,7 @@
   {
     "term": "Natural Touchpad Scrolling",
     "context": "Natural Touchpad Scrolling",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2281",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2267",
     "comment": "",
     "tags": [
       "settings"
@@ -14937,7 +14947,7 @@
   {
     "term": "Never used",
     "context": "Never used",
-    "reference": "Modules/Settings/LauncherTab.qml:1535",
+    "reference": "Modules/Settings/LauncherTab.qml:1560",
     "comment": "",
     "tags": [
       "settings"
@@ -15093,7 +15103,7 @@
   {
     "term": "Night mode failed: DMS gamma control not available",
     "context": "Night mode failed: DMS gamma control not available",
-    "reference": "Services/DisplayService.qml:456",
+    "reference": "Services/DisplayService.qml:1018",
     "comment": "",
     "tags": [
       "shell"
@@ -15102,7 +15112,7 @@
   {
     "term": "Niri Integration",
     "context": "Niri Integration",
-    "reference": "Modules/Settings/LauncherTab.qml:752",
+    "reference": "Modules/Settings/LauncherTab.qml:777",
     "comment": "",
     "tags": [
       "settings"
@@ -15120,7 +15130,7 @@
   {
     "term": "No",
     "context": "No",
-    "reference": "Modules/Settings/PrinterTab.qml:1182, Modules/Settings/WindowRulesTab.qml:77, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2084, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2088, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2098, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2108, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2110",
+    "reference": "Modules/Settings/PrinterTab.qml:1182, Modules/Settings/WindowRulesTab.qml:77, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2115, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2119, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2129, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2139, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2141",
     "comment": "",
     "tags": [
       "settings"
@@ -15363,7 +15373,7 @@
   {
     "term": "No app customizations.",
     "context": "No app customizations.",
-    "reference": "Modules/Settings/LauncherTab.qml:1408",
+    "reference": "Modules/Settings/LauncherTab.qml:1433",
     "comment": "",
     "tags": [
       "settings"
@@ -15390,7 +15400,7 @@
   {
     "term": "No apps have been launched yet.",
     "context": "No apps have been launched yet.",
-    "reference": "Modules/Settings/LauncherTab.qml:1578",
+    "reference": "Modules/Settings/LauncherTab.qml:1603",
     "comment": "",
     "tags": [
       "settings"
@@ -15399,7 +15409,7 @@
   {
     "term": "No apps muted. Right-click a notification and choose \"Mute popups\" to add one here.",
     "context": "No apps muted. Right-click a notification and choose \"Mute popups\" to add one here.",
-    "reference": "Modules/Settings/NotificationsTab.qml:684",
+    "reference": "Modules/Settings/NotificationsTab.qml:693",
     "comment": "",
     "tags": [
       "settings"
@@ -15570,8 +15580,8 @@
     ]
   },
   {
-    "term": "No fingerprint reader detected.",
-    "context": "No fingerprint reader detected.",
+    "term": "No fingerprint reader detected",
+    "context": "No fingerprint reader detected",
     "reference": "Modules/Settings/GreeterTab.qml:32, Modules/Settings/LockScreenTab.qml:103",
     "comment": "fingerprint setting status",
     "tags": [
@@ -15590,7 +15600,7 @@
   {
     "term": "No hidden apps.",
     "context": "No hidden apps.",
-    "reference": "Modules/Settings/LauncherTab.qml:1298",
+    "reference": "Modules/Settings/LauncherTab.qml:1323",
     "comment": "",
     "tags": [
       "settings"
@@ -15671,7 +15681,7 @@
   {
     "term": "No launcher plugins installed.",
     "context": "No launcher plugins installed.",
-    "reference": "Modules/Settings/LauncherTab.qml:1128",
+    "reference": "Modules/Settings/LauncherTab.qml:1153",
     "comment": "",
     "tags": [
       "settings"
@@ -15918,16 +15928,7 @@
   {
     "term": "No supported package manager found.",
     "context": "No supported package manager found.",
-    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:350",
-    "comment": "",
-    "tags": [
-      "shell"
-    ]
-  },
-  {
-    "term": "No terminal configured",
-    "context": "No terminal configured",
-    "reference": "Services/SystemUpdateService.qml:205",
+    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:353",
     "comment": "",
     "tags": [
       "shell"
@@ -15954,7 +15955,7 @@
   {
     "term": "No trigger",
     "context": "No trigger",
-    "reference": "Modals/DankLauncherV2/Controller.qml:1425, Modules/Settings/LauncherTab.qml:1041",
+    "reference": "Modals/DankLauncherV2/Controller.qml:1425, Modules/Settings/LauncherTab.qml:1066",
     "comment": "",
     "tags": [
       "settings",
@@ -16082,7 +16083,7 @@
   {
     "term": "None",
     "context": "None",
-    "reference": "Modals/WindowRuleModal.qml:1169, Services/CupsService.qml:786, Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/WallpaperTab.qml:1147, Modules/Settings/DesktopWidgetInstanceCard.qml:258, Modules/Settings/DesktopWidgetInstanceCard.qml:274, Modules/Settings/DankBarTab.qml:1331, Modules/Settings/DankBarTab.qml:1856, Modules/Settings/DankBarTab.qml:1856, Modules/Settings/DankBarTab.qml:1897, Modules/Settings/WorkspaceAppearanceCard.qml:49, Modules/Settings/WorkspaceAppearanceCard.qml:57, Modules/Settings/NotificationsTab.qml:380, Modules/Settings/WindowRulesTab.qml:1063, Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:94, Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:107, Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:111, Modules/ControlCenter/BuiltinPlugins/TailscaleWidget.qml:187",
+    "reference": "Modals/WindowRuleModal.qml:1169, Services/CupsService.qml:786, Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/WallpaperTab.qml:1147, Modules/Settings/DesktopWidgetInstanceCard.qml:258, Modules/Settings/DesktopWidgetInstanceCard.qml:274, Modules/Settings/DankBarTab.qml:1331, Modules/Settings/DankBarTab.qml:1856, Modules/Settings/DankBarTab.qml:1856, Modules/Settings/DankBarTab.qml:1897, Modules/Settings/WorkspaceAppearanceCard.qml:49, Modules/Settings/WorkspaceAppearanceCard.qml:57, Modules/Settings/NotificationsTab.qml:389, Modules/Settings/WindowRulesTab.qml:1063, Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:94, Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:107, Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:111, Modules/ControlCenter/BuiltinPlugins/TailscaleWidget.qml:187",
     "comment": "Tailscale exit node: none selected | wallpaper transition option | workspace color option",
     "tags": [
       "settings",
@@ -16111,7 +16112,7 @@
   {
     "term": "Normal",
     "context": "display rotation option",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2642, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2658, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2663",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:311, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2682, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2698, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2703",
     "comment": "",
     "tags": [
       "settings"
@@ -16129,7 +16130,7 @@
   {
     "term": "Normal Priority",
     "context": "Normal Priority",
-    "reference": "Modules/Settings/NotificationsTab.qml:150, Modules/Settings/NotificationsTab.qml:810, Modules/Settings/NotificationsTab.qml:923, Modules/Notifications/Center/NotificationSettings.qml:200, Modules/Notifications/Center/NotificationSettings.qml:402",
+    "reference": "Modules/Settings/NotificationsTab.qml:150, Modules/Settings/NotificationsTab.qml:819, Modules/Settings/NotificationsTab.qml:932, Modules/Notifications/Center/NotificationSettings.qml:200, Modules/Notifications/Center/NotificationSettings.qml:402",
     "comment": "notification rule urgency option",
     "tags": [
       "settings",
@@ -16146,6 +16147,24 @@
     ]
   },
   {
+    "term": "Not available - install fprintd and pam_fprintd",
+    "context": "Not available - install fprintd and pam_fprintd",
+    "reference": "Modules/Settings/LockScreenTab.qml:105",
+    "comment": "lock screen fingerprint setting",
+    "tags": [
+      "settings"
+    ]
+  },
+  {
+    "term": "Not available - install or configure pam_u2f",
+    "context": "Not available - install or configure pam_u2f",
+    "reference": "Modules/Settings/LockScreenTab.qml:118",
+    "comment": "lock screen security key setting",
+    "tags": [
+      "settings"
+    ]
+  },
+  {
     "term": "Not available — install fprintd and pam_fprintd, or configure greetd PAM.",
     "context": "Not available — install fprintd and pam_fprintd, or configure greetd PAM.",
     "reference": "Modules/Settings/GreeterTab.qml:34",
@@ -16155,28 +16174,10 @@
     ]
   },
   {
-    "term": "Not available — install fprintd and pam_fprintd.",
-    "context": "Not available — install fprintd and pam_fprintd.",
-    "reference": "Modules/Settings/LockScreenTab.qml:105",
-    "comment": "lock screen fingerprint setting",
-    "tags": [
-      "settings"
-    ]
-  },
-  {
     "term": "Not available — install or configure pam_u2f, or configure greetd PAM.",
     "context": "Not available — install or configure pam_u2f, or configure greetd PAM.",
     "reference": "Modules/Settings/GreeterTab.qml:52",
     "comment": "greeter security key login setting",
-    "tags": [
-      "settings"
-    ]
-  },
-  {
-    "term": "Not available — install or configure pam_u2f.",
-    "context": "Not available — install or configure pam_u2f.",
-    "reference": "Modules/Settings/LockScreenTab.qml:118",
-    "comment": "lock screen security key setting",
     "tags": [
       "settings"
     ]
@@ -16312,7 +16313,7 @@
   {
     "term": "Notification Display",
     "context": "Notification Display",
-    "reference": "Modules/Settings/LockScreenTab.qml:332, Modules/Settings/NotificationsTab.qml:770",
+    "reference": "Modules/Settings/LockScreenTab.qml:332, Modules/Settings/NotificationsTab.qml:779",
     "comment": "lock screen notification privacy setting",
     "tags": [
       "settings"
@@ -16587,7 +16588,7 @@
   {
     "term": "Only visible if hibernate is supported by your system",
     "context": "Only visible if hibernate is supported by your system",
-    "reference": "Modules/Settings/PowerSleepTab.qml:466",
+    "reference": "Modules/Settings/PowerSleepTab.qml:476",
     "comment": "",
     "tags": [
       "settings"
@@ -16825,7 +16826,7 @@
   {
     "term": "Opens a picker of other active sessions on this seat",
     "context": "Opens a picker of other active sessions on this seat",
-    "reference": "Modules/Settings/PowerSleepTab.qml:461",
+    "reference": "Modules/Settings/PowerSleepTab.qml:471",
     "comment": "",
     "tags": [
       "settings"
@@ -16916,8 +16917,17 @@
   {
     "term": "Outline",
     "context": "Outline",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1767, Modules/Settings/ThemeColorsTab.qml:1769, Modules/Settings/ThemeColorsTab.qml:1786, Modules/Settings/LauncherTab.qml:736",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1792, Modules/Settings/ThemeColorsTab.qml:1794, Modules/Settings/ThemeColorsTab.qml:1811, Modules/Settings/LauncherTab.qml:736",
     "comment": "outline color | surface border color",
+    "tags": [
+      "settings"
+    ]
+  },
+  {
+    "term": "Outline around shell surfaces",
+    "context": "Outline around shell surfaces",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1780",
+    "comment": "",
     "tags": [
       "settings"
     ]
@@ -17392,7 +17402,7 @@
   {
     "term": "Pattern",
     "context": "Pattern",
-    "reference": "Modules/Settings/RunningAppsTab.qml:87, Modules/Settings/NotificationsTab.qml:565, Modules/Settings/NotificationsTab.qml:574",
+    "reference": "Modules/Settings/RunningAppsTab.qml:87, Modules/Settings/NotificationsTab.qml:574, Modules/Settings/NotificationsTab.qml:583",
     "comment": "",
     "tags": [
       "settings"
@@ -17484,7 +17494,7 @@
   {
     "term": "Performance",
     "context": "Performance",
-    "reference": "Modals/ProcessListModal.qml:317, Common/Theme.qml:1644",
+    "reference": "Modals/ProcessListModal.qml:317, Common/Theme.qml:1648",
     "comment": "power profile option",
     "tags": [
       "shell"
@@ -17551,15 +17561,6 @@
     "comment": "",
     "tags": [
       "settings"
-    ]
-  },
-  {
-    "term": "Pick a terminal in Settings → Launcher (or set $TERMINAL).",
-    "context": "Pick a terminal in Settings → Launcher (or set $TERMINAL).",
-    "reference": "Services/SystemUpdateService.qml:205",
-    "comment": "",
-    "tags": [
-      "shell"
     ]
   },
   {
@@ -17831,7 +17832,7 @@
   {
     "term": "Plugin Visibility",
     "context": "Plugin Visibility",
-    "reference": "Modules/Settings/LauncherTab.qml:876",
+    "reference": "Modules/Settings/LauncherTab.qml:901",
     "comment": "",
     "tags": [
       "settings"
@@ -17940,7 +17941,7 @@
   {
     "term": "Popout Shadows",
     "context": "Popout Shadows",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2086",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2098",
     "comment": "",
     "tags": [
       "settings"
@@ -17985,7 +17986,7 @@
   {
     "term": "Popup Shadow",
     "context": "Popup Shadow",
-    "reference": "Modules/Settings/NotificationsTab.qml:323",
+    "reference": "Modules/Settings/NotificationsTab.qml:332",
     "comment": "",
     "tags": [
       "settings"
@@ -18030,7 +18031,7 @@
   {
     "term": "Position",
     "context": "Position",
-    "reference": "Modules/Settings/DockTab.qml:106, Modules/Settings/DankBarTab.qml:482, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2070",
+    "reference": "Modules/Settings/DockTab.qml:106, Modules/Settings/DankBarTab.qml:482, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2101",
     "comment": "",
     "tags": [
       "settings"
@@ -18085,7 +18086,7 @@
   {
     "term": "Power Action Confirmation",
     "context": "Power Action Confirmation",
-    "reference": "Modules/Settings/PowerSleepTab.qml:496",
+    "reference": "Modules/Settings/PowerSleepTab.qml:506",
     "comment": "",
     "tags": [
       "settings"
@@ -18094,7 +18095,7 @@
   {
     "term": "Power Menu Customization",
     "context": "Power Menu Customization",
-    "reference": "Modules/Settings/PowerSleepTab.qml:378",
+    "reference": "Modules/Settings/PowerSleepTab.qml:388",
     "comment": "",
     "tags": [
       "settings"
@@ -18112,7 +18113,7 @@
   {
     "term": "Power Off",
     "context": "Power Off",
-    "reference": "Modals/PowerMenuModal.qml:205, Modules/Lock/LockPowerMenu.qml:118, Modules/Settings/PowerSleepTab.qml:403",
+    "reference": "Modals/PowerMenuModal.qml:205, Modules/Lock/LockPowerMenu.qml:118, Modules/Settings/PowerSleepTab.qml:413",
     "comment": "",
     "tags": [
       "settings",
@@ -18158,7 +18159,7 @@
   {
     "term": "Power Saver",
     "context": "Power Saver",
-    "reference": "Common/Theme.qml:1640",
+    "reference": "Common/Theme.qml:1644",
     "comment": "power profile option",
     "tags": [
       "shell"
@@ -18359,7 +18360,7 @@
   {
     "term": "Primary",
     "context": "Primary",
-    "reference": "dms-plugins/DankDesktopWeather/DankDesktopWeatherSettings.qml:39, Modules/Settings/ThemeColorsTab.qml:1667, Modules/Settings/ThemeColorsTab.qml:1669, Modules/Settings/ThemeColorsTab.qml:1683, Modules/Settings/ThemeColorsTab.qml:1705, Modules/Settings/ThemeColorsTab.qml:1707, Modules/Settings/ThemeColorsTab.qml:1721, Modules/Settings/ThemeColorsTab.qml:1767, Modules/Settings/ThemeColorsTab.qml:1770, Modules/Settings/ThemeColorsTab.qml:1778, Modules/Settings/ThemeColorsTab.qml:1790, Modules/Settings/ThemeColorsTab.qml:1960, Modules/Settings/ThemeColorsTab.qml:1964, Modules/Settings/ThemeColorsTab.qml:1973, Modules/Settings/ThemeColorsTab.qml:1984, Modules/Settings/DockTab.qml:402, Modules/Settings/DockTab.qml:686, Modules/Settings/WallpaperTab.qml:348, Modules/Settings/LauncherTab.qml:427, Modules/Settings/LauncherTab.qml:736, Modules/Settings/DankBarTab.qml:1331, Modules/Settings/DankBarTab.qml:1774, Modules/Settings/WorkspaceAppearanceCard.qml:19, Modules/Settings/WorkspaceAppearanceCard.qml:60, Modules/Settings/WorkspaceAppearanceCard.qml:101, Modules/Settings/WorkspaceAppearanceCard.qml:130, Modules/Settings/WorkspaceAppearanceCard.qml:165, Modules/Settings/FrameTab.qml:231, Modules/Settings/Widgets/SettingsColorPicker.qml:42",
+    "reference": "dms-plugins/DankDesktopWeather/DankDesktopWeatherSettings.qml:39, Modules/Settings/ThemeColorsTab.qml:1667, Modules/Settings/ThemeColorsTab.qml:1669, Modules/Settings/ThemeColorsTab.qml:1683, Modules/Settings/ThemeColorsTab.qml:1705, Modules/Settings/ThemeColorsTab.qml:1707, Modules/Settings/ThemeColorsTab.qml:1721, Modules/Settings/ThemeColorsTab.qml:1792, Modules/Settings/ThemeColorsTab.qml:1795, Modules/Settings/ThemeColorsTab.qml:1803, Modules/Settings/ThemeColorsTab.qml:1815, Modules/Settings/ThemeColorsTab.qml:1972, Modules/Settings/ThemeColorsTab.qml:1976, Modules/Settings/ThemeColorsTab.qml:1985, Modules/Settings/ThemeColorsTab.qml:1996, Modules/Settings/DockTab.qml:402, Modules/Settings/DockTab.qml:686, Modules/Settings/WallpaperTab.qml:348, Modules/Settings/LauncherTab.qml:427, Modules/Settings/LauncherTab.qml:736, Modules/Settings/DankBarTab.qml:1331, Modules/Settings/DankBarTab.qml:1774, Modules/Settings/WorkspaceAppearanceCard.qml:19, Modules/Settings/WorkspaceAppearanceCard.qml:60, Modules/Settings/WorkspaceAppearanceCard.qml:101, Modules/Settings/WorkspaceAppearanceCard.qml:130, Modules/Settings/WorkspaceAppearanceCard.qml:165, Modules/Settings/FrameTab.qml:231, Modules/Settings/Widgets/SettingsColorPicker.qml:42",
     "comment": "button color option | color option | primary color | shadow color option | surface border color | tile color option | workspace color option",
     "tags": [
       "plugin-dankdesktopweather",
@@ -18469,7 +18470,7 @@
   {
     "term": "Prioritize performance",
     "context": "Prioritize performance",
-    "reference": "Common/Theme.qml:1657",
+    "reference": "Common/Theme.qml:1661",
     "comment": "power profile description",
     "tags": [
       "shell"
@@ -18478,7 +18479,7 @@
   {
     "term": "Priority",
     "context": "Priority",
-    "reference": "Modules/Settings/NotificationsTab.qml:650",
+    "reference": "Modules/Settings/NotificationsTab.qml:659",
     "comment": "",
     "tags": [
       "settings"
@@ -18496,7 +18497,7 @@
   {
     "term": "Privacy Mode",
     "context": "Privacy Mode",
-    "reference": "Modules/Settings/NotificationsTab.qml:332, Modules/Notifications/Center/NotificationSettings.qml:312",
+    "reference": "Modules/Settings/NotificationsTab.qml:341, Modules/Notifications/Center/NotificationSettings.qml:312",
     "comment": "",
     "tags": [
       "settings",
@@ -18605,7 +18606,7 @@
   {
     "term": "Profile not found",
     "context": "Profile not found",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:333, Modules/Settings/DisplayConfig/DisplayConfigState.qml:645",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:351, Modules/Settings/DisplayConfig/DisplayConfigState.qml:667",
     "comment": "",
     "tags": [
       "settings"
@@ -18614,7 +18615,7 @@
   {
     "term": "Profile not found in monitors.json",
     "context": "Profile not found in monitors.json",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:694",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:717",
     "comment": "",
     "tags": [
       "settings"
@@ -18678,7 +18679,7 @@
   {
     "term": "Qt colors applied successfully",
     "context": "Qt colors applied successfully",
-    "reference": "Common/Theme.qml:1989",
+    "reference": "Common/Theme.qml:1993",
     "comment": "",
     "tags": [
       "shell"
@@ -18886,7 +18887,7 @@
   {
     "term": "Reboot",
     "context": "Reboot",
-    "reference": "Modals/PowerMenuModal.qml:193, Modules/Lock/LockPowerMenu.qml:106, Modules/Settings/PowerSleepTab.qml:403",
+    "reference": "Modals/PowerMenuModal.qml:193, Modules/Lock/LockPowerMenu.qml:106, Modules/Settings/PowerSleepTab.qml:413",
     "comment": "",
     "tags": [
       "settings",
@@ -18923,7 +18924,7 @@
   {
     "term": "Recently Used Apps",
     "context": "Recently Used Apps",
-    "reference": "Modules/Settings/LauncherTab.qml:1421",
+    "reference": "Modules/Settings/LauncherTab.qml:1446",
     "comment": "",
     "tags": [
       "settings"
@@ -19059,7 +19060,7 @@
   {
     "term": "Remember Last Mode",
     "context": "Remember Last Mode",
-    "reference": "Modules/Settings/LauncherTab.qml:1155",
+    "reference": "Modules/Settings/LauncherTab.qml:1180",
     "comment": "",
     "tags": [
       "settings"
@@ -19068,7 +19069,7 @@
   {
     "term": "Remember Last Query",
     "context": "Remember Last Query",
-    "reference": "Modules/Settings/LauncherTab.qml:1164",
+    "reference": "Modules/Settings/LauncherTab.qml:1189",
     "comment": "",
     "tags": [
       "settings"
@@ -19321,7 +19322,7 @@
   {
     "term": "Require holding button/key to confirm power off, restart, suspend, hibernate and logout",
     "context": "Require holding button/key to confirm power off, restart, suspend, hibernate and logout",
-    "reference": "Modules/Settings/PowerSleepTab.qml:503",
+    "reference": "Modules/Settings/PowerSleepTab.qml:513",
     "comment": "",
     "tags": [
       "settings"
@@ -19330,7 +19331,7 @@
   {
     "term": "Required plugin: ",
     "context": "Required plugin: ",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2666",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2652",
     "comment": "",
     "tags": [
       "settings"
@@ -19392,8 +19393,8 @@
     ]
   },
   {
-    "term": "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.",
-    "context": "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.",
+    "term": "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).",
+    "context": "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).",
     "reference": "Modules/Settings/GreeterTab.qml:652",
     "comment": "",
     "tags": [
@@ -19513,7 +19514,7 @@
   {
     "term": "Restart DMS",
     "context": "Restart DMS",
-    "reference": "Modals/PowerMenuModal.qml:229, Modules/Settings/PowerSleepTab.qml:403",
+    "reference": "Modals/PowerMenuModal.qml:229, Modules/Settings/PowerSleepTab.qml:413",
     "comment": "",
     "tags": [
       "settings",
@@ -19523,7 +19524,7 @@
   {
     "term": "Restart the DankMaterialShell",
     "context": "Restart the DankMaterialShell",
-    "reference": "Modules/Settings/PowerSleepTab.qml:456",
+    "reference": "Modules/Settings/PowerSleepTab.qml:466",
     "comment": "",
     "tags": [
       "settings"
@@ -19550,7 +19551,7 @@
   {
     "term": "Restore the last selected mode (tab) when the launcher is opened",
     "context": "Restore the last selected mode (tab) when the launcher is opened",
-    "reference": "Modules/Settings/LauncherTab.qml:1156",
+    "reference": "Modules/Settings/LauncherTab.qml:1181",
     "comment": "",
     "tags": [
       "settings"
@@ -19732,7 +19733,7 @@
   {
     "term": "Rule %1",
     "context": "Rule %1",
-    "reference": "Modules/Settings/NotificationsTab.qml:511",
+    "reference": "Modules/Settings/NotificationsTab.qml:520",
     "comment": "",
     "tags": [
       "settings"
@@ -19750,7 +19751,7 @@
   {
     "term": "Rules",
     "context": "Rules",
-    "reference": "Modules/Settings/NotificationsTab.qml:446",
+    "reference": "Modules/Settings/NotificationsTab.qml:455",
     "comment": "",
     "tags": [
       "settings"
@@ -19786,7 +19787,7 @@
   {
     "term": "Run DMS Templates",
     "context": "Run DMS Templates",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2470",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2456",
     "comment": "",
     "tags": [
       "settings"
@@ -19795,7 +19796,7 @@
   {
     "term": "Run User Templates",
     "context": "Run User Templates",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2460",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2446",
     "comment": "",
     "tags": [
       "settings"
@@ -19858,7 +19859,7 @@
   {
     "term": "Running in terminal",
     "context": "Running in terminal",
-    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:492",
+    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:608",
     "comment": "",
     "tags": [
       "shell"
@@ -19867,7 +19868,7 @@
   {
     "term": "SDR Brightness",
     "context": "SDR Brightness",
-    "reference": "Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:255, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2104",
+    "reference": "Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:255, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2135",
     "comment": "",
     "tags": [
       "settings"
@@ -19876,7 +19877,7 @@
   {
     "term": "SDR Saturation",
     "context": "SDR Saturation",
-    "reference": "Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:289, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2106",
+    "reference": "Modules/Settings/DisplayConfig/HyprlandOutputSettings.qml:289, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2137",
     "comment": "",
     "tags": [
       "settings"
@@ -19977,7 +19978,7 @@
   {
     "term": "Save critical priority notifications to history",
     "context": "Save critical priority notifications to history",
-    "reference": "Modules/Settings/NotificationsTab.qml:933",
+    "reference": "Modules/Settings/NotificationsTab.qml:942",
     "comment": "notification history setting",
     "tags": [
       "settings"
@@ -19986,7 +19987,7 @@
   {
     "term": "Save dismissed notifications to history",
     "context": "Save dismissed notifications to history",
-    "reference": "Modules/Settings/NotificationsTab.qml:850",
+    "reference": "Modules/Settings/NotificationsTab.qml:859",
     "comment": "notification history toggle description",
     "tags": [
       "settings"
@@ -19995,7 +19996,7 @@
   {
     "term": "Save low priority notifications to history",
     "context": "Save low priority notifications to history",
-    "reference": "Modules/Settings/NotificationsTab.qml:915",
+    "reference": "Modules/Settings/NotificationsTab.qml:924",
     "comment": "notification history setting",
     "tags": [
       "settings"
@@ -20004,7 +20005,7 @@
   {
     "term": "Save normal priority notifications to history",
     "context": "Save normal priority notifications to history",
-    "reference": "Modules/Settings/NotificationsTab.qml:924",
+    "reference": "Modules/Settings/NotificationsTab.qml:933",
     "comment": "notification history setting",
     "tags": [
       "settings"
@@ -20077,7 +20078,7 @@
   {
     "term": "Scale",
     "context": "Scale",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:193, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2074",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:193, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2105",
     "comment": "",
     "tags": [
       "settings"
@@ -20241,7 +20242,7 @@
   {
     "term": "Search App Actions",
     "context": "Search App Actions",
-    "reference": "Modules/Settings/LauncherTab.qml:1146",
+    "reference": "Modules/Settings/LauncherTab.qml:1171",
     "comment": "",
     "tags": [
       "settings"
@@ -20250,7 +20251,7 @@
   {
     "term": "Search Options",
     "context": "Search Options",
-    "reference": "Modules/Settings/LauncherTab.qml:1140",
+    "reference": "Modules/Settings/LauncherTab.qml:1165",
     "comment": "",
     "tags": [
       "settings"
@@ -20397,7 +20398,7 @@
   {
     "term": "Secondary",
     "context": "Secondary",
-    "reference": "dms-plugins/DankDesktopWeather/DankDesktopWeatherSettings.qml:43, Modules/Settings/ThemeColorsTab.qml:1667, Modules/Settings/ThemeColorsTab.qml:1671, Modules/Settings/ThemeColorsTab.qml:1679, Modules/Settings/ThemeColorsTab.qml:1689, Modules/Settings/ThemeColorsTab.qml:1705, Modules/Settings/ThemeColorsTab.qml:1709, Modules/Settings/ThemeColorsTab.qml:1717, Modules/Settings/ThemeColorsTab.qml:1727, Modules/Settings/ThemeColorsTab.qml:1767, Modules/Settings/ThemeColorsTab.qml:1771, Modules/Settings/ThemeColorsTab.qml:1780, Modules/Settings/ThemeColorsTab.qml:1792, Modules/Settings/DockTab.qml:686, Modules/Settings/LauncherTab.qml:736, Modules/Settings/DankBarTab.qml:1331, Modules/Settings/DankBarTab.qml:1774, Modules/Settings/WorkspaceAppearanceCard.qml:25, Modules/Settings/WorkspaceAppearanceCard.qml:66, Modules/Settings/WorkspaceAppearanceCard.qml:104, Modules/Settings/WorkspaceAppearanceCard.qml:136, Modules/Settings/WorkspaceAppearanceCard.qml:171, Modules/Settings/Widgets/SettingsColorPicker.qml:47",
+    "reference": "dms-plugins/DankDesktopWeather/DankDesktopWeatherSettings.qml:43, Modules/Settings/ThemeColorsTab.qml:1667, Modules/Settings/ThemeColorsTab.qml:1671, Modules/Settings/ThemeColorsTab.qml:1679, Modules/Settings/ThemeColorsTab.qml:1689, Modules/Settings/ThemeColorsTab.qml:1705, Modules/Settings/ThemeColorsTab.qml:1709, Modules/Settings/ThemeColorsTab.qml:1717, Modules/Settings/ThemeColorsTab.qml:1727, Modules/Settings/ThemeColorsTab.qml:1792, Modules/Settings/ThemeColorsTab.qml:1796, Modules/Settings/ThemeColorsTab.qml:1805, Modules/Settings/ThemeColorsTab.qml:1817, Modules/Settings/DockTab.qml:686, Modules/Settings/LauncherTab.qml:736, Modules/Settings/DankBarTab.qml:1331, Modules/Settings/DankBarTab.qml:1774, Modules/Settings/WorkspaceAppearanceCard.qml:25, Modules/Settings/WorkspaceAppearanceCard.qml:66, Modules/Settings/WorkspaceAppearanceCard.qml:104, Modules/Settings/WorkspaceAppearanceCard.qml:136, Modules/Settings/WorkspaceAppearanceCard.qml:171, Modules/Settings/Widgets/SettingsColorPicker.qml:47",
     "comment": "button color option | color option | secondary color | surface border color | tile color option | workspace color option",
     "tags": [
       "plugin-dankdesktopweather",
@@ -20460,8 +20461,8 @@
     ]
   },
   {
-    "term": "Security-key availability could not be confirmed.",
-    "context": "Security-key availability could not be confirmed.",
+    "term": "Security-key availability could not be confirmed",
+    "context": "Security-key availability could not be confirmed",
     "reference": "Modules/Settings/GreeterTab.qml:54, Modules/Settings/LockScreenTab.qml:120",
     "comment": "security key setting status",
     "tags": [
@@ -20508,7 +20509,7 @@
   {
     "term": "Select Custom Theme",
     "context": "Select Custom Theme",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2973",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2959",
     "comment": "custom theme file browser title",
     "tags": [
       "settings"
@@ -20851,7 +20852,7 @@
   {
     "term": "Separate Light & Dark Themes",
     "context": "Separate Light & Dark Themes",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2385",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2371",
     "comment": "",
     "tags": [
       "settings"
@@ -21005,7 +21006,7 @@
   {
     "term": "Setting up...",
     "context": "Setting up...",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2237, Modules/Settings/WindowRulesTab.qml:524, Modules/Settings/KeybindsTab.qml:420, Modules/Settings/CompositorLayoutTab.qml:227, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:79",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2223, Modules/Settings/WindowRulesTab.qml:524, Modules/Settings/KeybindsTab.qml:420, Modules/Settings/CompositorLayoutTab.qml:227, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:79",
     "comment": "",
     "tags": [
       "settings"
@@ -21042,7 +21043,7 @@
   {
     "term": "Setup",
     "context": "Setup",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2237, Modules/Settings/WindowRulesTab.qml:524, Modules/Settings/KeybindsTab.qml:420, Modules/Settings/CompositorLayoutTab.qml:227, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:79",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2223, Modules/Settings/WindowRulesTab.qml:524, Modules/Settings/KeybindsTab.qml:420, Modules/Settings/CompositorLayoutTab.qml:227, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:79",
     "comment": "",
     "tags": [
       "settings"
@@ -21051,7 +21052,7 @@
   {
     "term": "Shadow Color",
     "context": "Shadow Color",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:203, Modules/Settings/ThemeColorsTab.qml:1958",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:203, Modules/Settings/ThemeColorsTab.qml:1970",
     "comment": "",
     "tags": [
       "settings"
@@ -21060,7 +21061,7 @@
   {
     "term": "Shadow Intensity",
     "context": "Shadow Intensity",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1929",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1941",
     "comment": "",
     "tags": [
       "settings"
@@ -21069,7 +21070,7 @@
   {
     "term": "Shadow Opacity",
     "context": "Shadow Opacity",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1944",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1956",
     "comment": "",
     "tags": [
       "settings"
@@ -21096,7 +21097,7 @@
   {
     "term": "Shadow elevation on bars and panels",
     "context": "Shadow elevation on bars and panels",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2098",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2110",
     "comment": "",
     "tags": [
       "settings"
@@ -21105,7 +21106,7 @@
   {
     "term": "Shadow elevation on modals and dialogs",
     "context": "Shadow elevation on modals and dialogs",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2076",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2088",
     "comment": "",
     "tags": [
       "settings"
@@ -21114,7 +21115,7 @@
   {
     "term": "Shadow elevation on popouts, OSDs, and dropdowns",
     "context": "Shadow elevation on popouts, OSDs, and dropdowns",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2087",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2099",
     "comment": "",
     "tags": [
       "settings"
@@ -21123,7 +21124,7 @@
   {
     "term": "Shadows",
     "context": "Shadows",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1911, Modules/Settings/ThemeColorsTab.qml:1919",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1923, Modules/Settings/ThemeColorsTab.qml:1931",
     "comment": "",
     "tags": [
       "settings"
@@ -21188,7 +21189,7 @@
   {
     "term": "Short",
     "context": "Short",
-    "reference": "Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/NotificationsTab.qml:380",
+    "reference": "Modules/Settings/TypographyMotionTab.qml:495, Modules/Settings/TypographyMotionTab.qml:592, Modules/Settings/TypographyMotionTab.qml:675, Modules/Settings/NotificationsTab.qml:389",
     "comment": "",
     "tags": [
       "settings"
@@ -21386,7 +21387,7 @@
   {
     "term": "Show Hibernate",
     "context": "Show Hibernate",
-    "reference": "Modules/Settings/PowerSleepTab.qml:465",
+    "reference": "Modules/Settings/PowerSleepTab.qml:475",
     "comment": "",
     "tags": [
       "settings"
@@ -21458,7 +21459,7 @@
   {
     "term": "Show Lock",
     "context": "Show Lock",
-    "reference": "Modules/Settings/PowerSleepTab.qml:447",
+    "reference": "Modules/Settings/PowerSleepTab.qml:457",
     "comment": "",
     "tags": [
       "settings"
@@ -21467,7 +21468,7 @@
   {
     "term": "Show Log Out",
     "context": "Show Log Out",
-    "reference": "Modules/Settings/PowerSleepTab.qml:439",
+    "reference": "Modules/Settings/PowerSleepTab.qml:449",
     "comment": "",
     "tags": [
       "settings"
@@ -21602,7 +21603,7 @@
   {
     "term": "Show Power Off",
     "context": "Show Power Off",
-    "reference": "Modules/Settings/PowerSleepTab.qml:443",
+    "reference": "Modules/Settings/PowerSleepTab.qml:453",
     "comment": "",
     "tags": [
       "settings"
@@ -21638,7 +21639,7 @@
   {
     "term": "Show Reboot",
     "context": "Show Reboot",
-    "reference": "Modules/Settings/PowerSleepTab.qml:435",
+    "reference": "Modules/Settings/PowerSleepTab.qml:445",
     "comment": "",
     "tags": [
       "settings"
@@ -21656,7 +21657,7 @@
   {
     "term": "Show Restart DMS",
     "context": "Show Restart DMS",
-    "reference": "Modules/Settings/PowerSleepTab.qml:455",
+    "reference": "Modules/Settings/PowerSleepTab.qml:465",
     "comment": "",
     "tags": [
       "settings"
@@ -21692,7 +21693,7 @@
   {
     "term": "Show Suspend",
     "context": "Show Suspend",
-    "reference": "Modules/Settings/PowerSleepTab.qml:451",
+    "reference": "Modules/Settings/PowerSleepTab.qml:461",
     "comment": "",
     "tags": [
       "settings"
@@ -21710,7 +21711,7 @@
   {
     "term": "Show Switch User",
     "context": "Show Switch User",
-    "reference": "Modules/Settings/PowerSleepTab.qml:460",
+    "reference": "Modules/Settings/PowerSleepTab.qml:470",
     "comment": "",
     "tags": [
       "settings"
@@ -21809,7 +21810,7 @@
   {
     "term": "Show a bar that drains as the popup's auto-dismiss timer runs",
     "context": "Show a bar that drains as the popup's auto-dismiss timer runs",
-    "reference": "Modules/Settings/NotificationsTab.qml:306",
+    "reference": "Modules/Settings/NotificationsTab.qml:315",
     "comment": "",
     "tags": [
       "settings"
@@ -21872,7 +21873,7 @@
   {
     "term": "Show darkened overlay behind modal dialogs",
     "context": "Show darkened overlay behind modal dialogs",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2124",
+    "reference": "Modules/Settings/LauncherTab.qml:767",
     "comment": "",
     "tags": [
       "settings"
@@ -21899,7 +21900,7 @@
   {
     "term": "Show drop shadow on notification popups. Requires M3 Elevation to be enabled in Theme & Colors.",
     "context": "Show drop shadow on notification popups. Requires M3 Elevation to be enabled in Theme & Colors.",
-    "reference": "Modules/Settings/NotificationsTab.qml:324",
+    "reference": "Modules/Settings/NotificationsTab.qml:333",
     "comment": "",
     "tags": [
       "settings"
@@ -21915,9 +21916,18 @@
     ]
   },
   {
+    "term": "Show foreground surfaces on notification cards",
+    "context": "Show foreground surfaces on notification cards",
+    "reference": "Modules/Settings/NotificationsTab.qml:306",
+    "comment": "",
+    "tags": [
+      "settings"
+    ]
+  },
+  {
     "term": "Show foreground surfaces on panels for stronger contrast",
     "context": "Show foreground surfaces on panels for stronger contrast",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1741",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1756",
     "comment": "",
     "tags": [
       "settings"
@@ -21935,7 +21945,7 @@
   {
     "term": "Show launcher overlay when typing in Niri overview. Disable to use another launcher.",
     "context": "Show launcher overlay when typing in Niri overview. Disable to use another launcher.",
-    "reference": "Modules/Settings/LauncherTab.qml:768",
+    "reference": "Modules/Settings/LauncherTab.qml:793",
     "comment": "",
     "tags": [
       "settings"
@@ -22431,7 +22441,7 @@
   {
     "term": "Spotlight",
     "context": "Spotlight",
-    "reference": "Modules/Settings/LauncherTab.qml:93, Modules/Settings/LauncherTab.qml:778",
+    "reference": "Modules/Settings/LauncherTab.qml:93, Modules/Settings/LauncherTab.qml:803",
     "comment": "",
     "tags": [
       "settings"
@@ -22551,10 +22561,11 @@
   {
     "term": "Stop ignoring %1",
     "context": "Stop ignoring %1",
-    "reference": "Modules/Settings/SystemUpdaterTab.qml:311",
+    "reference": "Modules/Settings/SystemUpdaterTab.qml:311, Modules/DankBar/Popouts/SystemUpdatePopout.qml:586",
     "comment": "",
     "tags": [
-      "settings"
+      "settings",
+      "shell"
     ]
   },
   {
@@ -22670,7 +22681,7 @@
   {
     "term": "Suppress Duplicate Notifications",
     "context": "Suppress Duplicate Notifications",
-    "reference": "Modules/Settings/NotificationsTab.qml:314",
+    "reference": "Modules/Settings/NotificationsTab.qml:323",
     "comment": "",
     "tags": [
       "settings"
@@ -22679,7 +22690,7 @@
   {
     "term": "Suppress notification popups while enabled",
     "context": "Suppress notification popups while enabled",
-    "reference": "Modules/Settings/NotificationsTab.qml:436",
+    "reference": "Modules/Settings/NotificationsTab.qml:445",
     "comment": "",
     "tags": [
       "settings"
@@ -22706,7 +22717,7 @@
   {
     "term": "Surface Border Color",
     "context": "Surface Border Color",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:194, Modules/Settings/ThemeColorsTab.qml:1765",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:194, Modules/Settings/ThemeColorsTab.qml:1789",
     "comment": "",
     "tags": [
       "settings"
@@ -22715,7 +22726,16 @@
   {
     "term": "Surface Border Opacity",
     "context": "Surface Border Opacity",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1809",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1834",
+    "comment": "",
+    "tags": [
+      "settings"
+    ]
+  },
+  {
+    "term": "Surface Border Outline",
+    "context": "Surface Border Outline",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1779",
     "comment": "",
     "tags": [
       "settings"
@@ -22751,7 +22771,7 @@
   {
     "term": "Surface Opacity",
     "context": "Surface Opacity",
-    "reference": "Modules/Notepad/NotepadSettings.qml:355, Modules/Settings/ThemeColorsTab.qml:1750, Modules/Settings/ThemeColorsTab.qml:1850, Modules/Settings/FrameTab.qml:149",
+    "reference": "Modules/Notepad/NotepadSettings.qml:355, Modules/Settings/ThemeColorsTab.qml:1740, Modules/Settings/ThemeColorsTab.qml:1862, Modules/Settings/FrameTab.qml:149",
     "comment": "",
     "tags": [
       "settings",
@@ -22770,7 +22790,7 @@
   {
     "term": "Surface Variant",
     "context": "Surface Variant",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1667, Modules/Settings/ThemeColorsTab.qml:1672, Modules/Settings/ThemeColorsTab.qml:1681, Modules/Settings/ThemeColorsTab.qml:1691, Modules/Settings/ThemeColorsTab.qml:1705, Modules/Settings/ThemeColorsTab.qml:1710, Modules/Settings/ThemeColorsTab.qml:1719, Modules/Settings/ThemeColorsTab.qml:1729, Modules/Settings/ThemeColorsTab.qml:1960, Modules/Settings/ThemeColorsTab.qml:1965, Modules/Settings/ThemeColorsTab.qml:1975, Modules/Settings/ThemeColorsTab.qml:1986",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1667, Modules/Settings/ThemeColorsTab.qml:1672, Modules/Settings/ThemeColorsTab.qml:1681, Modules/Settings/ThemeColorsTab.qml:1691, Modules/Settings/ThemeColorsTab.qml:1705, Modules/Settings/ThemeColorsTab.qml:1710, Modules/Settings/ThemeColorsTab.qml:1719, Modules/Settings/ThemeColorsTab.qml:1729, Modules/Settings/ThemeColorsTab.qml:1972, Modules/Settings/ThemeColorsTab.qml:1977, Modules/Settings/ThemeColorsTab.qml:1987, Modules/Settings/ThemeColorsTab.qml:1998",
     "comment": "button color option | shadow color option | tile color option",
     "tags": [
       "settings"
@@ -22797,7 +22817,7 @@
   {
     "term": "Suspend",
     "context": "Suspend",
-    "reference": "Modals/PowerMenuModal.qml:217, Modules/Lock/LockPowerMenu.qml:124, Modules/Settings/PowerSleepTab.qml:344, Modules/Settings/PowerSleepTab.qml:403",
+    "reference": "Modals/PowerMenuModal.qml:217, Modules/Lock/LockPowerMenu.qml:124, Modules/Settings/PowerSleepTab.qml:354, Modules/Settings/PowerSleepTab.qml:413",
     "comment": "",
     "tags": [
       "settings",
@@ -22807,7 +22827,7 @@
   {
     "term": "Suspend behavior",
     "context": "Suspend behavior",
-    "reference": "Modules/Settings/PowerSleepTab.qml:335",
+    "reference": "Modules/Settings/PowerSleepTab.qml:345",
     "comment": "",
     "tags": [
       "settings"
@@ -22816,7 +22836,7 @@
   {
     "term": "Suspend system after",
     "context": "Suspend system after",
-    "reference": "Modules/Settings/PowerSleepTab.qml:300",
+    "reference": "Modules/Settings/PowerSleepTab.qml:310",
     "comment": "",
     "tags": [
       "settings"
@@ -22825,7 +22845,7 @@
   {
     "term": "Suspend then Hibernate",
     "context": "Suspend then Hibernate",
-    "reference": "Modules/Settings/PowerSleepTab.qml:344",
+    "reference": "Modules/Settings/PowerSleepTab.qml:354",
     "comment": "",
     "tags": [
       "settings"
@@ -22859,6 +22879,15 @@
     ]
   },
   {
+    "term": "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.",
+    "context": "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.",
+    "reference": "Modules/Settings/PowerSleepTab.qml:194",
+    "comment": "",
+    "tags": [
+      "settings"
+    ]
+  },
+  {
     "term": "Switch to power profile",
     "context": "Switch to power profile",
     "reference": "Modules/Settings/PowerSleepTab.qml:159",
@@ -22888,7 +22917,7 @@
   {
     "term": "Sync Mode with Portal",
     "context": "Sync Mode with Portal",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2142",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2128",
     "comment": "",
     "tags": [
       "settings"
@@ -22913,8 +22942,8 @@
     ]
   },
   {
-    "term": "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.",
-    "context": "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.",
+    "term": "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.",
+    "context": "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.",
     "reference": "Modules/Settings/GreeterTab.qml:403",
     "comment": "",
     "tags": [
@@ -22933,7 +22962,7 @@
   {
     "term": "Sync dark mode with settings portals for system-wide theme hints",
     "context": "Sync dark mode with settings portals for system-wide theme hints",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2143",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2129",
     "comment": "",
     "tags": [
       "settings"
@@ -22988,7 +23017,7 @@
   {
     "term": "System App Theming",
     "context": "System App Theming",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2871",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2857",
     "comment": "",
     "tags": [
       "settings"
@@ -23232,7 +23261,7 @@
   {
     "term": "Terminal fallback failed. Install a supported terminal emulator or run 'dms auth sync' manually.",
     "context": "Terminal fallback failed. Install a supported terminal emulator or run 'dms auth sync' manually.",
-    "reference": "Common/settings/Processes.qml:653",
+    "reference": "Common/settings/Processes.qml:657",
     "comment": "",
     "tags": [
       "shell"
@@ -23250,7 +23279,7 @@
   {
     "term": "Terminal fallback opened. Complete authentication there; it will close automatically when done.",
     "context": "Terminal fallback opened. Complete authentication there; it will close automatically when done.",
-    "reference": "Common/settings/Processes.qml:649, Modules/Settings/GreeterTab.qml:308",
+    "reference": "Common/settings/Processes.qml:653, Modules/Settings/GreeterTab.qml:308",
     "comment": "",
     "tags": [
       "settings",
@@ -23260,7 +23289,7 @@
   {
     "term": "Terminal opened. Complete authentication there; it will close automatically when done.",
     "context": "Terminal opened. Complete authentication there; it will close automatically when done.",
-    "reference": "Common/settings/Processes.qml:649, Modules/Settings/GreeterTab.qml:308",
+    "reference": "Common/settings/Processes.qml:653, Modules/Settings/GreeterTab.qml:308",
     "comment": "",
     "tags": [
       "settings",
@@ -23270,7 +23299,7 @@
   {
     "term": "Terminals - Always use Dark Theme",
     "context": "Terminals - Always use Dark Theme",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2152",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2138",
     "comment": "",
     "tags": [
       "settings"
@@ -23344,7 +23373,7 @@
   {
     "term": "Text Color",
     "context": "Text Color",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1767, Modules/Settings/ThemeColorsTab.qml:1772, Modules/Settings/ThemeColorsTab.qml:1782, Modules/Settings/ThemeColorsTab.qml:1794, Modules/Settings/ThemeColorsTab.qml:1960, Modules/Settings/ThemeColorsTab.qml:1963, Modules/Settings/ThemeColorsTab.qml:1971, Modules/Settings/ThemeColorsTab.qml:1991",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1792, Modules/Settings/ThemeColorsTab.qml:1797, Modules/Settings/ThemeColorsTab.qml:1807, Modules/Settings/ThemeColorsTab.qml:1819, Modules/Settings/ThemeColorsTab.qml:1972, Modules/Settings/ThemeColorsTab.qml:1975, Modules/Settings/ThemeColorsTab.qml:1983, Modules/Settings/ThemeColorsTab.qml:2003",
     "comment": "shadow color option | surface border color",
     "tags": [
       "settings"
@@ -23389,7 +23418,7 @@
   {
     "term": "The below settings will modify your GTK and Qt settings. If you wish to preserve your current configurations, please back them up (qt5ct.conf|qt6ct.conf and ~/.config/gtk-3.0|gtk-4.0).",
     "context": "The below settings will modify your GTK and Qt settings. If you wish to preserve your current configurations, please back them up (qt5ct.conf|qt6ct.conf and ~/.config/gtk-3.0|gtk-4.0).",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2860",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2846",
     "comment": "",
     "tags": [
       "settings"
@@ -23471,7 +23500,7 @@
   {
     "term": "Theme worker failed (%1)",
     "context": "Theme worker failed (%1)",
-    "reference": "Common/Theme.qml:2155",
+    "reference": "Common/Theme.qml:2159",
     "comment": "",
     "tags": [
       "shell"
@@ -23552,7 +23581,7 @@
   {
     "term": "This install is still using hyprland.conf. Run dms setup to migrate before changing these settings.",
     "context": "This install is still using hyprland.conf. Run dms setup to migrate before changing these settings.",
-    "reference": "Services/KeybindsService.qml:550, Modules/Settings/ThemeColorsTab.qml:146, Modules/Settings/ThemeColorsTab.qml:2221, Modules/Settings/WindowRulesTab.qml:346, Modules/Settings/WindowRulesTab.qml:512, Modules/Settings/KeybindsTab.qml:400, Modules/Settings/CompositorLayoutTab.qml:97, Modules/Settings/CompositorLayoutTab.qml:211, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:63, Modules/Settings/DisplayConfig/DisplayConfigState.qml:1521",
+    "reference": "Services/KeybindsService.qml:550, Modules/Settings/ThemeColorsTab.qml:146, Modules/Settings/ThemeColorsTab.qml:2207, Modules/Settings/WindowRulesTab.qml:346, Modules/Settings/WindowRulesTab.qml:512, Modules/Settings/KeybindsTab.qml:400, Modules/Settings/CompositorLayoutTab.qml:97, Modules/Settings/CompositorLayoutTab.qml:211, Modules/Settings/DisplayConfig/IncludeWarningBox.qml:63, Modules/Settings/DisplayConfig/DisplayConfigState.qml:1552",
     "comment": "",
     "tags": [
       "settings",
@@ -23779,7 +23808,7 @@
   {
     "term": "Timeout Progress Bar",
     "context": "Timeout Progress Bar",
-    "reference": "Modules/Settings/NotificationsTab.qml:305",
+    "reference": "Modules/Settings/NotificationsTab.qml:314",
     "comment": "",
     "tags": [
       "settings"
@@ -23788,7 +23817,7 @@
   {
     "term": "Timeouts",
     "context": "Timeouts",
-    "reference": "Modules/Settings/NotificationsTab.qml:786, Modules/Notifications/Center/NotificationSettings.qml:175",
+    "reference": "Modules/Settings/NotificationsTab.qml:795, Modules/Notifications/Center/NotificationSettings.qml:175",
     "comment": "",
     "tags": [
       "settings",
@@ -24024,7 +24053,7 @@
   {
     "term": "Top (Default)",
     "context": "Top (Default)",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2005, Modules/Settings/ThemeColorsTab.qml:2017",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2017, Modules/Settings/ThemeColorsTab.qml:2029",
     "comment": "shadow direction option",
     "tags": [
       "settings"
@@ -24051,7 +24080,7 @@
   {
     "term": "Top Left",
     "context": "Top Left",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2005, Modules/Settings/ThemeColorsTab.qml:2011, Modules/Settings/ThemeColorsTab.qml:2024, Modules/Settings/DankBarTab.qml:1716, Modules/Settings/DankBarTab.qml:1720, Modules/Settings/DankBarTab.qml:1730, Modules/Settings/OSDTab.qml:37, Modules/Settings/OSDTab.qml:54, Modules/Settings/OSDTab.qml:58, Modules/Settings/NotificationsTab.qml:249, Modules/Settings/NotificationsTab.qml:258, Modules/Settings/NotificationsTab.qml:264, Modules/Settings/DisplayConfig/NiriOutputSettings.qml:154",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2017, Modules/Settings/ThemeColorsTab.qml:2023, Modules/Settings/ThemeColorsTab.qml:2036, Modules/Settings/DankBarTab.qml:1716, Modules/Settings/DankBarTab.qml:1720, Modules/Settings/DankBarTab.qml:1730, Modules/Settings/OSDTab.qml:37, Modules/Settings/OSDTab.qml:54, Modules/Settings/OSDTab.qml:58, Modules/Settings/NotificationsTab.qml:249, Modules/Settings/NotificationsTab.qml:258, Modules/Settings/NotificationsTab.qml:264, Modules/Settings/DisplayConfig/NiriOutputSettings.qml:154",
     "comment": "screen position option | shadow direction option",
     "tags": [
       "settings"
@@ -24069,7 +24098,7 @@
   {
     "term": "Top Right",
     "context": "Top Right",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2005, Modules/Settings/ThemeColorsTab.qml:2013, Modules/Settings/ThemeColorsTab.qml:2026, Modules/Settings/DankBarTab.qml:1716, Modules/Settings/DankBarTab.qml:1722, Modules/Settings/DankBarTab.qml:1734, Modules/Settings/OSDTab.qml:35, Modules/Settings/OSDTab.qml:54, Modules/Settings/OSDTab.qml:56, Modules/Settings/NotificationsTab.qml:245, Modules/Settings/NotificationsTab.qml:255, Modules/Settings/NotificationsTab.qml:258, Modules/Settings/NotificationsTab.qml:261, Modules/Settings/DisplayConfig/NiriOutputSettings.qml:154",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2017, Modules/Settings/ThemeColorsTab.qml:2025, Modules/Settings/ThemeColorsTab.qml:2038, Modules/Settings/DankBarTab.qml:1716, Modules/Settings/DankBarTab.qml:1722, Modules/Settings/DankBarTab.qml:1734, Modules/Settings/OSDTab.qml:35, Modules/Settings/OSDTab.qml:54, Modules/Settings/OSDTab.qml:56, Modules/Settings/NotificationsTab.qml:245, Modules/Settings/NotificationsTab.qml:255, Modules/Settings/NotificationsTab.qml:258, Modules/Settings/NotificationsTab.qml:261, Modules/Settings/DisplayConfig/NiriOutputSettings.qml:154",
     "comment": "screen position option | shadow direction option",
     "tags": [
       "settings"
@@ -24114,7 +24143,7 @@
   {
     "term": "Transform",
     "context": "Transform",
-    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:295, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2076",
+    "reference": "Modules/Settings/DisplayConfig/OutputCard.qml:295, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2107",
     "comment": "",
     "tags": [
       "settings"
@@ -24187,7 +24216,7 @@
   {
     "term": "Trigger",
     "context": "Trigger",
-    "reference": "Modules/Settings/LauncherTab.qml:855",
+    "reference": "Modules/Settings/LauncherTab.qml:880",
     "comment": "",
     "tags": [
       "settings"
@@ -24205,7 +24234,7 @@
   {
     "term": "Trigger: %1",
     "context": "Trigger: %1",
-    "reference": "Modals/DankLauncherV2/Controller.qml:1424, Modules/Settings/LauncherTab.qml:1041",
+    "reference": "Modals/DankLauncherV2/Controller.qml:1424, Modules/Settings/LauncherTab.qml:1066",
     "comment": "",
     "tags": [
       "settings",
@@ -24271,7 +24300,7 @@
   {
     "term": "Turn off monitors after",
     "context": "Turn off monitors after",
-    "reference": "Modules/Settings/PowerSleepTab.qml:234",
+    "reference": "Modules/Settings/PowerSleepTab.qml:244",
     "comment": "",
     "tags": [
       "settings"
@@ -24280,7 +24309,7 @@
   {
     "term": "Turn off monitors after lock",
     "context": "Turn off monitors after lock",
-    "reference": "Modules/Settings/PowerSleepTab.qml:267",
+    "reference": "Modules/Settings/PowerSleepTab.qml:277",
     "comment": "",
     "tags": [
       "settings"
@@ -24298,7 +24327,7 @@
   {
     "term": "Type",
     "context": "Type",
-    "reference": "Widgets/KeybindItem.qml:851, Modules/Settings/RunningAppsTab.qml:154, Modules/Settings/NotificationsTab.qml:609",
+    "reference": "Widgets/KeybindItem.qml:851, Modules/Settings/RunningAppsTab.qml:154, Modules/Settings/NotificationsTab.qml:618",
     "comment": "",
     "tags": [
       "settings",
@@ -24489,7 +24518,7 @@
   {
     "term": "Unknown",
     "context": "Unknown",
-    "reference": "Common/Theme.qml:1646, Services/WeatherService.qml:153, Services/WeatherService.qml:716, Services/WeatherService.qml:717, Services/WeatherService.qml:758, Services/WeatherService.qml:759, Services/WeatherService.qml:794, Services/WeatherService.qml:795, Services/WeatherService.qml:993, Services/WeatherService.qml:994, Services/BatteryService.qml:334, dms-plugins/DankKDEConnect/DankKDEConnect.qml:1582, dms-plugins/DankKDEConnect/components/DeviceCard.qml:298, dms-plugins/DankKDEConnect/components/KDEConnectDetailContent.qml:741, Modules/Lock/LockScreenContent.qml:451, Modules/Lock/LockScreenContent.qml:571, Modules/Lock/LockScreenContent.qml:667, Modules/Settings/PluginBrowser.qml:1268, Modules/Settings/PluginBrowser.qml:1648, Modules/Settings/NetworkStatusTab.qml:79, Modules/Settings/NetworkStatusTab.qml:121, Modules/Settings/PrinterTab.qml:1651, Modules/Settings/ThemeBrowser.qml:506, Modules/Settings/NetworkEthernetTab.qml:146, Modules/Settings/NetworkEthernetTab.qml:169, Modules/Settings/NetworkEthernetTab.qml:317, Modules/Settings/NetworkEthernetTab.qml:428, Modules/Settings/NotificationsTab.qml:709, Modules/Settings/NetworkWifiTab.qml:537, Modules/Settings/NetworkWifiTab.qml:947, Modules/ControlCenter/Details/BatteryDetail.qml:184, Modules/ControlCenter/Components/HeaderPane.qml:63, Modules/ControlCenter/Components/DragDropGrid.qml:517, Modules/ControlCenter/Components/DragDropGrid.qml:755, Modules/DankDash/Overview/MediaOverviewCard.qml:91, Modules/DankBar/Popouts/BatteryPopout.qml:340",
+    "reference": "Common/Theme.qml:1650, Services/WeatherService.qml:153, Services/WeatherService.qml:716, Services/WeatherService.qml:717, Services/WeatherService.qml:758, Services/WeatherService.qml:759, Services/WeatherService.qml:794, Services/WeatherService.qml:795, Services/WeatherService.qml:993, Services/WeatherService.qml:994, Services/BatteryService.qml:334, dms-plugins/DankKDEConnect/DankKDEConnect.qml:1582, dms-plugins/DankKDEConnect/components/DeviceCard.qml:298, dms-plugins/DankKDEConnect/components/KDEConnectDetailContent.qml:741, Modules/Lock/LockScreenContent.qml:451, Modules/Lock/LockScreenContent.qml:571, Modules/Lock/LockScreenContent.qml:667, Modules/Settings/PluginBrowser.qml:1268, Modules/Settings/PluginBrowser.qml:1648, Modules/Settings/NetworkStatusTab.qml:79, Modules/Settings/NetworkStatusTab.qml:121, Modules/Settings/PrinterTab.qml:1651, Modules/Settings/ThemeBrowser.qml:506, Modules/Settings/NetworkEthernetTab.qml:146, Modules/Settings/NetworkEthernetTab.qml:169, Modules/Settings/NetworkEthernetTab.qml:317, Modules/Settings/NetworkEthernetTab.qml:428, Modules/Settings/NotificationsTab.qml:718, Modules/Settings/NetworkWifiTab.qml:537, Modules/Settings/NetworkWifiTab.qml:947, Modules/ControlCenter/Details/BatteryDetail.qml:184, Modules/ControlCenter/Components/HeaderPane.qml:63, Modules/ControlCenter/Components/DragDropGrid.qml:517, Modules/ControlCenter/Components/DragDropGrid.qml:755, Modules/DankDash/Overview/MediaOverviewCard.qml:91, Modules/DankBar/Popouts/BatteryPopout.qml:340",
     "comment": "KDE Connect unknown device status | Status | battery status | power profile option | unknown author | widget status",
     "tags": [
       "plugin-dankkdeconnect",
@@ -24500,7 +24529,7 @@
   {
     "term": "Unknown App",
     "context": "Unknown App",
-    "reference": "Modules/Settings/LauncherTab.qml:1526",
+    "reference": "Modules/Settings/LauncherTab.qml:1551",
     "comment": "",
     "tags": [
       "settings"
@@ -24600,7 +24629,7 @@
   {
     "term": "Unmute",
     "context": "Unmute",
-    "reference": "Modules/Settings/NotificationsTab.qml:722",
+    "reference": "Modules/Settings/NotificationsTab.qml:731",
     "comment": "",
     "tags": [
       "settings"
@@ -24865,7 +24894,7 @@
   {
     "term": "Use Grid Layout",
     "context": "Use Grid Layout",
-    "reference": "Modules/Settings/PowerSleepTab.qml:392",
+    "reference": "Modules/Settings/PowerSleepTab.qml:402",
     "comment": "",
     "tags": [
       "settings"
@@ -24953,8 +24982,8 @@
     ]
   },
   {
-    "term": "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.",
-    "context": "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.",
+    "term": "Use a custom image for the login screen, or leave empty to use desktop wallpaper",
+    "context": "Use a custom image for the login screen, or leave empty to use desktop wallpaper",
     "reference": "Modules/Settings/GreeterTab.qml:580",
     "comment": "",
     "tags": [
@@ -24980,8 +25009,8 @@
     ]
   },
   {
-    "term": "Use a security key for lock screen authentication.",
-    "context": "Use a security key for lock screen authentication.",
+    "term": "Use a security key for lock screen authentication",
+    "context": "Use a security key for lock screen authentication",
     "reference": "Modules/Settings/LockScreenTab.qml:114",
     "comment": "lock screen U2F security key setting",
     "tags": [
@@ -25054,7 +25083,7 @@
   {
     "term": "Use different icon themes for light and dark mode",
     "context": "Use different icon themes for light and dark mode",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:2386",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:2372",
     "comment": "",
     "tags": [
       "settings"
@@ -25070,8 +25099,8 @@
     ]
   },
   {
-    "term": "Use fingerprint authentication for the lock screen.",
-    "context": "Use fingerprint authentication for the lock screen.",
+    "term": "Use fingerprint authentication for the lock screen",
+    "context": "Use fingerprint authentication for the lock screen",
     "reference": "Modules/Settings/LockScreenTab.qml:99",
     "comment": "lock screen fingerprint setting",
     "tags": [
@@ -25453,7 +25482,7 @@
   {
     "term": "VRR",
     "context": "VRR",
-    "reference": "Modules/Settings/WindowRulesTab.qml:104, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2078",
+    "reference": "Modules/Settings/WindowRulesTab.qml:104, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2109",
     "comment": "",
     "tags": [
       "settings"
@@ -25462,7 +25491,7 @@
   {
     "term": "VRR Fullscreen Only",
     "context": "VRR Fullscreen Only",
-    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2112",
+    "reference": "Modules/Settings/DisplayConfig/DisplayConfigState.qml:2143",
     "comment": "",
     "tags": [
       "settings"
@@ -25471,7 +25500,7 @@
   {
     "term": "VRR On-Demand",
     "context": "VRR On-Demand",
-    "reference": "Modals/WindowRuleModal.qml:1130, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2086",
+    "reference": "Modals/WindowRuleModal.qml:1130, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2117",
     "comment": "",
     "tags": [
       "settings",
@@ -26403,7 +26432,7 @@
   {
     "term": "Xray options are in Compositor → Layout",
     "context": "Xray options are in Compositor → Layout",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1893",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1905",
     "comment": "",
     "tags": [
       "settings"
@@ -26431,7 +26460,7 @@
   {
     "term": "Yes",
     "context": "Yes",
-    "reference": "Modules/Settings/PrinterTab.qml:1182, Modules/Settings/WindowRulesTab.qml:77, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2084, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2088, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2098, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2108, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2110",
+    "reference": "Modules/Settings/PrinterTab.qml:1182, Modules/Settings/WindowRulesTab.qml:77, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2115, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2119, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2129, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2139, Modules/Settings/DisplayConfig/DisplayConfigState.qml:2141",
     "comment": "",
     "tags": [
       "settings"
@@ -26467,7 +26496,7 @@
   {
     "term": "You'll enter your password at the greeter after the next reboot.",
     "context": "You'll enter your password at the greeter after the next reboot.",
-    "reference": "Common/settings/Processes.qml:377",
+    "reference": "Common/settings/Processes.qml:381",
     "comment": "",
     "tags": [
       "shell"
@@ -26476,7 +26505,7 @@
   {
     "term": "You'll skip the greeter password after the next reboot. The lock screen and signing out still require your password.",
     "context": "You'll skip the greeter password after the next reboot. The lock screen and signing out still require your password.",
-    "reference": "Common/settings/Processes.qml:375",
+    "reference": "Common/settings/Processes.qml:379",
     "comment": "",
     "tags": [
       "shell"
@@ -26494,7 +26523,7 @@
   {
     "term": "Your compositor does not support background blur (ext-background-effect-v1)",
     "context": "Your compositor does not support background blur (ext-background-effect-v1)",
-    "reference": "Modules/Settings/ThemeColorsTab.qml:1867",
+    "reference": "Modules/Settings/ThemeColorsTab.qml:1879",
     "comment": "",
     "tags": [
       "settings"
@@ -26503,7 +26532,7 @@
   {
     "term": "Your system is up to date!",
     "context": "Your system is up to date!",
-    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:354",
+    "reference": "Modules/DankBar/Popouts/SystemUpdatePopout.qml:357",
     "comment": "",
     "tags": [
       "shell"
@@ -26593,7 +26622,7 @@
   {
     "term": "days",
     "context": "days",
-    "reference": "Modules/Settings/NotificationsTab.qml:889, Modules/Settings/ClipboardTab.qml:182",
+    "reference": "Modules/Settings/NotificationsTab.qml:898, Modules/Settings/ClipboardTab.qml:182",
     "comment": "",
     "tags": [
       "settings"
@@ -26836,7 +26865,7 @@
   {
     "term": "matugen not available or disabled - cannot apply %1 colors",
     "context": "matugen not available or disabled - cannot apply %1 colors",
-    "reference": "Common/Theme.qml:1959, Common/Theme.qml:1981",
+    "reference": "Common/Theme.qml:1963, Common/Theme.qml:1985",
     "comment": "",
     "tags": [
       "shell"
@@ -27003,15 +27032,6 @@
     "comment": "",
     "tags": [
       "shell"
-    ]
-  },
-  {
-    "term": "or run ",
-    "context": "or run ",
-    "reference": "Modules/Settings/GreeterTab.qml:661",
-    "comment": "",
-    "tags": [
-      "settings"
     ]
   },
   {

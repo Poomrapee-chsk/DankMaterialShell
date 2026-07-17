@@ -6,7 +6,7 @@
     "%1 Animation Speed": "מהירות האנימציה ב%1"
   },
   "%1 Layout Overrides": {
-    "%1 Layout Overrides": ""
+    "%1 Layout Overrides": "דריסות פריסה של %1"
   },
   "%1 Sessions": {
     "%1 Sessions": "%1 הפעלות"
@@ -501,7 +501,7 @@
     "Afternoon": "אחר הצהריים"
   },
   "Alerts": {
-    "Alerts": ""
+    "Alerts": "התראות"
   },
   "All": {
     "All": "הכל"
@@ -783,10 +783,16 @@
     "Authentication Required": "נדרש אימות"
   },
   "Authentication Source": {
-    "Authentication Source": ""
+    "Authentication Source": "מקור אימות"
+  },
+  "Authentication changes applied": {
+    "Authentication changes applied": ""
   },
   "Authentication changes applied.": {
     "Authentication changes applied.": "שינויי האימות הוחלו."
+  },
+  "Authentication changes apply automatically": {
+    "Authentication changes apply automatically": ""
   },
   "Authentication changes apply automatically.": {
     "Authentication changes apply automatically.": "שינויי אימות מוחלים באופן אוטומטי."
@@ -840,7 +846,7 @@
     "Auto Power Saver": "חיסכון אוטומטי בחשמל"
   },
   "Auto matches bar spacing; Off leaves gaps to your %1 config": {
-    "Auto matches bar spacing; Off leaves gaps to your %1 config": ""
+    "Auto matches bar spacing; Off leaves gaps to your %1 config": "התאמה אוטומטית משתמשת בריווח הסרגל; מצב כבוי משאיר מרווחים לפי הגדרות ה%1 שלך"
   },
   "Auto mode is on. Manual profile selection is disabled.": {
     "Auto mode is on. Manual profile selection is disabled.": "מצב אוטומטי מופעל. בחירת פרופיל ידנית מושבתת."
@@ -849,7 +855,7 @@
     "Auto saved": "נשמר אוטומטית"
   },
   "Auto uses an installed or bundled key-only service.": {
-    "Auto uses an installed or bundled key-only service.": ""
+    "Auto uses an installed or bundled key-only service.": "מצב אוטומטי משתמש בשירות מפתח-בלבד מותקן או מובנה."
   },
   "Auto-Clear After": {
     "Auto-Clear After": "ניקוי אוטומטי אחרי"
@@ -1092,7 +1098,7 @@
     "Bind lock screen to dbus signals from loginctl. Disable if using an external lock screen": "מקשר את מסך הנעילה לאותות D-Bus מloginctl. יש להשבית אם משתמשים במסך נעילה חיצוני."
   },
   "Bind the %1 IPC action in your compositor config.": {
-    "Bind the %1 IPC action in your compositor config.": ""
+    "Bind the %1 IPC action in your compositor config.": "קשר/י את פעולת הIPC %1 בהגדרת הקומפוזיטור שלך."
   },
   "Binds include added": {
     "Binds include added": "קובץ includes של קיצורי מקלדת נוסף"
@@ -1515,7 +1521,7 @@
     "Click an entry to paste directly instead of copying": "לחץ/י על רשומה כדי להדביק ישירות במקום להעתיק"
   },
   "Click any shortcut to edit. Changes save to %1": {
-    "Click any shortcut to edit. Changes save to %1": "לחץ/י על כל קיצור דרך כדי לערוך. השינויים נשמרים ב-%1"
+    "Click any shortcut to edit. Changes save to %1": "לחץ/י על כל קיצור דרך כדי לערוך. השינויים נשמרים ב%1"
   },
   "Click to Paste": {
     "Click to Paste": "לחיצה להדבקה"
@@ -1692,7 +1698,7 @@
     "Configuration will be preserved when this display reconnects": "ההגדרות יישמרו כאשר מסך זה יתחבר מחדש"
   },
   "Configurations": {
-    "Configurations": ""
+    "Configurations": "הגדרות"
   },
   "Configure": {
     "Configure": "הגדר/י"
@@ -1834,6 +1840,9 @@
   },
   "Controls the outline of popouts, modals, and other shell surfaces": {
     "Controls the outline of popouts, modals, and other shell surfaces": "שולט בקווי המתאר של חלונות קופצים, מודלים ומשטחי מעטפת אחרים"
+  },
+  "Convenience options for the login screen": {
+    "Convenience options for the login screen": ""
   },
   "Convenience options for the login screen. Sync to apply.": {
     "Convenience options for the login screen. Sync to apply.": "אפשרויות נוחות למסך ההתחברות. הרץ/י סנכרון כדי להחיל."
@@ -2103,7 +2112,7 @@
     "DMS Settings": "הגדרות DMS"
   },
   "DMS Settings writes Lua keybinds. Add the DMS include so edits apply.": {
-    "DMS Settings writes Lua keybinds. Add the DMS include so edits apply.": "הגדרות DMS כותבות קיצורי מקלדת בLua. הוסף/י את קובץ ה-include של DMS כדי שהעריכות יחולו."
+    "DMS Settings writes Lua keybinds. Add the DMS include so edits apply.": "הגדרות DMS כותבות קיצורי מקלדת בLua. הוסף/י את קובץ הinclude של DMS כדי שהעריכות יחולו."
   },
   "DMS Shortcuts": {
     "DMS Shortcuts": "קיצורי DMS"
@@ -2111,8 +2120,11 @@
   "DMS out of date": {
     "DMS out of date": "הDMS לא מעודכן"
   },
+  "DMS removes its managed block from /etc/pam.d/greetd and stops write services": {
+    "DMS removes its managed block from /etc/pam.d/greetd and stops write services": ""
+  },
   "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": {
-    "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": ""
+    "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": "DMS מסיר את הבלוק המנוהל שלו מ/etc/pam.d/greetd ומפסיק לכתוב אליו"
   },
   "DMS server is outdated (API v%1, expected v%2)": {
     "DMS server is outdated (API v%1, expected v%2)": "השרת של DMS לא מעודכן (API v%1, צפוי v%2)"
@@ -2247,7 +2259,7 @@
     "Defaults": "ערכי ברירת מחדל"
   },
   "Define rules for window behavior. Saves to %1": {
-    "Define rules for window behavior. Saves to %1": "הגדר/י חוקים להתנהגות חלון. נשמר ב-%1"
+    "Define rules for window behavior. Saves to %1": "הגדר/י חוקים להתנהגות חלון. נשמר ב%1"
   },
   "Del: Clear • Shift+Del: Clear All • 1-9: Actions • F10: Help • Esc: Close": {
     "Del: Clear • Shift+Del: Clear All • 1-9: Actions • F10: Help • Esc: Close": "Del: ניקוי • Shift+Del: ניקוי הכל • 1-9: פעולות • F10: עזרה • Esc: סגירה"
@@ -2714,6 +2726,9 @@
   "Enable fingerprint authentication": {
     "Enable fingerprint authentication": "הפעלת אימות באמצעות טביעת אצבע"
   },
+  "Enable fingerprint or security key for DMS Greeter": {
+    "Enable fingerprint or security key for DMS Greeter": ""
+  },
   "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.": {
     "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.": "הפעל/י הזדהות באמצעות טביעת אצבע או מפתח אבטחה במסך ההתחברות של DMS. שינויי אימות מוחלים באופן אוטומטי."
   },
@@ -2844,7 +2859,7 @@
     "Exact": "מדויק"
   },
   "Excluded Players": {
-    "Excluded Players": ""
+    "Excluded Players": "נגנים שלא נכללים"
   },
   "Exclusive Zone Offset": {
     "Exclusive Zone Offset": "היסט האזור הבלעדי"
@@ -2913,7 +2928,7 @@
     "Failed to add printer to class": "הוספת המדפסת לסוג נכשלה"
   },
   "Failed to apply %1 colors": {
-    "Failed to apply %1 colors": ""
+    "Failed to apply %1 colors": "החלת צבעי %1 נכשלה"
   },
   "Failed to apply charge limit to system": {
     "Failed to apply charge limit to system": "החלת מגבלת הטעינה על המערכת נכשלה"
@@ -3015,7 +3030,7 @@
     "Failed to move to trash": "העברה לאשפה נכשלה"
   },
   "Failed to parse %1": {
-    "Failed to parse %1": ""
+    "Failed to parse %1": "פענוח %1 נכשל"
   },
   "Failed to pause printer": {
     "Failed to pause printer": "השהיית המדפסת נכשלה"
@@ -3060,7 +3075,7 @@
     "Failed to ring device": "שליחת הצלצול להתקן נכשלה"
   },
   "Failed to run 'dms greeter status'. Ensure DMS is installed and dms is in PATH.": {
-    "Failed to run 'dms greeter status'. Ensure DMS is installed and dms is in PATH.": "הרצת הפקודה 'dms greeter status' נכשלה. ודא/י שDMS מותקן ו-dms נמצא בPATH."
+    "Failed to run 'dms greeter status'. Ensure DMS is installed and dms is in PATH.": "הרצת הפקודה 'dms greeter status' נכשלה. ודא/י שDMS מותקן ושdms נמצא בPATH."
   },
   "Failed to save VPN credentials": {
     "Failed to save VPN credentials": "שמירת אישורי הגישה לVPN נכשלה"
@@ -3189,7 +3204,7 @@
     "File manager used to open the trash. Pick \"custom\" to enter your own command.": "מנהל הקבצים שבו נעשה שימוש כדי לפתוח את האשפה. בחר/י \"מותאם אישית\" כדי להזין פקודה משלך."
   },
   "File received from %1": {
-    "File received from %1": ""
+    "File received from %1": "התקבל קובץ מ%1"
   },
   "File search requires dsearch\nInstall from github.com/AvengeMedia/danksearch": {
     "File search requires dsearch\nInstall from github.com/AvengeMedia/danksearch": "חיפוש קבצים הכלי dsearch נדרש כדי לבצע חיפוש של קבצים.\nהתקן/י אותו מ: github.com/morelazers/dsearch"
@@ -3223,6 +3238,9 @@
   },
   "Fine-tune the space reserved for the bar from the screen edge": {
     "Fine-tune the space reserved for the bar from the screen edge": "כוונון עדין של המרווח השמור לסרגל מקצה המסך"
+  },
+  "Fingerprint availability could not be confirmed": {
+    "Fingerprint availability could not be confirmed": ""
   },
   "Fingerprint availability could not be confirmed.": {
     "Fingerprint availability could not be confirmed.": "לא ניתן היה לאשר את זמינות טביעת האצבע."
@@ -3437,6 +3455,9 @@
   "Format Legend": {
     "Format Legend": "מקרא תבניות"
   },
+  "Format the date on the login screen": {
+    "Format the date on the login screen": ""
+  },
   "Forward 10s": {
     "Forward 10s": "קדימה 10 שניות"
   },
@@ -3537,7 +3558,7 @@
     "Gaps": "מרווחים"
   },
   "General": {
-    "General": ""
+    "General": "כללי"
   },
   "Generate Override": {
     "Generate Override": "יצירת דריסה"
@@ -4100,6 +4121,9 @@
   "Install theme '%1' from the DMS registry?": {
     "Install theme '%1' from the DMS registry?": "להתקין את ערכת הנושא '%1' מהמאגר של DMS?"
   },
+  "Installation and PAM setup are documented in the ": {
+    "Installation and PAM setup are documented in the ": ""
+  },
   "Installation and PAM setup: see the ": {
     "Installation and PAM setup: see the ": "להתקנה והגדרה של PAM: ראה/י את "
   },
@@ -4460,6 +4484,9 @@
   "Low Priority": {
     "Low Priority": "עדיפות נמוכה"
   },
+  "Lower display refresh rate on battery": {
+    "Lower display refresh rate on battery": ""
+  },
   "MAC": {
     "MAC": "MAC"
   },
@@ -4473,7 +4500,7 @@
     "Make admin": "הפוך/הפכי למנהל/ת"
   },
   "Make sure KDE Connect or Valent is running on your other devices": {
-    "Make sure KDE Connect or Valent is running on your other devices": "ודא/י ש-KDE Connect או Valent פועל על ההתקנים האחרים שלך"
+    "Make sure KDE Connect or Valent is running on your other devices": "ודא/י שKDE Connect או Valent פועל על ההתקנים האחרים שלך"
   },
   "Make the bar background fully transparent": {
     "Make the bar background fully transparent": "הפוך/הפכי את רקע הסרגל לשקוף לחלוטין"
@@ -4490,8 +4517,11 @@
   "Managed by Frame in Connected Mode": {
     "Managed by Frame in Connected Mode": "מנוהל על ידי המסגרת במצב ״מחובר״"
   },
+  "Managed by the primary PAM source": {
+    "Managed by the primary PAM source": ""
+  },
   "Managed by the primary PAM source.": {
-    "Managed by the primary PAM source.": ""
+    "Managed by the primary PAM source.": "מנוהל על ידי מקור הPAM הראשי."
   },
   "Management": {
     "Management": "ניהול"
@@ -5132,6 +5162,9 @@
   "No files found": {
     "No files found": "לא נמצאו קבצים"
   },
+  "No fingerprint reader detected": {
+    "No fingerprint reader detected": ""
+  },
   "No fingerprint reader detected.": {
     "No fingerprint reader detected.": "לא זוהה קורא טביעות אצבע."
   },
@@ -5317,6 +5350,12 @@
   },
   "Not available": {
     "Not available": "לא זמינה"
+  },
+  "Not available - install fprintd and pam_fprintd": {
+    "Not available - install fprintd and pam_fprintd": ""
+  },
+  "Not available - install or configure pam_u2f": {
+    "Not available - install or configure pam_u2f": ""
   },
   "Not available — install fprintd and pam_fprintd, or configure greetd PAM.": {
     "Not available — install fprintd and pam_fprintd, or configure greetd PAM.": "לא זמין — התקן/י את החבילות fprintd ו pam_fprintd, או הגדר/י את greetd PAM."
@@ -5570,6 +5609,9 @@
   "Outline": {
     "Outline": "מתאר"
   },
+  "Outline around shell surfaces": {
+    "Outline around shell surfaces": ""
+  },
   "Output": {
     "Output": "פלט"
   },
@@ -5673,7 +5715,7 @@
     "Pairing failed": "הצימוד נכשל"
   },
   "Pairing request from %1": {
-    "Pairing request from %1": ""
+    "Pairing request from %1": "בקשת צימוד מ%1"
   },
   "Pairing request sent": {
     "Pairing request sent": "בקשת צימוד נשלחה"
@@ -5796,7 +5838,7 @@
     "Ping": "פינג"
   },
   "Ping sent to %1": {
-    "Ping sent to %1": ""
+    "Ping sent to %1": "פינג נשלח אל %1"
   },
   "Pinned": {
     "Pinned": "מוצמד"
@@ -5925,7 +5967,7 @@
     "Popup behavior, position": "התנהגות ומיקום חלונות קופצים"
   },
   "Popups": {
-    "Popups": ""
+    "Popups": "חלונות קופצים"
   },
   "Port": {
     "Port": "פורט"
@@ -6135,7 +6177,7 @@
     "Profile when on Battery": "פרופיל בעת שימוש בסוללה"
   },
   "Protection": {
-    "Protection": ""
+    "Protection": "הגנה"
   },
   "Protocol": {
     "Protocol": "פרוטוקול"
@@ -6380,6 +6422,9 @@
   "Requires a newer version of Quickshell": {
     "Requires a newer version of Quickshell": "נדרשת גרסה חדשה יותר של Quickshell"
   },
+  "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).": {
+    "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).": ""
+  },
   "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.": {
     "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.": "נדרשות החבילות greetd, dms-greeter (חובה) וכן הוספת המשתמש/ת שלך לקבוצת greeter (וכן fprintd/pam_fprintd להזדהות עם טביעת אצבע, pam_u2f למפתחות אבטחה). שינויי אימות מוחלים באופן אוטומטי ועשויים לפתוח מסוף לאימות עם sudo."
   },
@@ -6477,7 +6522,7 @@
     "Ring": "צלצל/י"
   },
   "Ringing %1...": {
-    "Ringing %1...": ""
+    "Ringing %1...": "מצלצל ב%1..."
   },
   "Ripple Effects": {
     "Ripple Effects": "אפקטי אדווה"
@@ -6492,13 +6537,13 @@
     "Rule": "חוק"
   },
   "Rule %1": {
-    "Rule %1": ""
+    "Rule %1": "חוק %1"
   },
   "Rule Name": {
     "Rule Name": "שם חוק"
   },
   "Rules": {
-    "Rules": ""
+    "Rules": "חוקים"
   },
   "Rules (%1)": {
     "Rules (%1)": "חוקים (%1)"
@@ -6726,10 +6771,13 @@
     "Security & privacy": "אבטחה ופרטיות"
   },
   "Security Key PAM Source": {
-    "Security Key PAM Source": ""
+    "Security Key PAM Source": "מקור PAM של מפתח אבטחה"
   },
   "Security key mode": {
     "Security key mode": "מצב מפתח אבטחה"
+  },
+  "Security-key availability could not be confirmed": {
+    "Security-key availability could not be confirmed": ""
   },
   "Security-key availability could not be confirmed.": {
     "Security-key availability could not be confirmed.": "לא ניתן היה לאמת את הזמינות של מפתח האבטחה."
@@ -6852,7 +6900,7 @@
     "Send SMS": "שלח/י SMS"
   },
   "Sending %1...": {
-    "Sending %1...": ""
+    "Sending %1...": "שולח %1..."
   },
   "Separate": {
     "Separate": "נפרד"
@@ -7214,6 +7262,9 @@
   "Show during Niri overview": {
     "Show during Niri overview": "הצג/י במהלך הסקירה של niri"
   },
+  "Show foreground surfaces on notification cards": {
+    "Show foreground surfaces on notification cards": ""
+  },
   "Show foreground surfaces on panels for stronger contrast": {
     "Show foreground surfaces on panels for stronger contrast": "הצג/י משטחים קדמיים על פאנלים עבור ניגודיות חזקה יותר"
   },
@@ -7481,6 +7532,9 @@
   "Surface Border Opacity": {
     "Surface Border Opacity": "שקיפות מסגרת למשטחים"
   },
+  "Surface Border Outline": {
+    "Surface Border Outline": ""
+  },
   "Surface Container": {
     "Surface Container": "מיכל המשטח"
   },
@@ -7526,6 +7580,9 @@
   "Switch between display configurations": {
     "Switch between display configurations": "החלף/י בין הגדרות תצוגה"
   },
+  "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.": {
+    "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.": ""
+  },
   "Switch to power profile": {
     "Switch to power profile": "החלף/י לפרופיל חשמל"
   },
@@ -7546,6 +7603,9 @@
   },
   "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.": {
     "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.": "סנכרון מחיל את ערכת הנושא וההגדרות שלך על מסך ההתחברות. משתמשים אחרים צריכים להריץ dms greeter sync --profile במקום סנכרון מלא. שינויי אימות מוחלים באופן אוטומטי."
+  },
+  "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.": {
+    "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.": ""
   },
   "Sync completed successfully.": {
     "Sync completed successfully.": "הסנכרון הושלם בהצלחה."
@@ -7656,10 +7716,10 @@
     "Terminal fallback failed. Install one of the supported terminal emulators or run 'dms greeter sync' manually.": "המעבר למסוף כגיבוי נכשל. התקן/י את אחד מיישומי המסוף הנתמכים או הרץ/י את הפקודה 'dms greeter sync' באופן ידני."
   },
   "Terminal fallback opened. Complete authentication there; it will close automatically when done.": {
-    "Terminal fallback opened. Complete authentication there; it will close automatically when done.": ""
+    "Terminal fallback opened. Complete authentication there; it will close automatically when done.": "נפתח מסוף כגיבוי. השלם/י את האימות שם; הוא ייסגר אוטומטית בסיום."
   },
   "Terminal opened. Complete authentication there; it will close automatically when done.": {
-    "Terminal opened. Complete authentication there; it will close automatically when done.": ""
+    "Terminal opened. Complete authentication there; it will close automatically when done.": "המסוף נפתח. השלם/י את האימות שם; הוא ייסגר אוטומטית בסיום."
   },
   "Terminals - Always use Dark Theme": {
     "Terminals - Always use Dark Theme": "השתמש/י תמיד בערכת נושא כהה במסופים"
@@ -7755,7 +7815,7 @@
     "This device": "התקן זה"
   },
   "This install is still using hyprland.conf. Run dms setup to migrate before changing these settings.": {
-    "This install is still using hyprland.conf. Run dms setup to migrate before changing these settings.": ""
+    "This install is still using hyprland.conf. Run dms setup to migrate before changing these settings.": "התקנה זו עדיין משתמשת בhyprland.conf. הרץ/י את הפקודה dms setup כדי להעביר את ההגדרות לפני שינוי."
   },
   "This may take a few seconds": {
     "This may take a few seconds": "זה עשוי לקחת מספר שניות"
@@ -7833,7 +7893,7 @@
     "Timeout Progress Bar": "פס התקדמות של הזמן הקצוב"
   },
   "Timeouts": {
-    "Timeouts": ""
+    "Timeouts": "זמנים קצובים"
   },
   "Tint Saturation": {
     "Tint Saturation": "רוויית הגוון"
@@ -8216,6 +8276,9 @@
   "Use a custom image for the lock screen, or leave empty to use your desktop wallpaper.": {
     "Use a custom image for the lock screen, or leave empty to use your desktop wallpaper.": "השתמש/י בתמונה מותאמת אישית למסך הנעילה, או השאר/י ריק כדי להשתמש בתמונת הרקע של שולחן העבודה שלך."
   },
+  "Use a custom image for the login screen, or leave empty to use desktop wallpaper": {
+    "Use a custom image for the login screen, or leave empty to use desktop wallpaper": ""
+  },
   "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.": {
     "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.": "השתמש/י בתמונה מותאמת אישית למסך ההתחברות, או השאר/י ריק כדי להשתמש בתמונת הרקע של שולחן העבודה שלך."
   },
@@ -8224,6 +8287,9 @@
   },
   "Use a fixed shadow direction for this bar": {
     "Use a fixed shadow direction for this bar": "השתמש/י בכיוון צל קבוע עבור סרגל זה"
+  },
+  "Use a security key for lock screen authentication": {
+    "Use a security key for lock screen authentication": ""
   },
   "Use a security key for lock screen authentication.": {
     "Use a security key for lock screen authentication.": "השתמש/י במפתח אבטחה לאימות מסך הנעילה."
@@ -8255,6 +8321,9 @@
   "Use different workspace colors on displays that are not focused": {
     "Use different workspace colors on displays that are not focused": "השתמש/י בצבעים שונים לסביבות עבודה במסכים שאינם ממוקדים"
   },
+  "Use fingerprint authentication for the lock screen": {
+    "Use fingerprint authentication for the lock screen": ""
+  },
   "Use fingerprint authentication for the lock screen.": {
     "Use fingerprint authentication for the lock screen.": "השתמש/י באימות טביעת אצבע עבור מסך הנעילה."
   },
@@ -8277,7 +8346,7 @@
     "Use sound theme from system settings": "השתמש/י בערכת הצלילים מהגדרות המערכת"
   },
   "Use system PAM authentication": {
-    "Use system PAM authentication": ""
+    "Use system PAM authentication": "השתמש/י באימות PAM של המערכת"
   },
   "Use the extended surface for launcher content": {
     "Use the extended surface for launcher content": "השתמש/י במשטח המורחב עבור תוכן המשגר"
@@ -8532,7 +8601,7 @@
     "When locked": "כאשר נעול"
   },
   "Which PAM service the lock screen uses to authenticate": {
-    "Which PAM service the lock screen uses to authenticate": ""
+    "Which PAM service the lock screen uses to authenticate": "באיזה שירות PAM מסך הנעילה משתמש כדי לאמת"
   },
   "White": {
     "White": "לבן"
@@ -8778,7 +8847,7 @@
     "discuss": "דיון"
   },
   "display rotation option": {
-    "Normal": ""
+    "Normal": "רגיל"
   },
   "dms is a highly customizable, modern desktop shell with a <a href=\"https://m3.material.io/\" style=\"text-decoration:none; color:%1;\">material 3 inspired</a> design.<br /><br/>It is built with <a href=\"https://quickshell.org\" style=\"text-decoration:none; color:%1;\">Quickshell</a>, a QT6 framework for building desktop shells, and <a href=\"https://go.dev\" style=\"text-decoration:none; color:%1;\">Go</a>, a statically typed, compiled programming language.": {
     "dms is a highly customizable, modern desktop shell with a <a href=\"https://m3.material.io/\" style=\"text-decoration:none; color:%1;\">material 3 inspired</a> design.<br /><br/>It is built with <a href=\"https://quickshell.org\" style=\"text-decoration:none; color:%1;\">Quickshell</a>, a QT6 framework for building desktop shells, and <a href=\"https://go.dev\" style=\"text-decoration:none; color:%1;\">Go</a>, a statically typed, compiled programming language.": "הפרויקט DMS הוא מעטפת שולחן עבודה מודרנית וניתנת להתאמה אישית עם עיצוב בהשראת <a href=\"https://m3.material.io/\" style=\"text-decoration:none; color:%1;\">Material Design 3</a> של גוגל.<br /><br/>היא נבנתה עם שפת התכנות <a href=\"https://go.dev\" style=\"text-decoration:none; color:%1;\">Go</a> ו<a href=\"https://quickshell.org\" style=\"text-decoration:none; color:%1;\">Quickshell</a>, ספריית Qt6 לבניית מעטפות לשולחן העבודה."
@@ -8841,7 +8910,7 @@
     "mangowc GitHub": "הGitHub של mangowc"
   },
   "matugen not available or disabled - cannot apply %1 colors": {
-    "matugen not available or disabled - cannot apply %1 colors": ""
+    "matugen not available or disabled - cannot apply %1 colors": "matugen אינו זמין או מושבת - לא ניתן להחיל צבעי %1"
   },
   "matugen not found - install matugen package for dynamic theming": {
     "matugen not found - install matugen package for dynamic theming": "matugen לא נמצא - התקן/י את החבילה של matugen כדי לאפשר עיצוב דינמי"
@@ -8856,7 +8925,7 @@
     "nav": "ניווט"
   },
   "network security type": {
-    "Open": ""
+    "Open": "פתוחה"
   },
   "niri GitHub": {
     "niri GitHub": "הGitHub של niri"
@@ -8907,7 +8976,7 @@
     "power-profiles-daemon not available": "power-profiles-daemon אינו זמין"
   },
   "primary network connection label": {
-    "Primary": ""
+    "Primary": "ראשי"
   },
   "procs": {
     "procs": "תהליכים"

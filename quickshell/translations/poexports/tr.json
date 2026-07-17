@@ -785,8 +785,14 @@
   "Authentication Source": {
     "Authentication Source": ""
   },
+  "Authentication changes applied": {
+    "Authentication changes applied": ""
+  },
   "Authentication changes applied.": {
     "Authentication changes applied.": ""
+  },
+  "Authentication changes apply automatically": {
+    "Authentication changes apply automatically": ""
   },
   "Authentication changes apply automatically.": {
     "Authentication changes apply automatically.": ""
@@ -1835,6 +1841,9 @@
   "Controls the outline of popouts, modals, and other shell surfaces": {
     "Controls the outline of popouts, modals, and other shell surfaces": ""
   },
+  "Convenience options for the login screen": {
+    "Convenience options for the login screen": ""
+  },
   "Convenience options for the login screen. Sync to apply.": {
     "Convenience options for the login screen. Sync to apply.": ""
   },
@@ -2110,6 +2119,9 @@
   },
   "DMS out of date": {
     "DMS out of date": "DMS güncel değil"
+  },
+  "DMS removes its managed block from /etc/pam.d/greetd and stops write services": {
+    "DMS removes its managed block from /etc/pam.d/greetd and stops write services": ""
   },
   "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": {
     "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": ""
@@ -2714,6 +2726,9 @@
   "Enable fingerprint authentication": {
     "Enable fingerprint authentication": "Parmak izi kimlik doğrulamasını etkinleştir"
   },
+  "Enable fingerprint or security key for DMS Greeter": {
+    "Enable fingerprint or security key for DMS Greeter": ""
+  },
   "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.": {
     "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.": ""
   },
@@ -3224,6 +3239,9 @@
   "Fine-tune the space reserved for the bar from the screen edge": {
     "Fine-tune the space reserved for the bar from the screen edge": ""
   },
+  "Fingerprint availability could not be confirmed": {
+    "Fingerprint availability could not be confirmed": ""
+  },
   "Fingerprint availability could not be confirmed.": {
     "Fingerprint availability could not be confirmed.": ""
   },
@@ -3436,6 +3454,9 @@
   },
   "Format Legend": {
     "Format Legend": "Biçim Açıklaması"
+  },
+  "Format the date on the login screen": {
+    "Format the date on the login screen": ""
   },
   "Forward 10s": {
     "Forward 10s": ""
@@ -4100,6 +4121,9 @@
   "Install theme '%1' from the DMS registry?": {
     "Install theme '%1' from the DMS registry?": "DMS kayıt defterinden '%1' teması yüklensin mi?"
   },
+  "Installation and PAM setup are documented in the ": {
+    "Installation and PAM setup are documented in the ": ""
+  },
   "Installation and PAM setup: see the ": {
     "Installation and PAM setup: see the ": ""
   },
@@ -4460,6 +4484,9 @@
   "Low Priority": {
     "Low Priority": "Düşük Öncelik"
   },
+  "Lower display refresh rate on battery": {
+    "Lower display refresh rate on battery": ""
+  },
   "MAC": {
     "MAC": "MAC"
   },
@@ -4489,6 +4516,9 @@
   },
   "Managed by Frame in Connected Mode": {
     "Managed by Frame in Connected Mode": ""
+  },
+  "Managed by the primary PAM source": {
+    "Managed by the primary PAM source": ""
   },
   "Managed by the primary PAM source.": {
     "Managed by the primary PAM source.": ""
@@ -5132,6 +5162,9 @@
   "No files found": {
     "No files found": "Dosya bulunamadı"
   },
+  "No fingerprint reader detected": {
+    "No fingerprint reader detected": ""
+  },
   "No fingerprint reader detected.": {
     "No fingerprint reader detected.": ""
   },
@@ -5317,6 +5350,12 @@
   },
   "Not available": {
     "Not available": "Mevcut değil"
+  },
+  "Not available - install fprintd and pam_fprintd": {
+    "Not available - install fprintd and pam_fprintd": ""
+  },
+  "Not available - install or configure pam_u2f": {
+    "Not available - install or configure pam_u2f": ""
   },
   "Not available — install fprintd and pam_fprintd, or configure greetd PAM.": {
     "Not available — install fprintd and pam_fprintd, or configure greetd PAM.": ""
@@ -5569,6 +5608,9 @@
   },
   "Outline": {
     "Outline": ""
+  },
+  "Outline around shell surfaces": {
+    "Outline around shell surfaces": ""
   },
   "Output": {
     "Output": ""
@@ -6380,6 +6422,9 @@
   "Requires a newer version of Quickshell": {
     "Requires a newer version of Quickshell": ""
   },
+  "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).": {
+    "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).": ""
+  },
   "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.": {
     "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.": ""
   },
@@ -6730,6 +6775,9 @@
   },
   "Security key mode": {
     "Security key mode": ""
+  },
+  "Security-key availability could not be confirmed": {
+    "Security-key availability could not be confirmed": ""
   },
   "Security-key availability could not be confirmed.": {
     "Security-key availability could not be confirmed.": ""
@@ -7214,6 +7262,9 @@
   "Show during Niri overview": {
     "Show during Niri overview": ""
   },
+  "Show foreground surfaces on notification cards": {
+    "Show foreground surfaces on notification cards": ""
+  },
   "Show foreground surfaces on panels for stronger contrast": {
     "Show foreground surfaces on panels for stronger contrast": ""
   },
@@ -7481,6 +7532,9 @@
   "Surface Border Opacity": {
     "Surface Border Opacity": ""
   },
+  "Surface Border Outline": {
+    "Surface Border Outline": ""
+  },
   "Surface Container": {
     "Surface Container": ""
   },
@@ -7526,6 +7580,9 @@
   "Switch between display configurations": {
     "Switch between display configurations": ""
   },
+  "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.": {
+    "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.": ""
+  },
   "Switch to power profile": {
     "Switch to power profile": "Güç profiline geç"
   },
@@ -7546,6 +7603,9 @@
   },
   "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.": {
     "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.": ""
+  },
+  "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.": {
+    "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.": ""
   },
   "Sync completed successfully.": {
     "Sync completed successfully.": ""
@@ -8216,6 +8276,9 @@
   "Use a custom image for the lock screen, or leave empty to use your desktop wallpaper.": {
     "Use a custom image for the lock screen, or leave empty to use your desktop wallpaper.": ""
   },
+  "Use a custom image for the login screen, or leave empty to use desktop wallpaper": {
+    "Use a custom image for the login screen, or leave empty to use desktop wallpaper": ""
+  },
   "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.": {
     "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.": ""
   },
@@ -8224,6 +8287,9 @@
   },
   "Use a fixed shadow direction for this bar": {
     "Use a fixed shadow direction for this bar": ""
+  },
+  "Use a security key for lock screen authentication": {
+    "Use a security key for lock screen authentication": ""
   },
   "Use a security key for lock screen authentication.": {
     "Use a security key for lock screen authentication.": ""
@@ -8254,6 +8320,9 @@
   },
   "Use different workspace colors on displays that are not focused": {
     "Use different workspace colors on displays that are not focused": ""
+  },
+  "Use fingerprint authentication for the lock screen": {
+    "Use fingerprint authentication for the lock screen": ""
   },
   "Use fingerprint authentication for the lock screen.": {
     "Use fingerprint authentication for the lock screen.": ""

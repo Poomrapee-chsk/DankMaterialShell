@@ -785,8 +785,14 @@
   "Authentication Source": {
     "Authentication Source": ""
   },
+  "Authentication changes applied": {
+    "Authentication changes applied": ""
+  },
   "Authentication changes applied.": {
     "Authentication changes applied.": "Modifiche di autenticazione applicate."
+  },
+  "Authentication changes apply automatically": {
+    "Authentication changes apply automatically": ""
   },
   "Authentication changes apply automatically.": {
     "Authentication changes apply automatically.": "Le modifiche di autenticazione vengono applicate automaticamente."
@@ -1835,6 +1841,9 @@
   "Controls the outline of popouts, modals, and other shell surfaces": {
     "Controls the outline of popouts, modals, and other shell surfaces": "Controlla il contorno di popup, modali e altre superfici della shell"
   },
+  "Convenience options for the login screen": {
+    "Convenience options for the login screen": ""
+  },
   "Convenience options for the login screen. Sync to apply.": {
     "Convenience options for the login screen. Sync to apply.": "Opzioni di comodità per la schermata di accesso. Sincronizza per applicare."
   },
@@ -2110,6 +2119,9 @@
   },
   "DMS out of date": {
     "DMS out of date": "DMS obsoleta"
+  },
+  "DMS removes its managed block from /etc/pam.d/greetd and stops write services": {
+    "DMS removes its managed block from /etc/pam.d/greetd and stops write services": ""
   },
   "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": {
     "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it": ""
@@ -2714,6 +2726,9 @@
   "Enable fingerprint authentication": {
     "Enable fingerprint authentication": "Abilita autenticazione tramite impronta digitale"
   },
+  "Enable fingerprint or security key for DMS Greeter": {
+    "Enable fingerprint or security key for DMS Greeter": ""
+  },
   "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.": {
     "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.": "Abilita impronta digitale o chiave di sicurezza per il Greeter DMS. Le modifiche di autenticazione vengono applicate automaticamente."
   },
@@ -3224,6 +3239,9 @@
   "Fine-tune the space reserved for the bar from the screen edge": {
     "Fine-tune the space reserved for the bar from the screen edge": "Regola con precisione lo spazio riservato alla barra dal bordo dello schermo"
   },
+  "Fingerprint availability could not be confirmed": {
+    "Fingerprint availability could not be confirmed": ""
+  },
   "Fingerprint availability could not be confirmed.": {
     "Fingerprint availability could not be confirmed.": "Impossibile confermare la disponibilità dell'impronta digitale."
   },
@@ -3436,6 +3454,9 @@
   },
   "Format Legend": {
     "Format Legend": "Legenda Formato"
+  },
+  "Format the date on the login screen": {
+    "Format the date on the login screen": ""
   },
   "Forward 10s": {
     "Forward 10s": "Avanti di 10s"
@@ -4100,6 +4121,9 @@
   "Install theme '%1' from the DMS registry?": {
     "Install theme '%1' from the DMS registry?": "Installa il tema \"%1\" dal registro DMS?"
   },
+  "Installation and PAM setup are documented in the ": {
+    "Installation and PAM setup are documented in the ": ""
+  },
   "Installation and PAM setup: see the ": {
     "Installation and PAM setup: see the ": "Installazione e configurazione di PAM: vedi la "
   },
@@ -4460,6 +4484,9 @@
   "Low Priority": {
     "Low Priority": "Bassa Priorità"
   },
+  "Lower display refresh rate on battery": {
+    "Lower display refresh rate on battery": ""
+  },
   "MAC": {
     "MAC": "MAC"
   },
@@ -4489,6 +4516,9 @@
   },
   "Managed by Frame in Connected Mode": {
     "Managed by Frame in Connected Mode": "Gestito dalla Cornice in Modalità Connessa"
+  },
+  "Managed by the primary PAM source": {
+    "Managed by the primary PAM source": ""
   },
   "Managed by the primary PAM source.": {
     "Managed by the primary PAM source.": ""
@@ -5132,6 +5162,9 @@
   "No files found": {
     "No files found": "Nessun file trovato"
   },
+  "No fingerprint reader detected": {
+    "No fingerprint reader detected": ""
+  },
   "No fingerprint reader detected.": {
     "No fingerprint reader detected.": "Nessun lettore di impronte digitali rilevato."
   },
@@ -5317,6 +5350,12 @@
   },
   "Not available": {
     "Not available": "Non disponibile"
+  },
+  "Not available - install fprintd and pam_fprintd": {
+    "Not available - install fprintd and pam_fprintd": ""
+  },
+  "Not available - install or configure pam_u2f": {
+    "Not available - install or configure pam_u2f": ""
   },
   "Not available — install fprintd and pam_fprintd, or configure greetd PAM.": {
     "Not available — install fprintd and pam_fprintd, or configure greetd PAM.": "Non disponibile — installa fprintd e pam_fprintd, o configura il PAM di greetd."
@@ -5569,6 +5608,9 @@
   },
   "Outline": {
     "Outline": "Bordo"
+  },
+  "Outline around shell surfaces": {
+    "Outline around shell surfaces": ""
   },
   "Output": {
     "Output": "Output"
@@ -6380,6 +6422,9 @@
   "Requires a newer version of Quickshell": {
     "Requires a newer version of Quickshell": "Richiede una versione più recente di Quickshell"
   },
+  "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).": {
+    "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).": ""
+  },
   "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.": {
     "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.": "Richiede greetd, dms-greeter e il tuo utente nel gruppo greeter (oltre a fprintd/pam_fprintd per l'impronta digitale e pam_u2f per le chiavi di sicurezza). Le modifiche all'autenticazione vengono applicate automaticamente e potrebbero aprire un terminale per sudo."
   },
@@ -6730,6 +6775,9 @@
   },
   "Security key mode": {
     "Security key mode": "Modalità chiave di sicurezza"
+  },
+  "Security-key availability could not be confirmed": {
+    "Security-key availability could not be confirmed": ""
   },
   "Security-key availability could not be confirmed.": {
     "Security-key availability could not be confirmed.": "La disponibilità della chiave di sicurezza non ha potuto essere confermata."
@@ -7214,6 +7262,9 @@
   "Show during Niri overview": {
     "Show during Niri overview": "Mostra durante la panoramica di Niri"
   },
+  "Show foreground surfaces on notification cards": {
+    "Show foreground surfaces on notification cards": ""
+  },
   "Show foreground surfaces on panels for stronger contrast": {
     "Show foreground surfaces on panels for stronger contrast": "Mostra superfici in primo piano sui pannelli per un contrasto più forte"
   },
@@ -7481,6 +7532,9 @@
   "Surface Border Opacity": {
     "Surface Border Opacity": "Opacità Bordo Superficie"
   },
+  "Surface Border Outline": {
+    "Surface Border Outline": ""
+  },
   "Surface Container": {
     "Surface Container": "Contenitore Superficie"
   },
@@ -7526,6 +7580,9 @@
   "Switch between display configurations": {
     "Switch between display configurations": "Passa da una configurazione all'altra del display"
   },
+  "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.": {
+    "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.": ""
+  },
   "Switch to power profile": {
     "Switch to power profile": "Passa al profilo energetico"
   },
@@ -7546,6 +7603,9 @@
   },
   "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.": {
     "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.": "La sincronizzazione applica il tuo tema e le tue impostazioni alla schermata di accesso. Gli altri utenti dovrebbero eseguire dms greeter sync --profile invece di una sincronizzazione completa. Le modifiche di autenticazione vengono applicate automaticamente."
+  },
+  "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.": {
+    "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.": ""
   },
   "Sync completed successfully.": {
     "Sync completed successfully.": "Sincronizzazione completata con successo."
@@ -8216,6 +8276,9 @@
   "Use a custom image for the lock screen, or leave empty to use your desktop wallpaper.": {
     "Use a custom image for the lock screen, or leave empty to use your desktop wallpaper.": "Utilizza un'immagine personalizzata per la schermata di blocco, oppure lascia vuoto per usare lo sfondo del desktop."
   },
+  "Use a custom image for the login screen, or leave empty to use desktop wallpaper": {
+    "Use a custom image for the login screen, or leave empty to use desktop wallpaper": ""
+  },
   "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.": {
     "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.": "Usa un'immagine personalizzata per la schermata di blocco, o lascia vuoto per utilizzare lo sfondo del tuo desktop."
   },
@@ -8224,6 +8287,9 @@
   },
   "Use a fixed shadow direction for this bar": {
     "Use a fixed shadow direction for this bar": "Usa una direzione dell'ombra fissa per questa barra"
+  },
+  "Use a security key for lock screen authentication": {
+    "Use a security key for lock screen authentication": ""
   },
   "Use a security key for lock screen authentication.": {
     "Use a security key for lock screen authentication.": "Usa una chiave di sicurezza per l'autenticazione della schermata di blocco."
@@ -8254,6 +8320,9 @@
   },
   "Use different workspace colors on displays that are not focused": {
     "Use different workspace colors on displays that are not focused": "Usa colori diversi per gli spazi di lavoro sugli schermi non attivi"
+  },
+  "Use fingerprint authentication for the lock screen": {
+    "Use fingerprint authentication for the lock screen": ""
   },
   "Use fingerprint authentication for the lock screen.": {
     "Use fingerprint authentication for the lock screen.": "Usa l'autenticazione tramite impronta digitale per la schermata di blocco."

@@ -1834,16 +1834,16 @@
     "comment": "lock screen PAM source setting"
   },
   {
-    "term": "Authentication changes applied.",
+    "term": "Authentication changes applied",
     "translation": "",
-    "context": "Authentication changes applied.",
+    "context": "Authentication changes applied",
     "reference": "",
     "comment": ""
   },
   {
-    "term": "Authentication changes apply automatically.",
+    "term": "Authentication changes apply automatically",
     "translation": "",
-    "context": "Authentication changes apply automatically.",
+    "context": "Authentication changes apply automatically",
     "reference": "",
     "comment": "greeter auth setting description"
   },
@@ -4284,9 +4284,9 @@
     "comment": ""
   },
   {
-    "term": "Convenience options for the login screen. Sync to apply.",
+    "term": "Convenience options for the login screen",
     "translation": "",
-    "context": "Convenience options for the login screen. Sync to apply.",
+    "context": "Convenience options for the login screen",
     "reference": "",
     "comment": ""
   },
@@ -4928,9 +4928,9 @@
     "comment": ""
   },
   {
-    "term": "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it",
+    "term": "DMS removes its managed block from /etc/pam.d/greetd and stops write services",
     "translation": "",
-    "context": "DMS removes its managed block from /etc/pam.d/greetd and stops writing to it",
+    "context": "DMS removes its managed block from /etc/pam.d/greetd and stops write services",
     "reference": "",
     "comment": "greeter system PAM toggle description"
   },
@@ -6335,9 +6335,9 @@
     "comment": ""
   },
   {
-    "term": "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.",
+    "term": "Enable fingerprint or security key for DMS Greeter",
     "translation": "",
-    "context": "Enable fingerprint or security key for DMS Greeter. Authentication changes apply automatically.",
+    "context": "Enable fingerprint or security key for DMS Greeter",
     "reference": "",
     "comment": ""
   },
@@ -7525,9 +7525,9 @@
     "comment": ""
   },
   {
-    "term": "Fingerprint availability could not be confirmed.",
+    "term": "Fingerprint availability could not be confirmed",
     "translation": "",
-    "context": "Fingerprint availability could not be confirmed.",
+    "context": "Fingerprint availability could not be confirmed",
     "reference": "",
     "comment": "fingerprint setting status"
   },
@@ -8022,6 +8022,13 @@
     "comment": ""
   },
   {
+    "term": "Format the date on the login screen",
+    "translation": "",
+    "context": "Format the date on the login screen",
+    "reference": "",
+    "comment": ""
+  },
+  {
     "term": "Forward 10s",
     "translation": "",
     "context": "Forward 10s",
@@ -8431,13 +8438,6 @@
     "term": "Greeter group:",
     "translation": "",
     "context": "Greeter group:",
-    "reference": "",
-    "comment": ""
-  },
-  {
-    "term": "Greeter only — format for the date on the login screen",
-    "translation": "",
-    "context": "Greeter only — format for the date on the login screen",
     "reference": "",
     "comment": ""
   },
@@ -9569,9 +9569,9 @@
     "comment": "theme installation confirmation"
   },
   {
-    "term": "Installation and PAM setup: see the ",
+    "term": "Installation and PAM setup are documented in the ",
     "translation": "",
-    "context": "Installation and PAM setup: see the ",
+    "context": "Installation and PAM setup are documented in the ",
     "reference": "",
     "comment": ""
   },
@@ -10409,6 +10409,13 @@
     "comment": "notification rule urgency option"
   },
   {
+    "term": "Lower display refresh rate on battery",
+    "translation": "",
+    "context": "Lower display refresh rate on battery",
+    "reference": "",
+    "comment": "setting title under power & sleep tab"
+  },
+  {
     "term": "MAC",
     "translation": "",
     "context": "MAC",
@@ -10479,9 +10486,9 @@
     "comment": ""
   },
   {
-    "term": "Managed by the primary PAM source.",
+    "term": "Managed by the primary PAM source",
     "translation": "",
-    "context": "Managed by the primary PAM source.",
+    "context": "Managed by the primary PAM source",
     "reference": "",
     "comment": "factor managed by PAM source status"
   },
@@ -11977,9 +11984,9 @@
     "comment": ""
   },
   {
-    "term": "No fingerprint reader detected.",
+    "term": "No fingerprint reader detected",
     "translation": "",
-    "context": "No fingerprint reader detected.",
+    "context": "No fingerprint reader detected",
     "reference": "",
     "comment": "fingerprint setting status"
   },
@@ -12250,13 +12257,6 @@
     "comment": ""
   },
   {
-    "term": "No terminal configured",
-    "translation": "",
-    "context": "No terminal configured",
-    "reference": "",
-    "comment": ""
-  },
-  {
     "term": "No themes found",
     "translation": "",
     "context": "No themes found",
@@ -12418,6 +12418,20 @@
     "comment": "Tailscale service not available"
   },
   {
+    "term": "Not available - install fprintd and pam_fprintd",
+    "translation": "",
+    "context": "Not available - install fprintd and pam_fprintd",
+    "reference": "",
+    "comment": "lock screen fingerprint setting"
+  },
+  {
+    "term": "Not available - install or configure pam_u2f",
+    "translation": "",
+    "context": "Not available - install or configure pam_u2f",
+    "reference": "",
+    "comment": "lock screen security key setting"
+  },
+  {
     "term": "Not available — install fprintd and pam_fprintd, or configure greetd PAM.",
     "translation": "",
     "context": "Not available — install fprintd and pam_fprintd, or configure greetd PAM.",
@@ -12425,25 +12439,11 @@
     "comment": "greeter fingerprint login setting"
   },
   {
-    "term": "Not available — install fprintd and pam_fprintd.",
-    "translation": "",
-    "context": "Not available — install fprintd and pam_fprintd.",
-    "reference": "",
-    "comment": "lock screen fingerprint setting"
-  },
-  {
     "term": "Not available — install or configure pam_u2f, or configure greetd PAM.",
     "translation": "",
     "context": "Not available — install or configure pam_u2f, or configure greetd PAM.",
     "reference": "",
     "comment": "greeter security key login setting"
-  },
-  {
-    "term": "Not available — install or configure pam_u2f.",
-    "translation": "",
-    "context": "Not available — install or configure pam_u2f.",
-    "reference": "",
-    "comment": "lock screen security key setting"
   },
   {
     "term": "Not bound",
@@ -13013,6 +13013,13 @@
     "comment": "outline color | surface border color"
   },
   {
+    "term": "Outline around shell surfaces",
+    "translation": "",
+    "context": "Outline around shell surfaces",
+    "reference": "",
+    "comment": ""
+  },
+  {
     "term": "Output",
     "translation": "",
     "context": "Output",
@@ -13492,13 +13499,6 @@
     "term": "Pick a different random video each time from the same folder",
     "translation": "",
     "context": "Pick a different random video each time from the same folder",
-    "reference": "",
-    "comment": ""
-  },
-  {
-    "term": "Pick a terminal in Settings → Launcher (or set $TERMINAL).",
-    "translation": "",
-    "context": "Pick a terminal in Settings → Launcher (or set $TERMINAL).",
     "reference": "",
     "comment": ""
   },
@@ -14910,9 +14910,9 @@
     "comment": ""
   },
   {
-    "term": "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.",
+    "term": "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).",
     "translation": "",
-    "context": "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys). Auth changes apply automatically and may open a terminal for sudo.",
+    "context": "Requires greetd, dms-greeter, and your user in the greeter group (plus fprintd/pam_fprintd for fingerprint, pam_u2f for security keys).",
     "reference": "",
     "comment": ""
   },
@@ -15729,9 +15729,9 @@
     "comment": "lock screen U2F security key mode setting"
   },
   {
-    "term": "Security-key availability could not be confirmed.",
+    "term": "Security-key availability could not be confirmed",
     "translation": "",
-    "context": "Security-key availability could not be confirmed.",
+    "context": "Security-key availability could not be confirmed",
     "reference": "",
     "comment": "security key setting status"
   },
@@ -16856,6 +16856,13 @@
     "comment": ""
   },
   {
+    "term": "Show foreground surfaces on notification cards",
+    "translation": "",
+    "context": "Show foreground surfaces on notification cards",
+    "reference": "",
+    "comment": ""
+  },
+  {
     "term": "Show foreground surfaces on panels for stronger contrast",
     "translation": "",
     "context": "Show foreground surfaces on panels for stronger contrast",
@@ -17479,6 +17486,13 @@
     "comment": ""
   },
   {
+    "term": "Surface Border Outline",
+    "translation": "",
+    "context": "Surface Border Outline",
+    "reference": "",
+    "comment": ""
+  },
+  {
     "term": "Surface Container",
     "translation": "",
     "context": "Surface Container",
@@ -17584,6 +17598,13 @@
     "comment": ""
   },
   {
+    "term": "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.",
+    "translation": "",
+    "context": "Switch displays with an available 60 Hz mode to 60 Hz on battery and restore the previous mode on AC. Skips displays with VRR enabled.",
+    "reference": "",
+    "comment": ""
+  },
+  {
     "term": "Switch to power profile",
     "translation": "",
     "context": "Switch to power profile",
@@ -17626,9 +17647,9 @@
     "comment": ""
   },
   {
-    "term": "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.",
+    "term": "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.",
     "translation": "",
-    "context": "Sync applies your theme and settings to the login screen. Other users should run dms greeter sync --profile instead of a full sync. Authentication changes apply automatically.",
+    "context": "Sync applies your theme and settings to the login screen. Shared users should run dms greeter sync --profile instead of a primary user sync.",
     "reference": "",
     "comment": ""
   },
@@ -19194,9 +19215,9 @@
     "comment": ""
   },
   {
-    "term": "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.",
+    "term": "Use a custom image for the login screen, or leave empty to use desktop wallpaper",
     "translation": "",
-    "context": "Use a custom image for the login screen, or leave empty to use your desktop wallpaper.",
+    "context": "Use a custom image for the login screen, or leave empty to use desktop wallpaper",
     "reference": "",
     "comment": ""
   },
@@ -19215,9 +19236,9 @@
     "comment": ""
   },
   {
-    "term": "Use a security key for lock screen authentication.",
+    "term": "Use a security key for lock screen authentication",
     "translation": "",
-    "context": "Use a security key for lock screen authentication.",
+    "context": "Use a security key for lock screen authentication",
     "reference": "",
     "comment": "lock screen U2F security key setting"
   },
@@ -19285,9 +19306,9 @@
     "comment": ""
   },
   {
-    "term": "Use fingerprint authentication for the lock screen.",
+    "term": "Use fingerprint authentication for the lock screen",
     "translation": "",
-    "context": "Use fingerprint authentication for the lock screen.",
+    "context": "Use fingerprint authentication for the lock screen",
     "reference": "",
     "comment": "lock screen fingerprint setting"
   },
@@ -20772,13 +20793,6 @@
     "term": "on Sway",
     "translation": "",
     "context": "on Sway",
-    "reference": "",
-    "comment": ""
-  },
-  {
-    "term": "or run ",
-    "translation": "",
-    "context": "or run ",
     "reference": "",
     "comment": ""
   },
