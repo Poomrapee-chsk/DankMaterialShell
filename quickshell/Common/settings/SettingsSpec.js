@@ -403,6 +403,7 @@ var SPEC = {
         }
     },
     matugenTemplateNeovimSetBackground: { def: true },
+    matugenTemplateNeovimAlwaysDark: { def: false },
 
     showDock: { def: false },
     dockAutoHide: { def: false },

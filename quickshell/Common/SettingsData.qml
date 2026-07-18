@@ -826,6 +826,7 @@ Singleton {
             }
         })
     property bool matugenTemplateNeovimSetBackground: true
+    property bool matugenTemplateNeovimAlwaysDark: false
 
     property bool showDock: false
     property bool dockAutoHide: false

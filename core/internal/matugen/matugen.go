@@ -107,6 +107,7 @@ type Options struct {
 	StockColors         string
 	SyncModeWithPortal  bool
 	TerminalsAlwaysDark bool
+	NeovimAlwaysDark    bool
 	SkipTemplates       string
 	AppChecker          utils.AppChecker
 }
@@ -544,7 +545,8 @@ func appendTerminalConfig(opts *Options, cfgFile *os.File, tmpDir string, checkC
 
 	content := string(data)
 
-	if !opts.TerminalsAlwaysDark {
+	alwaysDark := opts.TerminalsAlwaysDark || (fileName == "neovim.toml" && opts.NeovimAlwaysDark)
+	if !alwaysDark {
 		cfgFile.WriteString(substituteVars(content, opts.ShellDir))
 		cfgFile.WriteString("\n")
 		return

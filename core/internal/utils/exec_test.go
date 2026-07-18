@@ -14,24 +14,24 @@ func TestCommandExistsFallsBackToLocalBin(t *testing.T) {
 	home := t.TempDir()
 	binDir := filepath.Join(home, ".local", "bin")
 	require.NoError(t, os.MkdirAll(binDir, 0o755))
-	require.NoError(t, os.WriteFile(filepath.Join(binDir, "pywalfox"), []byte("#!/bin/sh\n"), 0o755))
+	require.NoError(t, os.WriteFile(filepath.Join(binDir, "dms-test-nonexistent-command"), []byte("#!/bin/sh\n"), 0o755))
 
 	t.Setenv("HOME", home)
 	t.Setenv("PATH", t.TempDir())
 
-	assert.True(t, CommandExists("pywalfox"))
+	assert.True(t, CommandExists("dms-test-nonexistent-command"))
 }
 
 func TestCommandExistsIgnoresNonExecutableLocalBinFile(t *testing.T) {
 	home := t.TempDir()
 	binDir := filepath.Join(home, ".local", "bin")
 	require.NoError(t, os.MkdirAll(binDir, 0o755))
-	require.NoError(t, os.WriteFile(filepath.Join(binDir, "pywalfox"), []byte("not executable"), 0o644))
+	require.NoError(t, os.WriteFile(filepath.Join(binDir, "dms-test-nonexistent-command"), []byte("not executable"), 0o644))
 
 	t.Setenv("HOME", home)
 	t.Setenv("PATH", t.TempDir())
 
-	assert.False(t, CommandExists("pywalfox"))
+	assert.False(t, CommandExists("dms-test-nonexistent-command"))
 }
 
 func TestEnvWithUserBinPathPrependsLocalBin(t *testing.T) {

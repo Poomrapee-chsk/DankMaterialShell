@@ -1721,6 +1721,9 @@ Singleton {
         if (typeof SettingsData !== "undefined" && SettingsData.terminalsAlwaysDark) {
             args.push("--terminals-always-dark");
         }
+        if (typeof SettingsData !== "undefined" && SettingsData.matugenTemplateNeovimAlwaysDark) {
+            args.push("--neovim-always-dark");
+        }
         if (typeof SettingsData !== "undefined" && SettingsData.matugenContrast !== 0) {
             args.push("--contrast", SettingsData.matugenContrast.toString());
         }

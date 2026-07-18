@@ -63,6 +63,7 @@ func init() {
 		cmd.Flags().String("stock-colors", "", "Stock theme colors JSON")
 		cmd.Flags().Bool("sync-mode-with-portal", false, "Sync color scheme with GNOME portal")
 		cmd.Flags().Bool("terminals-always-dark", false, "Force terminal themes to dark variant")
+		cmd.Flags().Bool("neovim-always-dark", false, "Force neovim matugen template to dark variant")
 		cmd.Flags().String("skip-templates", "", "Comma-separated list of templates to skip")
 		cmd.Flags().Float64("contrast", 0, "Contrast value from -1 to 1 (0 = standard)")
 	}
@@ -86,6 +87,7 @@ func buildMatugenOptions(cmd *cobra.Command) matugen.Options {
 	stockColors, _ := cmd.Flags().GetString("stock-colors")
 	syncModeWithPortal, _ := cmd.Flags().GetBool("sync-mode-with-portal")
 	terminalsAlwaysDark, _ := cmd.Flags().GetBool("terminals-always-dark")
+	neovimAlwaysDark, _ := cmd.Flags().GetBool("neovim-always-dark")
 	skipTemplates, _ := cmd.Flags().GetString("skip-templates")
 	contrast, _ := cmd.Flags().GetFloat64("contrast")
 
@@ -103,6 +105,7 @@ func buildMatugenOptions(cmd *cobra.Command) matugen.Options {
 		StockColors:         stockColors,
 		SyncModeWithPortal:  syncModeWithPortal,
 		TerminalsAlwaysDark: terminalsAlwaysDark,
+		NeovimAlwaysDark:    neovimAlwaysDark,
 		SkipTemplates:       skipTemplates,
 	}
 }
@@ -139,6 +142,7 @@ func runMatugenQueue(cmd *cobra.Command, args []string) {
 			"stockColors":         opts.StockColors,
 			"syncModeWithPortal":  opts.SyncModeWithPortal,
 			"terminalsAlwaysDark": opts.TerminalsAlwaysDark,
+			"neovimAlwaysDark":    opts.NeovimAlwaysDark,
 			"skipTemplates":       opts.SkipTemplates,
 			"contrast":            opts.Contrast,
 			"wait":                wait,

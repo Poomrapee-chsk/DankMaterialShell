@@ -3031,6 +3031,29 @@
     ]
   },
   {
+    "section": "matugenTemplateNeovimAlwaysDark",
+    "label": "Always use dark theme",
+    "tabIndex": 10,
+    "category": "Theme & Colors",
+    "keywords": [
+      "always",
+      "appearance",
+      "colors",
+      "colour",
+      "dark",
+      "dark mode",
+      "look",
+      "matugen",
+      "neovim",
+      "night",
+      "scheme",
+      "style",
+      "template",
+      "terminal",
+      "theme"
+    ]
+  },
+  {
     "section": "applications",
     "label": "Applications",
     "tabIndex": 10,

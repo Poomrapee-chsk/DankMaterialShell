@@ -2733,6 +2733,15 @@ Item {
                     onToggled: checked => SettingsData.set("matugenTemplateNeovimSetBackground", checked)
                 }
 
+                SettingsToggleRow {
+                    text: I18n.tr("Always use dark theme")
+                    tags: ["matugen", "neovim", "terminal", "template"]
+                    settingKey: "matugenTemplateNeovimAlwaysDark"
+                    visible: neovimThemeToggle.visible && neovimThemeToggle.checked
+                    checked: SettingsData.matugenTemplateNeovimAlwaysDark
+                    onToggled: checked => SettingsData.set("matugenTemplateNeovimAlwaysDark", checked)
+                }
+
                 SettingsDivider {
                     visible: neovimThemeToggle.visible && neovimThemeToggle.checked
                 }
